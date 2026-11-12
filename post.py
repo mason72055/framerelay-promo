@@ -31,6 +31,9 @@ def channels():
 CREATE = """mutation($input: CreatePostInput!) { createPost(input: $input) {
   ... on PostActionSuccess { post { id dueAt } } ... on MutationError { message } } }"""
 def main():
+    if os.environ.get("CHECK_ONLY") == "yes":
+        chs = channels()
+        print("Channels this key can post to:", [(c["service"], c["name"]) for c in chs]); return
     dry = "--dry-run" in sys.argv
     now = dt.datetime.now(ZoneInfo("America/Chicago"))
     manual = "--force" in sys.argv or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"

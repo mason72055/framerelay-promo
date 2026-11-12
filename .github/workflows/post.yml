@@ -8,6 +8,10 @@ on:
         description: "Optional: video id to run (blank = next unposted)"
         default: "02-three-moments"
         required: false
+      check_only:
+        description: "Type yes to only list the channels (posts nothing)"
+        default: "no"
+        required: false
 permissions:
   contents: write
 jobs:
@@ -24,6 +28,7 @@ jobs:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
           VIDEO: ${{ inputs.video }}
+          CHECK_ONLY: ${{ inputs.check_only }}
         run: python post.py
       - name: Save which videos were posted
         run: |
