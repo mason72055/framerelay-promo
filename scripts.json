@@ -1,32 +1,101 @@
 {
  "site": "framerelay.app",
  "videos": [
-  {"id": "01-before-after", "demo": "assets/framerelay-demo-after.mp4",
-   "intro": ["One long recording.", "Two formats."],
+  {
+   "id": "01-before-after",
+   "demo": "assets/framerelay-demo-after.mp4",
+   "intro": [
+    "One long recording.",
+    "Two formats."
+   ],
    "outro": "Sample clip. Link in bio.",
    "caption": "One long recording, one short captioned clip. This is a sample made to show the format. framerelay.app",
-   "yt_title": "One long video, one short captioned clip #shorts"},
-  {"id": "02-three-moments", "cards": ["3 moments in every episode worth clipping", "1. A clear opinion or surprising claim", "2. A short story with a beginning and an end", "3. A funny exchange that needs no context", "Guide: framerelay.app"],
+   "yt_title": "One long video, one short captioned clip #shorts"
+  },
+  {
+   "id": "02-three-moments",
+   "cards": [
+    "You're hiding your best 30 seconds.",
+    "1. A clear opinion or surprising claim",
+    "2. A short story with a beginning and an end",
+    "3. A funny exchange that needs no context",
+    "Guide: framerelay.app"
+   ],
    "caption": "Three kinds of moments that make good clips. Full guide: framerelay.app",
-   "yt_title": "3 moments in every episode worth clipping #shorts"},
-  {"id": "03-start-strong", "cards": ["Why your clips get skipped", "The good part is buried", "Start on the strongest line", "Skip the setup", "More at framerelay.app"],
+   "yt_title": "3 moments in every episode worth clipping #shorts"
+  },
+  {
+   "id": "03-start-strong",
+   "cards": [
+    "Your clip's first 2 seconds decide everything.",
+    "The good part is buried",
+    "Start on the strongest line",
+    "Skip the setup",
+    "More at framerelay.app"
+   ],
    "caption": "Start on the strongest line, not the setup. More: framerelay.app",
-   "yt_title": "Why your clips get skipped #shorts"},
-  {"id": "04-captions", "cards": ["Captions aren't optional", "Most people watch with the sound off", "Auto-captions often get names wrong", "Always check them before posting", "framerelay.app"],
+   "yt_title": "Why your clips get skipped #shorts"
+  },
+  {
+   "id": "04-captions",
+   "cards": [
+    "Many people watch with the sound off.",
+    "Most people watch with the sound off",
+    "Auto-captions often get names wrong",
+    "Always check them before posting",
+    "framerelay.app"
+   ],
    "caption": "Check your captions before you post. framerelay.app",
-   "yt_title": "Captions aren't optional #shorts"},
-  {"id": "05-how-long", "cards": ["How long should a Short be?", "Roughly 20 to 60 seconds", "One idea per clip", "Stop when the point has landed", "Guide: framerelay.app"],
+   "yt_title": "Captions aren't optional #shorts"
+  },
+  {
+   "id": "05-how-long",
+   "cards": [
+    "How long should a Short really be?",
+    "Roughly 20 to 60 seconds",
+    "One idea per clip",
+    "Stop when the point has landed",
+    "Guide: framerelay.app"
+   ],
    "caption": "A simple rule for clip length. Guide: framerelay.app",
-   "yt_title": "How long should a Short be? #shorts"},
-  {"id": "06-pilot", "cards": ["What the $149 Pilot covers", "2 of your long YouTube videos", "Up to 10 captioned vertical clips total", "Delivered within 3 business days after we accept your video", "framerelay.app"],
+   "yt_title": "How long should a Short be? #shorts"
+  },
+  {
+   "id": "06-pilot",
+   "cards": [
+    "Two videos. Up to 10 clips. $149.",
+    "2 of your long YouTube videos",
+    "Up to 10 captioned vertical clips total",
+    "Delivered within 3 business days after we accept your video",
+    "framerelay.app"
+   ],
    "caption": "What the FrameRelay Pilot includes: 2 source videos, up to 10 clips total, delivered within 3 business days after we accept your video. framerelay.app",
-   "yt_title": "What the FrameRelay Pilot covers #shorts"},
-  {"id": "07-stream-vods", "cards": ["Streamers: finding moments in a 3-hour VOD", "Timestamp during the stream", "Clip afterwards, not by rewatching", "Crop to vertical, add captions", "Guide: framerelay.app"],
+   "yt_title": "What the FrameRelay Pilot covers #shorts"
+  },
+  {
+   "id": "07-stream-vods",
+   "cards": [
+    "Stop rewatching your 3-hour stream.",
+    "Timestamp during the stream",
+    "Clip afterwards, not by rewatching",
+    "Crop to vertical, add captions",
+    "Guide: framerelay.app"
+   ],
    "caption": "How to find clip-worthy moments in a long VOD. framerelay.app",
-   "yt_title": "Find clip moments in a long VOD #shorts"},
-  {"id": "08-diy-or-hand-off", "cards": ["Cut clips yourself or hand it off?", "By hand: an hour or more per episode", "Handing it off: you still pick what posts", "Decide what your time is worth", "framerelay.app"],
+   "yt_title": "Find clip moments in a long VOD #shorts"
+  },
+  {
+   "id": "08-diy-or-hand-off",
+   "cards": [
+    "Still cutting clips by hand?",
+    "By hand: an hour or more per episode",
+    "Handing it off: you still pick what posts",
+    "Decide what your time is worth",
+    "framerelay.app"
+   ],
    "caption": "Cut clips yourself or hand it off? framerelay.app",
-   "yt_title": "Cut clips yourself or hand it off? #shorts"}
+   "yt_title": "Cut clips yourself or hand it off? #shorts"
+  }
  ],
  "hashtags": "#podcasting #youtubeshorts #contentcreator #repurposing"
 }
