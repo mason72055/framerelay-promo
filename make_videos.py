@@ -56,31 +56,60 @@ def wrap_px(words, f, maxw=900):
         else: cur.append(w)
     if cur: lines.append(cur)
     return lines
-def frame(text, upto, idx, progress, last, path, seed):
+_bok = {}
+def bokeh(idx, k):
+    key = (idx, k)
+    if key not in _bok:
+        rnd = random.Random(idx * 131 + k); L = Image.new("RGBA", (W, H * 2), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
+        for _ in range(7):
+            r = rnd.randint(90, 300 if k == 0 else 190); x = rnd.randint(-80, W + 80); y = rnd.randint(0, H)
+            for yy in (y, y + H):
+                d.ellipse([x - r, yy - r, x + r, yy + r], fill=(255, 255, 255, 22 if k == 0 else 34))
+        _bok[key] = L.filter(ImageFilter.GaussianBlur(6))
+    return _bok[key]
+def layer_at(L, off):
+    off = int(off) % H
+    return L.crop((0, off, W, off + H))
+def frame(text, t, dur, starts, idx, progress, last, seed, card_t=0.0):
+    """One animated frame. t = seconds into this card; starts = start time of each word."""
     pal = BRAND_BG if last else PALETTES[idx % len(PALETTES)]
     im = gradient(*pal).convert("RGBA")
-    rnd = random.Random(idx * 77)
-    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); od = ImageDraw.Draw(ov)
-    for _ in range(3):
-        r = rnd.randint(220, 420); x = rnd.randint(-100, W + 100); y = rnd.randint(150, H - 300)
-        od.ellipse([x - r, y - r, x + r, y + r], fill=(255, 255, 255, 18))
-    im = Image.alpha_composite(im, ov).convert("RGB"); d = ImageDraw.Draw(im)
+    im = Image.alpha_composite(im, layer_at(bokeh(idx, 0), t * 55))
+    im = Image.alpha_composite(im, layer_at(bokeh(idx, 1), H * 2 - t * 110))
+    im = im.convert("RGB"); d = ImageDraw.Draw(im)
+    # scrolling film strip: a long video, with highlighted "moments" being picked out
+    sy = 1560; d.rectangle([0, sy - 30, W, sy + 200], fill=tuple(max(0, c - 14) for c in pal[1]))
+    stepx = 250; off = (t * 300 + idx * 90) % (stepx * 5)
+    for j in range(-1, 6 * 2):
+        x = j * stepx - off
+        k = (j + int((t * 300 + idx * 90) // (stepx * 5)) * 5) % 5
+        hot = (k == 2)
+        col = ACCENT if hot else (255, 255, 255)
+        rect = [x, sy, x + 210, sy + 170]
+        if hot:
+            lift = 14 + 8 * math.sin(t * 6)
+            rect = [x - 6, sy - lift, x + 216, sy + 170 - lift]
+        d.rounded_rectangle(rect, 18, fill=col if hot else (255, 255, 255), outline=None)
+        if not hot:
+            d.rounded_rectangle(rect, 18, fill=tuple(int(c * 0.72 + 255 * 0.0) for c in pal[1]) if False else (min(255, pal[1][0] + 40), min(255, pal[1][1] + 40), min(255, pal[1][2] + 40)))
     # progress bar + brand
-    d.rounded_rectangle([60, 50, W - 60, 62], 6, fill=(255, 255, 255, 40) if False else (70, 70, 90))
+    d.rounded_rectangle([60, 50, W - 60, 62], 6, fill=(70, 70, 90))
     d.rounded_rectangle([60, 50, 60 + int((W - 120) * progress), 62], 6, fill=ACCENT)
     d.rounded_rectangle([70, 100, 126, 156], 14, fill=CYAN)
     d.text((98, 128), "F", font=font(38), fill=(11, 25, 32), anchor="mm")
     d.text((146, 128), "FrameRelay", font=font(40), fill=TEXT, anchor="lm")
     m = re.match(r"^(\d)\.\s+(.*)$", text)
     body = m.group(2) if m else text
-    words = body.split()
+    words = body.split(); upto = sum(1 for s_ in starts if s_ <= t)
     size = 112 if len(words) <= 6 else 92
     f = font(size); lh = int(size * 1.2)
     lines = wrap_px(words, f)
-    top = (H - lh * len(lines)) // 2 + (90 if m else 0)
-    if m:  # number badge
-        d.ellipse([W // 2 - 110, top - 330, W // 2 + 110, top - 110], fill=ACCENT)
-        d.text((W // 2, top - 220), m.group(1), font=font(150), fill=(30, 20, 40), anchor="mm")
+    top = (H - 300 - lh * len(lines)) // 2 + 120 + (90 if m else 0)
+    if m:
+        pop = 1 + 0.25 * max(0, 1 - t / 0.25)
+        R = int(110 * pop)
+        d.ellipse([W // 2 - R, top - 220 - R, W // 2 + R, top - 220 + R], fill=ACCENT)
+        d.text((W // 2, top - 220), m.group(1), font=font(int(150 * pop)), fill=(30, 20, 40), anchor="mm")
     n = 0
     for li, line in enumerate(lines):
         total = sum(f.getlength(w) for w in line) + f.getlength(" ") * (len(line) - 1)
@@ -88,19 +117,27 @@ def frame(text, upto, idx, progress, last, path, seed):
         for w in line:
             n += 1
             if n <= upto:
-                d.text((x, y), w, font=f, fill=ACCENT if n == upto else TEXT)
+                cur = (n == upto)
+                if cur:
+                    age = t - starts[n - 1]; sc = 1 + 0.3 * max(0, 1 - age / 0.14)
+                    ww = int(f.getlength(w)) + 40; hh = lh + 40
+                    wl = Image.new("RGBA", (ww, hh), (0, 0, 0, 0)); wd = ImageDraw.Draw(wl)
+                    wd.text((22, 24), w, font=f, fill=(0, 0, 0, 120)); wd.text((20, 20), w, font=f, fill=ACCENT)
+                    if sc > 1.01: wl = wl.resize((int(ww * sc), int(hh * sc)), Image.BICUBIC)
+                    im.paste(wl, (int(x - 20 - (wl.width - ww) / 2), int(y - 20 - (wl.height - hh) / 2)), wl)
+                else:
+                    d.text((x + 4, y + 5), w, font=f, fill=(0, 0, 0)); d.text((x, y), w, font=f, fill=TEXT)
             x += f.getlength(w) + f.getlength(" ")
-    # moving waveform
-    rr = random.Random(seed)
-    for i in range(17):
-        hgt = 30 + rr.randint(0, 150)
-        x0 = W // 2 - 17 * 26 // 2 + i * 26
-        d.rounded_rectangle([x0, 1700 - hgt // 2, x0 + 14, 1700 + hgt // 2], 7, fill=CYAN)
     if last:
-        d.rounded_rectangle([W // 2 - 300, 1470, W // 2 + 300, 1570], 50, fill=CYAN)
-        d.text((W // 2, 1520), "Link in bio", font=font(52), fill=(9, 34, 27), anchor="mm")
-    im.save(path)
-    return len(words)
+        d.rounded_rectangle([W // 2 - 300, 1380, W // 2 + 300, 1480], 50, fill=CYAN)
+        d.text((W // 2, 1430), "Link in bio", font=font(52), fill=(9, 34, 27), anchor="mm")
+    # punch-in at the start of every card (pattern interrupt)
+    if t < 0.2:
+        z = 1.07 - 0.07 * (t / 0.2)
+        im = im.resize((int(W * z), int(H * z)), Image.BILINEAR)
+        l, tp = (im.width - W) // 2, (im.height - H) // 2
+        im = im.crop((l, tp, l + W, tp + H))
+    return im
 
 def build(v, out):
     tmp = pathlib.Path(tempfile.mkdtemp())
@@ -122,20 +159,24 @@ def build(v, out):
     def make_card(i, t, last, mp3, dur, name):
         nonlocal clock
         words = re.sub(r"^\d\.\s+", "", t).split()
-        n = len(words); wts = [len(w) + 2 for w in words]; scale = (dur - 0.25) / sum(wts)
-        lst = tmp / f"{name}.txt"; rows = []
+        n = len(words); wts = [len(w) + 2 for w in words]; scale = (dur - 0.45) / sum(wts)
+        starts, acc = [], 0.0
         for k in range(n):
-            png = tmp / f"{name}_{k}.png"
-            frame(t, k + 1, i, (clock + dur * (k + 1) / n) / total, last, png, seed=i * 100 + k)
-            d_k = max(0.12, wts[k] * scale) + (0.25 if k == n - 1 else 0)
-            rows.append(f"file '{png}'\nduration {d_k:.3f}\n")
-        rows.append(f"file '{png}'\n")
-        lst.write_text("".join(rows))
+            starts.append(acc); acc += max(0.12, wts[k] * scale)
         mp4 = tmp / f"{name}.mp4"
         src = ["-i", str(mp3), "-af", "apad,aresample=44100,aformat=channel_layouts=stereo"] if mp3 else ["-f","lavfi","-i","anullsrc=r=44100:cl=stereo"]
-        run(["ffmpeg","-y","-f","concat","-safe","0","-i",str(lst),*src,"-vf","fps=30,tpad=stop=-1:stop_mode=clone","-t",f"{dur:.2f}",
-             "-c:v","libx264","-pix_fmt","yuv420p","-c:a","aac","-ar","44100","-ac","2",str(mp4)])
-        segs.append(mp4); clock += dur
+        p = subprocess.Popen(["ffmpeg","-y","-f","rawvideo","-pix_fmt","rgb24","-s",f"{W}x{H}","-r","30","-i","-",*src,"-t",f"{dur:.2f}",
+             "-c:v","libx264","-preset","veryfast","-pix_fmt","yuv420p","-c:a","aac","-ar","44100","-ac","2",str(mp4)],
+             stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
+        nf = int(dur * 30)
+        for fi in range(nf):
+            tt = fi / 30
+            img = frame(t, tt, dur, starts, i, (clock + tt) / total, last, 0)
+            try: p.stdin.write(img.tobytes())
+            except BrokenPipeError: break
+        try: p.stdin.close()
+        except Exception: pass
+        p.wait(); segs.append(mp4); clock += dur
     if "demo" in v:
         make_card(0, *plan[0][:2], None, 2.4, "hook")
         demo = tmp / "demo.mp4"
