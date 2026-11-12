@@ -33,12 +33,16 @@ CREATE = """mutation($input: CreatePostInput!) { createPost(input: $input) {
 def main():
     dry = "--dry-run" in sys.argv
     now = dt.datetime.now(ZoneInfo("America/Chicago"))
-    if now.weekday() not in DAYS and "--force" not in sys.argv:
+    manual = "--force" in sys.argv or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+    if now.weekday() not in DAYS and not manual:
         print("Not a posting day (Mon/Tue/Thu/Fri). Nothing to do."); return
     posted = json.loads(STATE.read_text()) if STATE.exists() else {}
     todo = [v for v in CFG["videos"] if v["id"] not in posted and (ROOT / "videos" / f"{v['id']}.mp4").exists()]  # silent placeholders ship in the repo
     if not todo:
         print("All videos have been posted. Ask Claude for new scripts."); return
+    pick = os.environ.get("VIDEO", "").strip()          # manual test: run a chosen video
+    if pick:
+        todo = [x for x in CFG["videos"] if x["id"] == pick] or todo
     v = todo[0]
     rel = f"videos/{v['id']}.mp4"
     if os.environ.get("GOOGLE_TTS_API_KEY", "").strip() and "demo" not in v and not dry:
