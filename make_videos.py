@@ -13,7 +13,7 @@ def font(size, bold=True):
 def run(cmd): subprocess.run(cmd, check=True, capture_output=True)
 import os, base64, urllib.request
 VOICE_KEY = os.environ.get("GOOGLE_TTS_API_KEY", "").strip()
-VOICE_NAME = os.environ.get("VOICE_NAME", "en-US-Chirp3-HD-Charon")
+VOICE_NAME = os.environ.get("VOICE_NAME", "en-US-Chirp3-HD-Aoede")
 def speakable(t):
     return (t.replace("framerelay.app", "frame relay dot app").replace("$149", "one hundred forty nine dollars")
              .replace("VOD", "V O D").replace("1.", "One.").replace("2.", "Two.").replace("3.", "Three."))
