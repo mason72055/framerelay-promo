@@ -13,7 +13,7 @@ def font(size, bold=True):
 def run(cmd): subprocess.run(cmd, check=True, capture_output=True)
 import os, base64, urllib.request
 VOICE_KEY = os.environ.get("GOOGLE_TTS_API_KEY", "").strip()
-VOICE_NAME = os.environ.get("VOICE_NAME", "en-US-Neural2-J")
+VOICE_NAME = os.environ.get("VOICE_NAME", "en-US-Chirp3-HD-Charon")
 def speakable(t):
     return (t.replace("framerelay.app", "frame relay dot app").replace("$149", "one hundred forty nine dollars")
              .replace("VOD", "V O D").replace("1.", "One.").replace("2.", "Two.").replace("3.", "Three."))
@@ -22,12 +22,18 @@ def tts(text, out):
     if os.environ.get("VOICE_STUB"):
         run(["ffmpeg","-y","-f","lavfi","-i","sine=frequency=220:duration=%.1f" % max(1.5, len(text)/14),"-c:a","libmp3lame",str(out)]); return True
     if not VOICE_KEY: return False
-    body = json.dumps({"input": {"text": speakable(text)}, "voice": {"languageCode": "en-US", "name": VOICE_NAME},
-                       "audioConfig": {"audioEncoding": "MP3", "speakingRate": 1.05}}).encode()
-    req = urllib.request.Request("https://texttospeech.googleapis.com/v1/text:synthesize?key=" + VOICE_KEY, body,
-                                 {"Content-Type": "application/json"})
-    out.write_bytes(base64.b64decode(json.loads(urllib.request.urlopen(req, timeout=60).read())["audioContent"]))
-    return True
+    last = None
+    for name in [VOICE_NAME] + [v for v in ("en-US-Chirp3-HD-Charon", "en-US-Studio-Q", "en-US-Neural2-J") if v != VOICE_NAME]:
+        try:
+            body = json.dumps({"input": {"text": speakable(text)}, "voice": {"languageCode": "en-US", "name": name},
+                               "audioConfig": {"audioEncoding": "MP3", "speakingRate": 1.05}}).encode()
+            req = urllib.request.Request("https://texttospeech.googleapis.com/v1/text:synthesize?key=" + VOICE_KEY, body,
+                                         {"Content-Type": "application/json"})
+            out.write_bytes(base64.b64decode(json.loads(urllib.request.urlopen(req, timeout=60).read())["audioContent"]))
+            return True
+        except Exception as e:
+            last = e
+    raise last
 def audio_len(path):
     r = subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",str(path)],capture_output=True,text=True)
     return float(r.stdout.strip())
