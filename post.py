@@ -39,6 +39,13 @@ def main():
         except Exception as e:
             print("CHECK FAILED:", type(e).__name__, str(e)[:400])
         return
+    if os.environ.get("PREVIEW") == "voices":
+        import subprocess
+        subprocess.run([sys.executable, str(ROOT / "voice_samples.py")], check=True)
+        for g in (["config", "user.name", "framerelay-promo-bot"], ["config", "user.email", "bot@users.noreply.github.com"],
+                  ["add", "previews/voices.mp3"], ["commit", "-qm", "voice samples"], ["push", "-q"]):
+            subprocess.run(["git", *g], check=True, cwd=ROOT)
+        return
     if os.environ.get("PREVIEW") == "yes":   # build a voiced video, save it for listening, post nothing
         import make_videos, subprocess, shutil
         vid = os.environ.get("VIDEO", "").strip() or "02-three-moments"
