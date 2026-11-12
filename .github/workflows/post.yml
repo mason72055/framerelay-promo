@@ -12,6 +12,10 @@ on:
         description: "Type yes to build a voiced preview only (posts nothing)"
         default: "no"
         required: false
+      confirm:
+        description: "Leave EMPTY. Type post only if you really want this to post right now"
+        default: ""
+        required: false
       check_only:
         description: "Type yes to only list the channels (posts nothing)"
         default: "no"
@@ -34,6 +38,7 @@ jobs:
           VIDEO: ${{ inputs.video }}
           CHECK_ONLY: ${{ inputs.check_only }}
           PREVIEW: ${{ inputs.preview }}
+          CONFIRM_POST: ${{ inputs.confirm }}
         run: python post.py
       - name: Save which videos were posted
         run: |

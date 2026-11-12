@@ -57,6 +57,8 @@ def main():
                   ["add", f"previews/{vid}.mp4"], ["commit", "-qm", f"preview {vid}"], ["push", "-q"]):
             subprocess.run(["git", *g], check=True, cwd=ROOT)
         print("Preview saved (nothing posted):", vid); return
+    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" and os.environ.get("CONFIRM_POST") != "post":
+        print("Manual run: nothing posted. To really post, type the word post in the 'confirm' box."); return
     dry = "--dry-run" in sys.argv
     now = dt.datetime.now(ZoneInfo("America/Chicago"))
     manual = "--force" in sys.argv or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
