@@ -10,7 +10,8 @@
    ],
    "outro": "Sample clip. Link in bio.",
    "caption": "One long recording, one short captioned clip. This is a sample made to show the format. framerelay.app",
-   "yt_title": "One long video, one short captioned clip #shorts"
+   "yt_title": "One long video, one short captioned clip #shorts",
+   "hold": true
   },
   {
    "id": "02-three-moments",

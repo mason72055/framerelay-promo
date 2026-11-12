@@ -65,7 +65,7 @@ def main():
     if now.weekday() not in DAYS and not manual:
         print("Not a posting day (Mon/Tue/Thu/Fri). Nothing to do."); return
     posted = json.loads(STATE.read_text()) if STATE.exists() else {}
-    todo = [v for v in CFG["videos"] if v["id"] not in posted and (ROOT / "videos" / f"{v['id']}.mp4").exists()]  # silent placeholders ship in the repo
+    todo = [v for v in CFG["videos"] if not v.get("hold") and v["id"] not in posted and (ROOT / "videos" / f"{v['id']}.mp4").exists()]  # silent placeholders ship in the repo
     if not todo:
         print("All videos have been posted. Ask Claude for new scripts."); return
     pick = os.environ.get("VIDEO", "").strip()          # manual test: run a chosen video
