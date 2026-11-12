@@ -39,6 +39,17 @@ def main():
         except Exception as e:
             print("CHECK FAILED:", type(e).__name__, str(e)[:400])
         return
+    if os.environ.get("PREVIEW") == "yes":   # build a voiced video, save it for listening, post nothing
+        import make_videos, subprocess, shutil
+        vid = os.environ.get("VIDEO", "").strip() or "02-three-moments"
+        out = make_videos.build_one(vid)
+        (ROOT / "previews").mkdir(exist_ok=True)
+        shutil.move(str(out), str(ROOT / "previews" / f"{vid}.mp4"))
+        subprocess.run(["git", "checkout", "--", f"videos/{vid}.mp4"], check=False)
+        for g in (["config", "user.name", "framerelay-promo-bot"], ["config", "user.email", "bot@users.noreply.github.com"],
+                  ["add", f"previews/{vid}.mp4"], ["commit", "-qm", f"preview {vid}"], ["push", "-q"]):
+            subprocess.run(["git", *g], check=True, cwd=ROOT)
+        print("Preview saved (nothing posted):", vid); return
     dry = "--dry-run" in sys.argv
     now = dt.datetime.now(ZoneInfo("America/Chicago"))
     manual = "--force" in sys.argv or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
