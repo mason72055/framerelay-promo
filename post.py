@@ -36,11 +36,28 @@ def main():
     if now.weekday() not in DAYS and "--force" not in sys.argv:
         print("Not a posting day (Mon/Tue/Thu/Fri). Nothing to do."); return
     posted = json.loads(STATE.read_text()) if STATE.exists() else {}
-    todo = [v for v in CFG["videos"] if v["id"] not in posted and (ROOT / "videos" / f"{v['id']}.mp4").exists()]
+    todo = [v for v in CFG["videos"] if v["id"] not in posted and (ROOT / "videos" / f"{v['id']}.mp4").exists()]  # silent placeholders ship in the repo
     if not todo:
         print("All videos have been posted. Ask Claude for new scripts."); return
     v = todo[0]
-    url = f"https://raw.githubusercontent.com/{REPO}/main/videos/{v['id']}.mp4"
+    rel = f"videos/{v['id']}.mp4"
+    if os.environ.get("GOOGLE_TTS_API_KEY", "").strip() and "demo" not in v and not dry:
+        rel = f"videos/voiced/{v['id']}.mp4"          # new path each time, so no stale cache
+        import make_videos, subprocess, shutil, time
+        out = make_videos.build_one(v["id"])
+        (ROOT / "videos" / "voiced").mkdir(exist_ok=True)
+        shutil.move(str(out), str(ROOT / rel))
+        # the silent placeholder stays in videos/; the voiced one is what gets posted
+        subprocess.run(["git", "checkout", "--", f"videos/{v['id']}.mp4"], check=False)
+        for g in (["config", "user.name", "framerelay-promo-bot"], ["config", "user.email", "bot@users.noreply.github.com"],
+                  ["add", rel], ["commit", "-qm", f"voiced {v['id']}"], ["push", "-q"]):
+            subprocess.run(["git", *g], check=True, cwd=ROOT)
+        import requests
+        u = f"https://raw.githubusercontent.com/{REPO}/main/{rel}"
+        for _ in range(30):
+            if requests.head(u, timeout=20).status_code == 200: break
+            time.sleep(10)
+    url = f"https://raw.githubusercontent.com/{REPO}/main/{rel}"
     text = f"{v['caption']}\n\n{CFG['hashtags']}"
     if dry or not KEY:
         print(f"[{'dry run' if dry else 'no BUFFER_API_KEY'}] would schedule {v['id']} -> {url}\n{text}"); return

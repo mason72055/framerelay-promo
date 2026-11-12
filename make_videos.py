@@ -33,23 +33,49 @@ def card(lines_text, path, big=True, footer=None):
         d.text((W // 2, H - 170), footer, font=font(44), fill=CYAN, anchor="mm")
     im.save(path)
 def run(cmd): subprocess.run(cmd, check=True, capture_output=True)
+import os, base64, urllib.request
+VOICE_KEY = os.environ.get("GOOGLE_TTS_API_KEY", "").strip()
+VOICE_NAME = os.environ.get("VOICE_NAME", "en-US-Neural2-J")
+def speakable(t):
+    return (t.replace("framerelay.app", "frame relay dot app").replace("$149", "one hundred forty nine dollars")
+             .replace("VOD", "V O D").replace("1.", "One.").replace("2.", "Two.").replace("3.", "Three."))
+def tts(text, out):
+    """Make a voiceover mp3. GOOGLE_TTS_API_KEY = real voice; VOICE_STUB=1 = silent test tone (tests only)."""
+    if os.environ.get("VOICE_STUB"):
+        run(["ffmpeg","-y","-f","lavfi","-i","sine=frequency=220:duration=%.1f" % max(1.5, len(text)/14),"-c:a","libmp3lame",str(out)]); return True
+    if not VOICE_KEY: return False
+    body = json.dumps({"input": {"text": speakable(text)}, "voice": {"languageCode": "en-US", "name": VOICE_NAME},
+                       "audioConfig": {"audioEncoding": "MP3", "speakingRate": 1.05}}).encode()
+    req = urllib.request.Request("https://texttospeech.googleapis.com/v1/text:synthesize?key=" + VOICE_KEY, body,
+                                 {"Content-Type": "application/json"})
+    out.write_bytes(base64.b64decode(json.loads(urllib.request.urlopen(req, timeout=60).read())["audioContent"]))
+    return True
+def audio_len(path):
+    r = subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",str(path)],capture_output=True,text=True)
+    return float(r.stdout.strip())
 def build(v, out):
     tmp = pathlib.Path(tempfile.mkdtemp())
     segs = []
-    def still(text, dur, name, **kw):
-        png = tmp / f"{name}.png"; mp4 = tmp / f"{name}.mp4"
+    def still(text, dur, name, speak=True, **kw):
+        png = tmp / f"{name}.png"; mp4 = tmp / f"{name}.mp4"; mp3 = tmp / f"{name}.mp3"
         card(text, png, **kw)
-        run(["ffmpeg","-y","-loop","1","-i",str(png),"-f","lavfi","-i","anullsrc=r=44100:cl=stereo","-t",str(dur),
-             "-r","30","-c:v","libx264","-pix_fmt","yuv420p","-c:a","aac","-shortest",str(mp4)])
+        voiced = speak and tts(text, mp3)
+        if voiced:
+            dur = max(dur, audio_len(mp3) + 0.5)
+            src = ["-i", str(mp3), "-af", "apad,aresample=44100,aformat=channel_layouts=stereo"]
+        else:
+            src = ["-f","lavfi","-i","anullsrc=r=44100:cl=stereo"]
+        run(["ffmpeg","-y","-loop","1","-i",str(png),*src,"-t",f"{dur:.2f}",
+             "-r","30","-c:v","libx264","-pix_fmt","yuv420p","-c:a","aac","-ar","44100","-ac","2",str(mp4)])
         segs.append(mp4)
     if "demo" in v:
-        still("\n".join(v["intro"]), 3, "intro")
+        still("\n".join(v["intro"]), 3, "intro", speak=False)
         demo = tmp / "demo.mp4"
         run(["ffmpeg","-y","-i",str(ROOT / v["demo"]),"-t","20","-vf",
              f"scale=-2:1500,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:color=0x0c1220,fps=30","-c:v","libx264","-pix_fmt","yuv420p",
              "-c:a","aac","-ar","44100","-ac","2",str(demo)])
         segs.append(demo)
-        still(v["outro"], 3, "outro", footer="framerelay.app")
+        still(v["outro"], 3, "outro", speak=False, footer="framerelay.app")
     else:
         for i, c in enumerate(v["cards"]):
             last = i == len(v["cards"]) - 1
@@ -57,6 +83,12 @@ def build(v, out):
     lst = tmp / "list.txt"
     lst.write_text("".join(f"file '{s}'\n" for s in segs))
     run(["ffmpeg","-y","-f","concat","-safe","0","-i",str(lst),"-c:v","libx264","-pix_fmt","yuv420p","-c:a","aac","-movflags","+faststart",str(out)])
+def build_one(video_id):
+    cfg = json.loads((ROOT / "scripts.json").read_text())
+    v = next(x for x in cfg["videos"] if x["id"] == video_id)
+    (ROOT / "videos").mkdir(exist_ok=True)
+    out = ROOT / "videos" / f"{video_id}.mp4"; build(v, out); return out
+
 if __name__ == "__main__":
     cfg = json.loads((ROOT / "scripts.json").read_text())
     (ROOT / "videos").mkdir(exist_ok=True)

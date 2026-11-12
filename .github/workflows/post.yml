@@ -12,10 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
-      - run: pip install -q requests
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-dejavu-core
+      - run: pip install -q requests pillow
       - name: Schedule via Buffer (does nothing without BUFFER_API_KEY)
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
         run: python post.py
       - name: Save which videos were posted
         run: |
