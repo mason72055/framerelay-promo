@@ -25,7 +25,7 @@ jobs:
       - run: pip install -q requests pillow
       - name: Schedule via Buffer (does nothing without BUFFER_API_KEY)
         env:
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY_FRAMERELAY }}
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
           VIDEO: ${{ inputs.video }}
           CHECK_ONLY: ${{ inputs.check_only }}
