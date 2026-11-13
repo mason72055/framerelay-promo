@@ -1,0 +1,19 @@
+name: Build demo audio (posts nothing)
+on:
+  push:
+    paths: [".github/demo-request.txt"]
+permissions:
+  contents: write
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build audio
+        env:
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+        run: python3 demo_audio.py
+      - name: Save audio
+        run: |
+          git config user.name framerelay-promo-bot; git config user.email bot@users.noreply.github.com
+          git add previews/demo; git commit -qm "demo audio"; git pull -q --rebase; git push -q
