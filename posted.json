@@ -38,5 +38,13 @@
    "tiktok: scheduled 2026-11-19T18:07:00.000Z",
    "instagram: scheduled 2026-11-19T18:07:00.000Z"
   ]
+ },
+ "07-stream-vods": {
+  "date": "2026-11-20",
+  "results": [
+   "youtube: scheduled 2026-11-20T18:07:00.000Z",
+   "tiktok: scheduled 2026-11-20T18:07:00.000Z",
+   "instagram: scheduled 2026-11-20T18:07:00.000Z"
+  ]
  }
 }
