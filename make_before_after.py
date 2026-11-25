@@ -107,8 +107,8 @@ def source(spec):
         md = m.get("metadata") or {}
         if not md:
             raise Refused("item not found")
-        if ident.lower().startswith("youtube-") or re.search(r"youtube\.com|youtu\.be", plain(md.get("source")) + plain(md.get("originalurl"))):
-            raise Refused("re-upload of a YouTube video: the uploader's license label can't be trusted")
+        if re.match(r"(youtube|twitch|afreecatv|soop|tiktok|kick|dvd)[-_]", ident.lower()) or re.search(r"youtube\.com|youtu\.be", plain(md.get("source")) + plain(md.get("originalurl"))):
+            raise Refused("re-upload from YouTube/Twitch/TV: the uploader's license label can't be trusted")
         if md.get("mediatype") != "movies":
             raise Refused(f"not a video item ({md.get('mediatype')})")
         lic = classify(plain(md.get("licenseurl")))
@@ -453,9 +453,31 @@ def cutaways(clip):
     return out
 
 
+def prepare_clip(s, c0, c1, req, tmp, tag="clip"):
+    """Cut a window, transcribe it, trim it to start_text..end_after. Returns (clip, words, t0, t1)."""
+    win = tmp / f"{tag}_window.mp4"
+    cut(s["media"], c0, c1 - c0, win)
+    words = transcribe(win, req.get("fix"))
+    t0, t1 = 0.0, c1 - c0
+    if req.get("start_text"):
+        i, _ = find_phrase(words, req["start_text"])
+        t0 = max(words[i - 1]["e"] if i else 0.0, words[i]["s"] - 0.15)
+    if req.get("end_after"):
+        _, j = find_phrase(words, req["end_after"], last=True)
+        t1 = min(words[j]["e"] + 0.35, words[j + 1]["s"] - 0.02) if j + 1 < len(words) else words[j]["e"] + 0.35
+    if not (8 <= t1 - t0 <= 22):
+        raise SystemExit(f"clip is {t1 - t0:.1f} s; it must be 8-22 s so the video stays about 15-30 s")
+    clip = tmp / f"{tag}.mp4"
+    run(["ffmpeg", "-y", "-ss", f"{t0:.3f}", "-i", str(win), "-t", f"{t1 - t0:.3f}",
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", str(clip)])
+    words = [{**w, "s": max(0.0, w["s"] - t0), "e": min(t1 - t0, w["e"] - t0)} for w in words
+             if w["s"] >= t0 - 0.05 and w["e"] <= t1 + 0.05]
+    return clip, words, t0, t1
+
+
 def build(req):
     for one in req.get("builds") or [req]:
-        build_one(one)
+        (build_showcase if one.get("style") == "showcase" else build_one)(one)
 
 
 def build_one(req):
@@ -475,23 +497,9 @@ def build_one(req):
     with tempfile.TemporaryDirectory() as tmp:
         tmp = pathlib.Path(tmp)
         cut(s["media"], at, BEFORE_SECONDS + 0.5, tmp / "before.mp4")
-        cut(s["media"], c0, c1 - c0, tmp / "window.mp4")
-        words = transcribe(tmp / "window.mp4", req.get("fix"))
-        t0, t1 = 0.0, c1 - c0
-        if req.get("start_text"):
-            i, _ = find_phrase(words, req["start_text"])
-            t0 = max(words[i - 1]["e"] if i else 0.0, words[i]["s"] - 0.15)
-        if req.get("end_after"):
-            _, j = find_phrase(words, req["end_after"], last=True)
-            t1 = min(words[j]["e"] + 0.35, words[j + 1]["s"] - 0.02) if j + 1 < len(words) else words[j]["e"] + 0.35
-        if not (8 <= t1 - t0 <= 22):
-            raise SystemExit(f"clip is {t1 - t0:.1f} s; it must be 8-22 s so the video stays about 15-30 s")
-        run(["ffmpeg", "-y", "-ss", f"{t0:.3f}", "-i", str(tmp / "window.mp4"), "-t", f"{t1 - t0:.3f}",
-             "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", str(tmp / "clip.mp4")])
-        words = [{**w, "s": max(0.0, w["s"] - t0), "e": min(t1 - t0, w["e"] - t0)} for w in words
-                 if w["s"] >= t0 - 0.05 and w["e"] <= t1 + 0.05]
-        cuts = cutaways(tmp / "clip.mp4")
-        secs = render(tmp / "before.mp4", tmp / "clip.mp4", words, OUT / f"{name}.mp4", channel=f"{who} ({s['license']})",
+        clip, words, t0, t1 = prepare_clip(s, c0, c1, req, tmp)
+        cuts = cutaways(clip)
+        secs = render(tmp / "before.mp4", clip, words, OUT / f"{name}.mp4", channel=f"{who} ({s['license']})",
                       before_text=before_text, after_text=after_text, at=at, total=total, crop_x=float(req.get("crop_x", 0.5)))
     caption = (f"Demo: a {length_words(total, kind)} turned into a ready-to-post vertical clip with captions. "
                f"Source: {who}, {caption_license(s['license'])}. {SITE}")
@@ -503,6 +511,223 @@ def build_one(req):
                       "license_checked_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                       "before_at": at, "clip_start": round(c0 + t0, 2), "clip_end": round(c0 + t1, 2),
                       "crop_x": req.get("crop_x", 0.5)},
+           "words": words}
+    (OUT / f"{name}.json").write_text(json.dumps(rec, indent=1, ensure_ascii=False))
+    print("built", name, rec["seconds"], "s | cutaways", cuts, "|", rec["captions_text"])
+
+
+# ---------------------------------------------------------------- showcase style
+# 1) the whole long video scrubs past on a timeline, 2) markers drop where the best moments are,
+# 3) those moments fan out as vertical clip cards, 4) one clip plays full screen with captions, 5) end card.
+PANEL = (40, 600, 1000, 562)          # x, y, w, h of the wide video
+LINE_Y, LX0, LX1 = 1470, 70, 1010     # timeline
+SCRUB_S, MARK_S, FAN_S = 3.6, 3.8, 3.4
+CARD_W, CARD_H, CARD_Y = 300, 534, 600
+
+
+def grab(url, t, out):
+    run(["ffmpeg", "-y", "-user_agent", UA, "-ss", f"{t:.2f}", "-i", url, "-frames:v", "1", "-vf", "scale=1280:-2", str(out)])
+    return Image.open(out).convert("RGB")
+
+
+def fit(img, w, h):
+    r = max(w / img.width, h / img.height)
+    im = img.resize((max(w, int(img.width * r + 0.5)), max(h, int(img.height * r + 0.5))), Image.BICUBIC)
+    l, t = (im.width - w) // 2, (im.height - h) // 2
+    return im.crop((l, t, l + w, t + h))
+
+
+def vcrop(img, cx):
+    cw = int(img.height * 9 / 16); x = int((img.width - cw) * cx)
+    return img.crop((x, 0, x + cw, img.height))
+
+
+def ease(x):
+    x = max(0.0, min(1.0, x)); return 1 - (1 - x) ** 3
+
+
+def wrap(text, f, maxw):
+    lines, cur = [], ""
+    for w in text.split():
+        t = (cur + " " + w).strip()
+        if cur and f.getlength(t) > maxw:
+            lines.append(cur); cur = w
+        else:
+            cur = t
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def rounded(im, r):
+    m = Image.new("L", im.size, 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, im.width - 1, im.height - 1], r, fill=255)
+    out = Image.new("RGBA", im.size, (0, 0, 0, 0)); out.paste(im, (0, 0), m); return out
+
+
+def card(frame_v, hook, n, w=CARD_W, h=CARD_H, text=True):
+    im = fit(frame_v, w, h).convert("RGBA")
+    if text:
+        ov = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+        for y in range(h // 3, h):
+            d.line([(0, y), (w, y)], fill=(0, 0, 0, int(215 * (y - h / 3) / (h * 2 / 3))))
+        f = font(max(22, int(w * 0.105))); lh = int(f.size * 1.18)
+        lines = wrap(hook, f, w - 40)[:4]
+        for i, ln in enumerate(lines):
+            d.text((20, h - 28 - lh * (len(lines) - i)), ln, font=f, fill=TEXT)
+        fs = font(max(16, int(w * 0.07)))
+        tw = fs.getlength(f"CLIP {n}") + 28
+        d.rounded_rectangle([16, 16, 16 + tw, 16 + fs.size + 18], (fs.size + 18) // 2, fill=ACCENT)
+        d.text((16 + tw / 2, 16 + (fs.size + 18) / 2), f"CLIP {n}", font=fs, fill=(30, 20, 40), anchor="mm")
+        im = Image.alpha_composite(im, ov)
+    return rounded(im, max(12, w // 14))
+
+
+def title(d, text, y=440):
+    f = font(80); lines = wrap(text, f, W - 120)
+    for i, ln in enumerate(lines):
+        shadow_text(d, (W // 2, y + (i - (len(lines) - 1) / 2) * 96), ln, f, TEXT)
+
+
+def mx(t, total):
+    return LX0 + (LX1 - LX0) * t / total
+
+
+def intro_frame(t, bg, scrub, moments, feat, total, before_text):
+    im = bg.copy(); d = ImageDraw.Draw(im, "RGBA")
+    x, y, w, h = PANEL
+    n = len(moments)
+    shown = 0
+    if t < SCRUB_S:                                    # 1) the long video
+        p = t / SCRUB_S; pos = p * total
+        im.paste(rounded(fit(scrub[min(len(scrub) - 1, int(p * len(scrub)))], w, h), 24), (x, y), rounded(fit(scrub[0], w, h), 24))
+        title(d, before_text)
+        panel_alpha = 1.0
+    elif t < SCRUB_S + MARK_S:                         # 2) finding the moments
+        tt = t - SCRUB_S; pos = total
+        shown = sum(1 for k in range(n) if tt >= 0.35 + k * 0.9)
+        frame = moments[shown - 1]["wide"] if shown else scrub[-1]
+        im.paste(rounded(fit(frame, w, h), 24), (x, y), rounded(fit(frame, w, h), 24))
+        title(d, f"...{n} moments worth posting")
+    else:                                              # 3) the clips
+        tt = t - SCRUB_S - MARK_S; pos = total; shown = n
+        a = 1 - ease(tt / 0.4)
+        if a > 0:
+            fr = rounded(fit(moments[-1]["wide"], w, h), 24); fr.putalpha(fr.getchannel("A").point(lambda v: int(v * a)))
+            im.paste(fr, (x, y), fr)
+        title(d, "...turned into ready-to-post clips")
+    # timeline
+    d.rounded_rectangle([LX0, LINE_Y, LX1, LINE_Y + 16], 8, fill=(80, 86, 104))
+    d.rounded_rectangle([LX0, LINE_Y, mx(pos, total), LINE_Y + 16], 8, fill=(230, 60, 60))
+    if t < SCRUB_S:
+        px = mx(pos, total); d.ellipse([px - 17, LINE_Y - 9, px + 17, LINE_Y + 25], fill=(230, 60, 60))
+    if t < SCRUB_S:
+        d.text((LX0, LINE_Y + 70), f"{hms(pos)} / {hms(total)}", font=font(40, "SemiBold"), fill=DIM, anchor="lm")
+    for k in range(shown):                             # markers drop in
+        m = moments[k]; age = (t - SCRUB_S - 0.35 - k * 0.9) if t < SCRUB_S + MARK_S else 9
+        drop = 1 - ease(age / 0.35); px = mx(m["at"], total)
+        top = LINE_Y - (110 + 85 * (k % 3)) - 60 * drop
+        d.line([(px, top + 40), (px, LINE_Y + 8)], fill=ACCENT, width=6)
+        d.ellipse([px - 14, LINE_Y - 6, px + 14, LINE_Y + 22], fill=ACCENT)
+        f = font(38); lw = f.getlength(m["label"]) + 44; cx = min(max(px, LX0 + lw / 2), LX1 - lw / 2)
+        d.rounded_rectangle([cx - lw / 2, top, cx + lw / 2, top + 64], 32, fill=ACCENT)
+        d.text((cx, top + 32), m["label"], font=f, fill=(30, 20, 40), anchor="mm")
+        d.text((px, LINE_Y + 50), hms(m["at"]), font=font(28, "SemiBold"), fill=ACCENT, anchor="mm")
+    if t >= SCRUB_S + MARK_S:                          # cards fan out, then the featured one fills the screen
+        tt = t - SCRUB_S - MARK_S
+        z = ease((tt - (FAN_S - 0.85)) / 0.85)
+        xs = [W / 2 + (k - (n - 1) / 2) * (CARD_W + 40) for k in range(n)]
+        order = [k for k in range(n) if k != feat] + [feat]
+        for k in order:
+            m = moments[k]; e = ease((tt - 0.15 - k * 0.15) / 0.7)
+            sx, sy = mx(m["at"], total), LINE_Y
+            cxk = sx + (xs[k] - sx) * e; cyk = sy + (CARD_Y + CARD_H / 2 - sy) * e
+            sc = 0.15 + 0.85 * e
+            if k == feat and z > 0:
+                cw = CARD_W * sc + (W - CARD_W * sc) * z; ch = CARD_H * sc + (H - CARD_H * sc) * z
+                cxk = cxk + (W / 2 - cxk) * z; cyk = cyk + (H / 2 - cyk) * z
+                c = card(m["vert"], m["hook"], k + 1, int(cw), int(ch), text=z < 0.35)
+            else:
+                if e <= 0:
+                    continue
+                c = card(m["vert"], m["hook"], k + 1, int(CARD_W * sc), int(CARD_H * sc))
+                if k != feat and z > 0:
+                    c.putalpha(c.getchannel("A").point(lambda v: int(v * (1 - z))))
+            im.paste(c, (int(cxk - c.width / 2), int(cyk - c.height / 2)), c)
+    return im
+
+
+def clip_layers(tmp, hook, n, of, label):
+    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+    f = font(70); lines = wrap(hook, f, W - 200)[:3]; lh = 84
+    top = 230; bottom = top + 90 + lh * len(lines)
+    d.rounded_rectangle([60, top - 40, W - 60, bottom], 36, fill=(8, 12, 22, 165))
+    pill(d, W // 2, top + 6, f"CLIP {n} OF {of}", (255, 214, 63, 240), (30, 20, 40), 34)
+    for i, ln in enumerate(lines):
+        shadow_text(d, (W // 2, top + 90 + lh * i), ln, f, TEXT, off=3)
+    credit(d, label, 1830)
+    ov.save(tmp / "clip_ov.png")
+
+
+def build_showcase(req):
+    s = source(req["source"])                     # license re-checked from the item's own metadata
+    total = s["duration"] or probe_duration(s["media"])
+    if not s["creator"] and s["license"].startswith("CC BY"):
+        raise SystemExit("REFUSED: CC BY needs a named creator to credit")
+    who = s["creator"] or ("Internet Archive" if s["kind"] == "ia" else "Wikimedia Commons")
+    label = f"{who} ({s['license']})"
+    kind = req.get("kind", "talk"); cx = float(req.get("crop_x", 0.5))
+    ms = sorted(req["moments"], key=lambda m: m["clip_start"]); feat = next(i for i, m in enumerate(ms) if m.get("feature"))
+    name = re.sub(r"[^a-z0-9-]", "", req["name"].lower())
+    OUT.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = pathlib.Path(tmp)
+        fm = ms[feat]
+        clip, words, t0, t1 = prepare_clip(s, fm["clip_start"], fm["clip_end"], fm, tmp, "feature")
+        fm["at"] = fm["clip_start"] + t0
+        run(["ffmpeg", "-y", "-i", str(clip), "-frames:v", "1", str(tmp / "f0.png")])
+        moments = []
+        for k, m in enumerate(ms):
+            at = m.get("at", m["clip_start"] + float(m.get("lead", 1.0)))
+            wide = grab(s["media"], at + (0 if k == feat else 1.5), tmp / f"m{k}.png") if k != feat else Image.open(tmp / "f0.png").convert("RGB")
+            moments.append({"at": at, "label": m["label"], "hook": m["hook"], "wide": wide, "vert": vcrop(wide, cx)})
+        scrub = [grab(s["media"], total * (0.01 + 0.98 * i / 31), tmp / f"s{i}.png") for i in range(32)]
+        bg = gradient(); brand(ImageDraw.Draw(bg))
+        before_text = req.get("before_text") or f"{length_words(total, kind)}..."
+        intro_s = SCRUB_S + MARK_S + FAN_S
+        pi = subprocess.Popen(["ffmpeg", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
+                               "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", f"{intro_s:.2f}", *ENC, str(tmp / "intro.mp4")],
+                              stdin=subprocess.PIPE, stderr=subprocess.DEVNULL)
+        for fi in range(int(intro_s * FPS)):
+            pi.stdin.write(intro_frame(fi / FPS, bg, scrub, moments, feat, total, before_text).convert("RGB").tobytes())
+        pi.stdin.close(); pi.wait()
+        if pi.returncode:
+            raise RuntimeError("intro render failed")
+        clip_layers(tmp, fm["hook"], feat + 1, len(ms), label)
+        write_ass(words, tmp / "cap.ass")
+        clip_len = t1 - t0
+        ass = str(tmp / "cap.ass").replace(":", r"\:")
+        run(["ffmpeg", "-y", "-i", str(clip), "-loop", "1", "-i", str(tmp / "clip_ov.png"), "-filter_complex",
+             f"[0:v]crop=ih*9/16:ih:(iw-ih*9/16)*{cx}:0,scale={W}:{H},setsar=1,ass={ass}[c];[c][1:v]overlay=0:0,format=yuv420p[vo];"
+             f"[0:a]aresample=44100,afade=t=in:d=0.15,afade=t=out:st={max(0.0, clip_len - 0.35):.2f}:d=0.35[ao]",
+             "-map", "[vo]", "-map", "[ao]", "-t", f"{clip_len:.2f}", *ENC, str(tmp / "clip_out.mp4")])
+        end_card(tmp)
+        run(["ffmpeg", "-y", "-loop", "1", "-i", str(tmp / "end.png"), "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
+             "-vf", "format=yuv420p", "-t", str(END_SECONDS), *ENC, str(tmp / "end.mp4")])
+        lst = tmp / "list.txt"; lst.write_text("".join(f"file '{tmp / p}'\n" for p in ("intro.mp4", "clip_out.mp4", "end.mp4")))
+        run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), *ENC, "-movflags", "+faststart", str(OUT / f"{name}.mp4")])
+        cuts = cutaways(clip)
+    secs = intro_s + clip_len + END_SECONDS
+    caption = (f"One {length_words(total, kind)}, {len(ms)} moments worth posting, each turned into a vertical clip with captions. "
+               f"Source: {who}, {caption_license(s['license'])}. {SITE}")
+    rec = {"name": name, "style": "showcase", "seconds": round(secs, 1), "caption": caption,
+           "yt_title": f"One long {kind}, {len(ms)} ready-to-post clips #shorts",
+           "captions_text": " ".join(w["w"] for w in words), "cutaways_in_clip": cuts,
+           "moments": [{"at": round(m["at"], 1), "label": m["label"], "hook": m["hook"]} for m in moments],
+           "source": {**{k: s.get(k) for k in ("spec", "page", "media", "title", "creator", "license", "license_url")},
+                      "credited_as": who,
+                      "license_checked_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                      "featured_clip_start": round(fm["clip_start"] + t0, 2), "featured_clip_end": round(fm["clip_start"] + t1, 2),
+                      "crop_x": cx},
            "words": words}
     (OUT / f"{name}.json").write_text(json.dumps(rec, indent=1, ensure_ascii=False))
     print("built", name, rec["seconds"], "s | cutaways", cuts, "|", rec["captions_text"])

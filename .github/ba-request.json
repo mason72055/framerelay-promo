@@ -1,2 +1,8 @@
-{"mode": "find", "min_minutes": 20, "max": 40, "rows": 60,
- "terms": ["video podcast", "vodcast", "podcast episode", "talk show", "livestream", "twitch", "radio show", "web series interview"]}
+{"mode": "build", "style": "showcase", "name": "sc-test-02", "source": "ia:in-through-the-side-door",
+ "kind": "interview", "crop_x": 0.45,
+ "moments": [
+  {"label": "Strong opinion", "hook": "\"I decided I was qualified to write this\"", "clip_start": 1405.0, "clip_end": 1424.0, "lead": 4.0},
+  {"label": "Relatable", "hook": "Hours of interviews... now what?", "feature": true,
+   "clip_start": 1755.0, "clip_end": 1776.0, "start_text": "I have these amazing interviews", "end_after": "what do I do with that now"},
+  {"label": "Useful tip", "hook": "Writing a book? Write for people.", "clip_start": 2139.0, "clip_end": 2160.0, "lead": 3.0}
+ ]}
