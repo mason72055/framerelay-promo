@@ -1,6 +1,2 @@
-{"mode": "build", "builds": [
- {"name": "ba-test-01c", "source": "ia:in-through-the-side-door", "kind": "talk", "crop_x": 0.45, "before_at": 1400,
-  "clip_start": 1755.0, "clip_end": 1776.0, "start_text": "I have these amazing interviews", "end_after": "what do I do with that now"},
- {"name": "ba-test-01d", "source": "ia:in-through-the-side-door", "kind": "talk", "crop_x": 0.45, "before_at": 1000,
-  "clip_start": 2138.0, "clip_end": 2161.0, "start_text": "for people who are looking", "end_after": "write for people"}
-]}
+{"mode": "find", "min_minutes": 20, "max": 40, "rows": 60,
+ "terms": ["video podcast", "vodcast", "podcast episode", "talk show", "livestream", "twitch", "radio show", "web series interview"]}
