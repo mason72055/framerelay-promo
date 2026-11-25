@@ -383,7 +383,7 @@ def transcribe(clip, fix):  # word timings for the burned-in captions
             t = w.word.strip()
             for a, b in (fix or {}).items():
                 t = re.sub(rf"\b{re.escape(a)}\b", b, t, flags=re.I)
-            if t:
+            if re.search(r"[A-Za-z0-9]", t):              # drop words a fix emptied (punctuation alone)
                 words.append({"w": t.replace("{", "").replace("}", "").replace("\\", ""), "s": float(w.start), "e": float(w.end)})
     return words
 
