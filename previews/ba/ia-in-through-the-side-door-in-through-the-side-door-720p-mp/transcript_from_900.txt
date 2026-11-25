@@ -1,0 +1,216 @@
+[  900.0] in his list of resources that he referred to, there were no women other than Brenda Laurel.
+[  908.7] And in his book, as I went through it, which is more a history of industrial design
+[  915.1] in Silicon Valley, and there's a very little bit about interaction design,
+[  918.3] there's not very many women mentioned. And that really pissed me off because we hear
+[  924.8] the stories of the men, and you get this mythology of the brilliant and, you know, white guy,
+[  931.4] and they are all white for the most part. And that just didn't map to my personal experience of working
+[  938.2] with amazing people across the spectrum. And so I started to dig in because I wanted to tell
+[  944.8] these stories in my class. And then I just started writing. And I was like, I'm going to do this
+[  949.5] because this doesn't exist. Yeah, we share that as a motivation writing for our students.
+[  955.2] So another thing that we share is information architecture as a massive background and also
+[  960.8] interest. So I want to talk to you about the information architecture approach of this book.
+[  964.5] You showed us one spreadsheet. And I know to be that to be only one of many, many spreadsheets.
+[  971.1] Can you tell us like, how did you think about the structure of the book and exactly how many
+[  976.4] iterations did you go through in terms of structure?
+[  980.6] I went through about 16 different iterations of the structure. When I started the book,
+[  985.8] I thought I'm going to do like many of the graphic design books, 100 women in interaction design.
+[  992.0] And when I say interaction design, I'm including sort of the broader scope of user experience
+[  997.1] design. So that includes the UX writers and the UX researchers and the information architects.
+[ 1003.1] Those of us who are working on the design and design side of things as opposed to the programming
+[ 1009.0] side of things. And I started out, you know, that's where a lot of the lists and the spreadsheets
+[ 1016.7] came from. And I thought, how am I going to organize this? Is it going to be by date? I mean,
+[ 1021.2] dates obvious. And that ended up being sort of a super structure framework for the book. But
+[ 1028.2] then I was looking at, do I do the visual designers, the hardcore interaction designers,
+[ 1032.9] the cognitive psychologists, the UX researchers, and many of the spreadsheets are organizing
+[ 1038.6] people into those buckets. But if you've worked a long time, like I have, you have worn all those
+[ 1045.2] hats. And so what is the primary? And that got to be really messy. So I ended up breaking it down into
+[ 1054.2] sort of the timeline buckets mapped to the waves of feminism. So you have that first wave,
+[ 1060.0] well, actually the second wave, because the first wave were the suffragettes. But the second wave
+[ 1064.2] with women's liberation and people being able to get jobs, to have their own credit cards,
+[ 1072.0] have their own checks and bank accounts without their husbands or their fathers. And that coincided
+[ 1078.5] about the time that we start to see women working at like Xerox Park and Bell Labs and
+[ 1084.1] some of these other places. And mostly they were mechanical engineers, electrical engineers,
+[ 1089.5] and cognitive psychologists. But they were doing interaction design and research. We didn't have
+[ 1095.8] that vocabulary yet. And so that's sort of the overarching. And then I took each of those sections
+[ 1103.0] and divvied them up into sort of the practitioners, the educators, and the community builders. Because
+[ 1109.8] we find that many of the women involved, while they may not have leadership roles in the companies
+[ 1115.9] they worked at, particularly in the early days, they were instrumental in creating the organizations
+[ 1121.5] that support people in our field. So SIGCHI, which is a special interest group in the ACM,
+[ 1129.6] you've got UXPA, which used to be UPA, which is the Usability Professionals Association,
+[ 1135.0] the Interaction Design Association, which unfortunately just folded, the Information
+[ 1140.3] Architecture Institute, which also folded during the pandemic or right before. Most of those
+[ 1146.8] organizations, if not spearheaded, were led by women for quite a long time. And those organizations
+[ 1154.2] gave women the support, the professional support, and the opportunity to be leaders in their field.
+[ 1160.3] And so those sort of little buckets inside, practitioners, educators, community builders,
+[ 1165.5] is how I ended up organizing. And then there's one section later where there's leaders,
+[ 1174.2] because we start to see in the mid-2000s women moving into leadership and CXO-type positions.
+[ 1183.8] Yeah. So let's talk about you in the book, because I was really excited to find that your history is
+[ 1190.2] there as well. And I mean, you belong there, Erin. It's amazing. Like Dave gave your bio at the
+[ 1196.5] beginning of this, but I want to call attention to the audience to go just a couple of the things
+[ 1200.0] that you will read about Erin doing this book. Creating the first website for Kodak.
+[ 1205.0] Oh, yeah. No big deal. No big deal.
+[ 1209.0] I went to grad school at Rochester Institute of Technology, and pretty much the thing is,
+[ 1214.5] if you're in design, when you're done with school, you go work at Kodak, or in actually a
+[ 1219.2] computer programming too. Everybody works at Kodak at some point. And I started working there
+[ 1225.4] freelance before I graduated. And while I was there, and I worked there for about a
+[ 1231.0] year and a half after I got out of school. And in that first year, that's when Mosaic came out.
+[ 1237.5] And I had taken a bunch of classes in the computer science department, learning hyper talk,
+[ 1244.8] and lingo, and all that kind of stuff. And then I had a friend who was a year behind me,
+[ 1249.7] and she was continuing to take those classes while I was working. And she's like, oh my god,
+[ 1254.4] this thing called HTML, you have to learn it so easy compared to hyper talk and lingo. And so
+[ 1262.3] I played around with it, and there was another guy in the group at Kodak, and he was like, hey,
+[ 1268.5] we should make a website. Let's ask, and we asked our boss, hey, can we make a website for Kodak?
+[ 1273.2] And they're like, we don't know what that is, but sure. And so it was just a big image map.
+[ 1277.7] We had four sections. And that's how I got my job at Adobe, because I had worked on a website
+[ 1284.9] for Kodak and for myself. And that got me my job working on the website at Kodak.
+[ 1290.9] For getting that launched. And that was the first website there, too.
+[ 1295.0] And I mean, that's not just the only, it was the first Adobe website. You brought,
+[ 1299.9] let's see, the first book about the social web helped Altavista be built, just in general,
+[ 1306.4] brought community products to AOL, another no big deal, and founded the Yahoo pattern library.
+[ 1312.0] So, I mean, you're just in this history with us. So history is really subjective.
+[ 1317.0] And I want to talk about how it's sometimes written by people who weren't there,
+[ 1320.3] but sometimes it's written by people that were there. So how did you approach the fact that this
+[ 1324.5] had contemporary history with folks that you know, versus the folks that you didn't know? Like,
+[ 1329.4] did you approach those two things differently? So I think I, so just as in context, I actually
+[ 1336.3] struggled with that a little bit, being an insider. Because I was working on that other book
+[ 1342.7] earlier, which is a biography. I did a lot of reading about biographies and how you write
+[ 1347.4] biographies and how you approach that in terms of are you an insider or outside, you know,
+[ 1355.2] someone with an objective point of view. And so I did a lot of reading around writing.
+[ 1362.9] And then I decided, you know, I perfectly qualified to write this book and that it's
+[ 1370.4] okay to be an insider because I can ask questions that are grounded in knowing these people.
+[ 1377.8] And I did start my list with people I know, from Yahoo, from AOL and stuff. And then
+[ 1384.6] I also went back, you know, who was at Xerox Park? And, you know, so I have all these lists of
+[ 1389.5] who was at Xerox, who was an apple, who was, you know, at these places and ended up talking to
+[ 1396.5] quite a lot of people that I didn't know. Some I reached out cold call and some who were,
+[ 1401.8] who were introduced to me by other people that I do know. And I just decided, you know what,
+[ 1407.3] I'm qualified to write this. And it's going to be an inside perspective. And I tried to not make
+[ 1412.2] it so insider that it was not approachable. But, you know, there is vocabulary and there is
+[ 1417.6] terminology that is insider and you can't help but have that. Otherwise, it doesn't make any sense.
+[ 1423.8] So yeah, no, I want to talk about vocabulary because I mean, so the book takes readers all
+[ 1428.3] the way back as far as the 1950s. And we sort of meet these unsung female heroes of early design,
+[ 1433.8] early computing. But the term interaction design doesn't actually enter the scene or fashion until
+[ 1438.6] like the 80s. So why is interaction design the lens that you chose for the book?
+[ 1443.8] Partly because I am an interaction designer. And even when I was an information architect with
+[ 1448.2] the title, I was doing interaction design. And I think, you know, I've had, I've had all those
+[ 1455.3] titles, interaction design, product designer, UX designer, information architect, just designer,
+[ 1461.3] graphic designer. And I decided that interaction design as the lens was important because it really
+[ 1468.9] is about the software design. And one of the things when I rewrote the book after the peer review,
+[ 1475.3] after my second peer review, I realized that I needed to do a little bit of a history of interaction
+[ 1481.5] design and like, where did that come from? So when, you know, as I said, many of the first women
+[ 1487.4] in the field were cognitive psychologists, social psychologists, or had backgrounds in mechanical
+[ 1492.7] engineering or electrical engineering, you know, the first wave of women almost to a person had PhDs.
+[ 1500.4] And many of these people were not allowed to touch these computers unless they had a PhD.
+[ 1506.1] But once we get to the personal computer, and I'm particularly talking about Apple versus Xerox
+[ 1514.3] part, I mean Xerox laid the groundwork for the graphical user interface. And we couldn't have
+[ 1519.0] done this without Alan Kay, without Adele Goldberg, you know, and all those scientists and those research
+[ 1524.2] scientists doing all that work. But Apple brought the computer into our homes and it became a personal
+[ 1532.6] device that now you have a motion and you have personal attachments to things and you need that
+[ 1539.8] branding and that marketing and that user experience and that design. You need that design
+[ 1546.1] sensibility in order to make this a desirable object for people to put in their homes. And that
+[ 1551.8] was the difference because it's no longer in people's offices. Now it's in their homes. And so
+[ 1557.8] you need the people who understand about emotion and about humans involved in that process. And so
+[ 1565.0] that, you know, original designers like it, Apple and the human interface group, they were called
+[ 1569.9] interface designers. They were non-interaction designers. And that's because we didn't have that
+[ 1574.4] term yet. And it was Bill Replank and Bill Magraich who came up with that term. But you have, you know,
+[ 1581.5] a lot of writings, particularly in the collections that Terry Winograd put together
+[ 1586.0] with writings from Gillian Crapton Smith and Mitch Kapoor who talk about this need of design
+[ 1591.7] in software as a separate discipline from computer programming. Sure. So, you know, it's really that,
+[ 1600.5] I mean, it was the marketing and advertising need that brought in a lot of the design
+[ 1605.4] sensibilities. Because that, you know, as we see design is often the differentiator that makes the
+[ 1610.9] product special compared to its competitors. Absolutely. So let's talk about the hard part
+[ 1618.0] of writing this book. You mentioned that there was 100 women to start. There are not 100 women in
+[ 1622.8] this book. How did you pick? Like, that sounds like the hardest information architecture card
+[ 1628.2] sorting assignment of all time. Some of it was luck. Some of it was, you know, as I said, I did
+[ 1636.8] all this research into like who worked at Xerox, who worked at Apple. You know, and there are
+[ 1642.8] plenty of women who should be in the book who are not in the book. You know, Summit was just who
+[ 1648.1] responded to my inquiries to do interviews. And if they didn't respond, and I couldn't, you know,
+[ 1653.4] here's the problem of writing a book about people who've never been written about. There's nothing
+[ 1657.4] about them out there. They're on a website. They're not in books. So how do you write about them if
+[ 1664.0] you can't find anything about them? And they won't answer, you know, your email is going to spam,
+[ 1669.7] you know, because I'm like this person that nobody knows. So in some cases, it was trying
+[ 1676.3] just to get enough of a breadth of an overview of an era, and the kinds of things people do,
+[ 1682.0] because many of the people, their exemplars, they're not the only person doing that kind of role
+[ 1688.2] in that space at that time. And in other cases, there were people that I thought needed to be
+[ 1694.2] in the book. I mean, Susan Care is in the book. I didn't talk to her. There's so much written about
+[ 1700.5] her. It's not a very long profile. There are other people who I wrote really long profiles about,
+[ 1705.5] like Karen Hanson, who I cut. I kept some quotes. And so there are many people I cut. And that was
+[ 1711.2] a word count issue. That wasn't a desire of cutting people. That was suddenly I had to
+[ 1718.0] I had to be 120,000 words with citations. And they were full citations. And as I rewrote the book,
+[ 1726.3] particularly to give a little bit of a history of interaction design, to give some more context
+[ 1731.8] of the field within culture, I had to cut people. I had to cut the length of the profiles. I had to
+[ 1739.1] cut whole profiles, keeping sort of the most salient quotes in to give. So there's a lot of
+[ 1745.8] people mentioned, but you don't find their whole. And all the profiles are pretty short too, because
+[ 1751.0] I had to go through and do a cut of like, OK, 1,200 words, 1,200, and just slice them and see like,
+[ 1757.4] OK, what can we get rid of? Which is why I have these amazing interviews with people,
+[ 1763.3] our and for some people, I ended up talking to them like two or three hours. I have all this
+[ 1768.2] repository of stuff that I'm like, what do I do with that now? I mean, something, please put it
+[ 1773.1] in time capsule for someone. Yeah, that's amazing. So let's talk about diversity and inclusion. You
+[ 1779.2] mentioned in your lead up talk to this, that you had read a lot about critical race theory.
+[ 1785.1] How did you think about the folks that you have harder time finding and who to include from that
+[ 1790.3] perspective? So I was really concerned with trying to make sure that it was representative as much as
+[ 1796.2] I could. And it was very frustrating because before the web, the numbers of women of color
+[ 1805.7] were very, very small and very hard to find when it comes to sort of the very earliest women and
+[ 1814.3] the women, you know, kind of in the early, early section. As I said, you know, most of those women
+[ 1820.0] had PhDs. And if you look, I spent a lot of time in the Department of Education and Stats
+[ 1825.1] looking at the breakdown of, you know, who graduated with what kinds of degrees and what
+[ 1830.6] was the breakdown of demographics. And before the mid 80s, there's very, very few women who
+[ 1840.5] of color who had PhDs. You know, there's men, but there's, and all the women I interviewed,
+[ 1847.3] I asked them about that. And they could not remember any women of color, but they could remember
+[ 1851.4] a few men. And the statistics bear that out in terms of from the Department of Education.
+[ 1858.6] And then there's a really good book on black software. And the author talks about the fact that
+[ 1865.5] in the 60s and 70s and early 80s and into the 80s, people of color were shut out of computing. And so
+[ 1873.2] they just weren't in the pipeline to be working. Now, once you hit the web, you have that democratization
+[ 1879.8] of the ability of people to work in this space. And it starts to change. And now, you know,
+[ 1886.2] I have a lot, there were a lot of women of color that I had on my list and talked to post 2010,
+[ 1894.5] but I cut I cut off at 2012. So you see many more, but it's still uneven. I mean, it's uneven of women
+[ 1902.4] in leadership and it's uneven across the demographics. So it was tough. And I really,
+[ 1910.4] I really tried hard. And you know, that was something that was called out in the first peer review.
+[ 1913.9] And I'm like, I'm trying. I can't, you know, I can't write about people. I can't find.
+[ 1917.9] Yeah. And that's not to say that they're probably, you know, they may have been there,
+[ 1921.4] but if I can't, I couldn't find them. So there's a few, there's a couple women,
+[ 1927.4] Sylvia Harris, who is really well known in graphic design, not as well known in interaction
+[ 1934.2] design. She got her start working in interaction design, working on prodigy, on video text and
+[ 1941.8] designing ATMs with Percy Bank. And then she left the space of interaction design really,
+[ 1950.0] taking all she learned about user experience design and research and moved into policy design
+[ 1956.1] and designing government. So she worked on the 2000 census and use those design research methodology
+[ 1962.5] to test the census forms with over 50,000 people. It was the first time that I'd ever been done.
+[ 1968.6] And then some fortunate she died in 2011. And then Loretta Staples is another woman who worked
+[ 1974.2] in Apple and for Richard Saul Wurman. And she left the space as well. She's a social worker now. So,
+[ 1984.2] you know, technology and computing and tech companies aren't kind to people who are not
+[ 1992.3] the status quo of, you know, the bros. There's a reason that they are leaving for sure.
+[ 2001.8] Yeah. That's a really interesting thing to call out. And also just to think that you went into
+[ 2006.2] the Department of Education Statistics to figure it out. Oh, yeah, because I'm not sure that you are.
+[ 2011.8] So I wanted to know. And when I went back and did the rewrite, one of the things I was looking at
+[ 2018.6] was, you know, the books on gender and technology. And there's been several around computing and
+[ 2025.8] gender. And looking at, you know, the reasons why, you know, there's some questions that these
+[ 2033.0] researchers ask of like, you know, mid 80s, you have a peak of women in computing. And then it starts
+[ 2040.6] to drop off. And they don't know why. And I posit that it's because they they've come into design.
+[ 2048.1] And the women are coming in through design. But that reading those books, I wanted to find out
+[ 2055.2] more about it, which is why I ended up spending a lot of time looking at those statistics and
+[ 2059.4] tables and things in the Department of Education. So I'm guessing that there's somebody in this
+[ 2065.3] audience that is attempting to write a book, if not a history book, let's say. So I want to
+[ 2070.0] know about the lessons that you learned in writing this. We've talked a lot about process,
+[ 2073.8] but what are you taking away? How would you do the next book differently based on this one?
+[ 2081.0] I think I'd probably start earlier integrating with the culture and what was happening, what's
+[ 2086.6] happening in society. You know, it took me a while to get to the framework of the waves of feminism.
+[ 2093.9] I'd probably start earlier. The other thing is I'm a practitioner. You know, the O'Reilly book
+[ 2100.0] was a practitioner book all about how to do X, how to do Y. This was my first book that was more
+[ 2105.4] academic. And even though I teach, I'm not an art college. I'm not at an R1 academic research
+[ 2112.2] university. So I don't write like those academics. So that was tough. I had to learn how to write
+[ 2120.4] like more like an academic in terms of bringing in quotes and citations from other scholars
+[ 2128.2] to have that conversation. And that took me to the last rewrite. I mean, that's essentially
+[ 2134.4] almost two years. It took me to get there. And that's because I had to learn how to write like that.
+[ 2139.5] So I'd say for people who are looking to write something like this, you know, if it's a mass
+[ 2145.8] market type of thing, you know, write for people and not for, you know, but if it's an academic,
+[ 2151.8] like a university press, you need to have the citations and the underpinning. And you need to
+[ 2160.4] call that out in order to one, give your, what you're saying credence. And I had to be a little
+[ 2166.5] bold in some of my, you know, I believe the reason why people, women stopped going and majoring in
+[ 2173.1] computer science. One, it's not very welcoming. And two, we found other ways to come into the field
+[ 2179.1] through design and writing and research. And in areas that were much more welcoming to,
+[ 2185.0] to women in the field. Through the side door. Yeah. Yeah. And it was somebody else who said that in
+[ 2190.7] one of the one of my interviews, they said that I came in through the side door and I was like,
+[ 2194.4] Oh my gosh, that's really, I totally feel like that about my career. So I felt like that you have
+[ 2198.7] a name of the book really resonated for me as well. So I want to talk about what you're working on
+[ 2203.5] now, because I think it's really nerdy. What can you tell us, like, what can we geek out on about
+[ 2210.2] the next project that we can look forward to from Aaron Malone? So I work in a biography and it's, it's
+[ 2216.0] the topic I've been working on forever, because I'm taking
