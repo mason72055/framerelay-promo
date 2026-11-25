@@ -107,6 +107,8 @@ def source(spec):
         md = m.get("metadata") or {}
         if not md:
             raise Refused("item not found")
+        if ident.lower().startswith("youtube-") or re.search(r"youtube\.com|youtu\.be", plain(md.get("source")) + plain(md.get("originalurl"))):
+            raise Refused("re-upload of a YouTube video: the uploader's license label can't be trusted")
         if md.get("mediatype") != "movies":
             raise Refused(f"not a video item ({md.get('mediatype')})")
         lic = classify(plain(md.get("licenseurl")))
@@ -224,7 +226,15 @@ def find(req):
 
 # ---------------------------------------------------------------- mode: inspect
 def inspect(req):
-    s = source(req["source"])
+    for spec in req.get("sources") or [req["source"]]:
+        try:
+            inspect_one(spec, req)
+        except Exception as e:
+            print("inspect failed:", spec, e)
+
+
+def inspect_one(spec, req):
+    s = source(spec)
     d = OUT / slug(s["spec"]); d.mkdir(parents=True, exist_ok=True)
     total = s["duration"] or probe_duration(s["media"])
     upto = min(total, 60 * req.get("transcribe_minutes", 20))

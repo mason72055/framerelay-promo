@@ -1,2 +1,2 @@
-{"mode": "find", "min_minutes": 15, "max": 30, "rows": 40,
- "terms": ["interview", "podcast", "conversation", "lecture", "talk", "panel discussion"]}
+{"mode": "inspect", "transcribe_minutes": 15,
+ "sources": ["ia:OhhhTV/Videos/Ohhh_TV_00075.mp4", "ia:pyconza2013-panel-discussion-pt1"]}
