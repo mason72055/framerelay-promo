@@ -5,7 +5,7 @@
  "seconds": 18.9,
  "caption": "One 62-minute interview, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
  "yt_title": "One long interview, 3 ready-to-post clips #shorts",
- "captions_text": "I have these amazing interviews with people. Our, and for some people, I ended up talking to them like two or three hours. You know, I have all this repository of stuff that I'm like, what do I do with that now?",
+ "captions_text": "I have these amazing interviews with people. , and for some people, I ended up talking to them like two or three hours. You know, I have all this repository of stuff that I'm like, what do I do with that now?",
  "cutaways_in_clip": [],
  "moments": [
   {
@@ -33,7 +33,7 @@
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "credited_as": "Internet Archive & Authors Alliance",
-  "license_checked_utc": "2026-11-25T18:36:04Z",
+  "license_checked_utc": "2026-11-25T18:39:40Z",
   "featured_clip_start": 1760.77,
   "featured_clip_end": 1771.64,
   "crop_x": 0.45
@@ -75,7 +75,7 @@
    "e": 2.210000000000001
   },
   {
-   "w": "Our,",
+   "w": ",",
    "s": 2.7300000000000004,
    "e": 2.790000000000001
   },
