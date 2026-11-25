@@ -1,2 +1,3 @@
-{"mode": "inspect", "transcribe_minutes": 15,
- "sources": ["ia:physical-donations-to-the-internet-archive", "ia:in-through-the-side-door", "ia:publishing-beyond-the-market"]}
+{"mode": "inspect", "transcribe_from_minute": 15, "transcribe_minutes": 22,
+ "frames_at": [1000, 1200, 1400, 1600, 1800, 2000, 2200],
+ "sources": ["ia:in-through-the-side-door"]}

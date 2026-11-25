@@ -237,16 +237,17 @@ def inspect_one(spec, req):
     s = source(spec)
     d = OUT / slug(s["spec"]); d.mkdir(parents=True, exist_ok=True)
     total = s["duration"] or probe_duration(s["media"])
-    upto = min(total, 60 * req.get("transcribe_minutes", 20))
+    start = 60 * req.get("transcribe_from_minute", 0)
+    upto = min(total - start, 60 * req.get("transcribe_minutes", 20))
     with tempfile.TemporaryDirectory() as tmp:
         wav = pathlib.Path(tmp) / "a.wav"
-        run(["ffmpeg", "-y", "-user_agent", UA, "-i", s["media"], "-t", f"{upto:.0f}", "-vn", "-ac", "1", "-ar", "16000", str(wav)])
+        run(["ffmpeg", "-y", "-user_agent", UA, "-ss", f"{start:.0f}", "-i", s["media"], "-t", f"{upto:.0f}", "-vn", "-ac", "1", "-ar", "16000", str(wav)])
         from faster_whisper import WhisperModel
         model = WhisperModel("base.en", device="cpu", compute_type="int8")
         segs, _ = model.transcribe(str(wav), language="en", vad_filter=True)
-        (d / "transcript.txt").write_text("\n".join(f"[{sg.start:7.1f}] {sg.text.strip()}" for sg in segs))
-    for frac in (0.05, 0.25, 0.5, 0.75):
-        t = total * frac
+        name = "transcript.txt" if not start else f"transcript_from_{int(start)}.txt"
+        (d / name).write_text("\n".join(f"[{sg.start + start:7.1f}] {sg.text.strip()}" for sg in segs))
+    for t in req.get("frames_at") or [total * f for f in (0.05, 0.25, 0.5, 0.75)]:
         try:
             run(["ffmpeg", "-y", "-user_agent", UA, "-ss", f"{t:.1f}", "-i", s["media"], "-frames:v", "1", "-vf", "scale=640:-2",
                  str(d / f"frame_{int(t):05d}.jpg")])
