@@ -23,7 +23,10 @@
      "clip_start": 1755.0,
      "clip_end": 1776.0,
      "start_text": "I have these amazing interviews",
-     "end_after": "what do I do with that now"
+     "end_after": "what do I do with that now",
+     "fix": {
+      "hour": ""
+     }
     },
     {
      "label": "Useful tip",
@@ -31,105 +34,6 @@
      "clip_start": 2139.0,
      "clip_end": 2160.0,
      "lead": 3.0
-    }
-   ]
-  },
-  {
-   "style": "showcase",
-   "out": "videos/showcase",
-   "name": "sc-02-ai-tools",
-   "source": "ia:ai-tools-not-gods-book-talk",
-   "kind": "interview",
-   "crop_x": 0.45,
-   "moments": [
-    {
-     "label": "Strong opinion",
-     "hook": "\"AI is a very sophisticated calculator\"",
-     "clip_start": 1412.0,
-     "clip_end": 1430.0,
-     "lead": 7.0
-    },
-    {
-     "label": "Quotable",
-     "hook": "Regulate behavior, not technology",
-     "clip_start": 1741.0,
-     "clip_end": 1760.0,
-     "lead": 1.0
-    },
-    {
-     "label": "Big idea",
-     "hook": "Tech needs a sheriff, not more rules",
-     "feature": true,
-     "clip_start": 2109.0,
-     "clip_end": 2141.0,
-     "start_text": "every time I hear people",
-     "end_after": "or the legislator"
-    }
-   ]
-  },
-  {
-   "style": "showcase",
-   "out": "videos/showcase",
-   "name": "sc-03-athena",
-   "source": "ia:athena-unbound",
-   "kind": "talk",
-   "crop_x": 0.5,
-   "moments": [
-    {
-     "label": "Big question",
-     "hook": "Is there too much research?",
-     "clip_start": 1098.0,
-     "clip_end": 1118.0,
-     "lead": 2.0
-    },
-    {
-     "label": "Surprising number",
-     "hook": "Free research for everyone, for the price of 70 libraries",
-     "feature": true,
-     "clip_start": 1346.0,
-     "clip_end": 1368.0,
-     "start_text": "that means that for the price",
-     "end_after": "available to everyone"
-    },
-    {
-     "label": "Strong opinion",
-     "hook": "Publish or perish... but open access",
-     "clip_start": 2381.0,
-     "clip_end": 2400.0,
-     "lead": 4.0
-    }
-   ]
-  },
-  {
-   "style": "showcase",
-   "out": "videos/showcase",
-   "name": "sc-04-gov-info",
-   "source": "ia:preserving-government-information-book-talk",
-   "kind": "talk",
-   "crop_x": 0.5,
-   "moments": [
-    {
-     "label": "Great metaphor",
-     "hook": "A tractor locked in a barn is useless. So is data.",
-     "feature": true,
-     "clip_start": 1436.0,
-     "clip_end": 1458.0,
-     "start_text": "we use the example of a tractor",
-     "end_after": "same is true of information"
-    },
-    {
-     "label": "Useful tip",
-     "hook": "Found the answer online? Save a copy.",
-     "clip_start": 1629.0,
-     "clip_end": 1650.0,
-     "lead": 2.0
-    },
-    {
-     "label": "Quotable",
-     "hook": "Good infrastructure is invisible until it breaks",
-     "clip_start": 1932.0,
-     "clip_end": 1952.0,
-     "lead": 8.0
     }
    ]
   }
