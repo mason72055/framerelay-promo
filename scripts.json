@@ -96,6 +96,70 @@
    ],
    "caption": "Cut clips yourself or hand it off? framerelay.app",
    "yt_title": "Cut clips yourself or hand it off? #shorts"
+  },
+  {
+   "id": "sc-01-side-door",
+   "type": "showcase",
+   "file": "videos/showcase/sc-01-side-door.mp4",
+   "caption": "One 62-minute interview, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
+   "yt_title": "One long interview, 3 ready-to-post clips #shorts",
+   "source": {
+    "page": "https://archive.org/details/in-through-the-side-door",
+    "title": "In Through The Side Door",
+    "credited_as": "Internet Archive & Authors Alliance",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_checked_utc": "2026-11-25T18:25:04Z"
+   },
+   "hold": true
+  },
+  {
+   "id": "sc-02-ai-tools",
+   "type": "showcase",
+   "file": "videos/showcase/sc-02-ai-tools.mp4",
+   "caption": "One 63-minute interview, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
+   "yt_title": "One long interview, 3 ready-to-post clips #shorts",
+   "source": {
+    "page": "https://archive.org/details/ai-tools-not-gods-book-talk",
+    "title": "Book Talk: AI Tools, Not Gods",
+    "credited_as": "Internet Archive & Authors Alliance",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_checked_utc": "2026-11-25T18:26:57Z"
+   },
+   "hold": true
+  },
+  {
+   "id": "sc-03-athena",
+   "type": "showcase",
+   "file": "videos/showcase/sc-03-athena.mp4",
+   "caption": "One 82-minute talk, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive, CC BY. framerelay.app",
+   "yt_title": "One long talk, 3 ready-to-post clips #shorts",
+   "source": {
+    "page": "https://archive.org/details/athena-unbound",
+    "title": "Book Talk: Athena Unbound",
+    "credited_as": "Internet Archive",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_checked_utc": "2026-11-25T18:28:34Z"
+   },
+   "hold": true
+  },
+  {
+   "id": "sc-04-gov-info",
+   "type": "showcase",
+   "file": "videos/showcase/sc-04-gov-info.mp4",
+   "caption": "One 65-minute talk, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
+   "yt_title": "One long talk, 3 ready-to-post clips #shorts",
+   "source": {
+    "page": "https://archive.org/details/preserving-government-information-book-talk",
+    "title": "Preserving Government Information",
+    "credited_as": "Internet Archive & Authors Alliance",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "license_checked_utc": "2026-11-25T18:30:12Z"
+   },
+   "hold": true
   }
  ],
  "hashtags": "#podcasting #youtubeshorts #contentcreator #repurposing"
