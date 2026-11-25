@@ -1,0 +1,30 @@
+name: Before/after demo (posts nothing)
+# Runs when .github/ba-request.json changes. Finds CC BY sources, inspects one, or builds one test video,
+# and saves the result in previews/ba/ on the same branch. Never posts, never uses paid tools.
+on:
+  push:
+    paths: [".github/ba-request.json"]
+permissions:
+  contents: write
+concurrency: {group: before-after, cancel-in-progress: false}
+jobs:
+  ba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - uses: denoland/setup-deno@v2
+        with: {deno-version: v2.x}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-dejavu-core
+      - run: pip install -q -U "yt-dlp[default]" pillow faster-whisper
+      - name: Run request
+        run: python make_before_after.py .github/ba-request.json
+      - name: Save results to this branch
+        if: always()
+        run: |
+          git config user.name framerelay-promo-bot; git config user.email bot@users.noreply.github.com
+          git add previews/ba 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing to save"; exit 0; fi
+          git commit -qm "before/after results"; git pull -q --rebase; git push -q

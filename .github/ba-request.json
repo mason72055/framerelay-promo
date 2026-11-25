@@ -1,0 +1,2 @@
+{"mode": "find", "min_minutes": 30, "max": 20, "per_query": 30,
+ "queries": ["podcast full episode", "podcast interview episode", "creator podcast episode", "full stream vod"]}
