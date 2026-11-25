@@ -63,7 +63,7 @@ def length_words(seconds, kind):
     mins = seconds / 60
     if mins >= 90:
         return f"{round(mins / 60 * 2) / 2:g}-hour {kind}"
-    return f"{int(round(mins / 5) * 5) if mins >= 20 else int(round(mins))}-minute {kind}"
+    return f"{int(round(mins))}-minute {kind}"          # exact, never rounded up
 
 
 def plain(s):
@@ -534,7 +534,7 @@ def build_one(req):
 # 3) those moments fan out as vertical clip cards, 4) one clip plays full screen with captions, 5) end card.
 PANEL = (40, 600, 1000, 562)          # x, y, w, h of the wide video
 LINE_Y, LX0, LX1 = 1470, 70, 1010     # timeline
-SCRUB_S, MARK_S, FAN_S = 1.2, 1.8, 1.6     # quick recap after the clip
+SCRUB_S, MARK_S, FAN_S = 1.2, 1.8, 2.0     # quick recap after the clip
 CARD_W, CARD_H, CARD_Y = 300, 534, 600
 
 
@@ -641,10 +641,10 @@ def intro_frame(t, bg, scrub, moments, feat, total, before_text, label=""):
         top = LINE_Y - (110 + 85 * (k % 3)) - 60 * drop
         d.line([(px, top + 40), (px, LINE_Y + 8)], fill=ACCENT, width=6)
         d.ellipse([px - 14, LINE_Y - 6, px + 14, LINE_Y + 22], fill=ACCENT)
-        f = font(38); lw = f.getlength(m["label"]) + 44; cx = min(max(px, LX0 + lw / 2), LX1 - lw / 2)
-        d.rounded_rectangle([cx - lw / 2, top, cx + lw / 2, top + 64], 32, fill=ACCENT)
-        d.text((cx, top + 32), m["label"], font=f, fill=(30, 20, 40), anchor="mm")
-        d.text((px, LINE_Y + 50), hms(m["at"]), font=font(28, "SemiBold"), fill=ACCENT, anchor="mm")
+        txt = f"{m['label']} · {hms(m['at'])}"
+        f = font(36); lw = f.getlength(txt) + 44; cx = min(max(px, LX0 + lw / 2), LX1 - lw / 2)
+        d.rounded_rectangle([cx - lw / 2, top, cx + lw / 2, top + 62], 31, fill=ACCENT)
+        d.text((cx, top + 31), txt, font=f, fill=(30, 20, 40), anchor="mm")
     disclaimer(d); credit(d, label, 1830)
     if t >= SCRUB_S + MARK_S:                          # cards fan out, then the featured one fills the screen
         tt = t - SCRUB_S - MARK_S
