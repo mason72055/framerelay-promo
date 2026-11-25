@@ -1,4 +1,6 @@
 """Schedules the next unposted promo video through Buffer (TikTok, Instagram Reels, YouTube Shorts).
+Videos are posted exactly as committed (showcase videos come from make_before_after.py); no AI voiceover.
+Entries marked "hold": true in scripts.json are never posted, not even by a manual run.
 Same Buffer API pattern as the streamrecapdaily repo. Safe by default:
   - no BUFFER_API_KEY  -> prints what it WOULD do and exits 0
   - posts on Mon/Tue/Thu/Fri only, one video per run, never repeats (posted.json)
@@ -30,6 +32,10 @@ def channels():
     return [c for c in out if c["service"] in ("tiktok", "youtube", "instagram") and not c.get("isQueuePaused")]
 CREATE = """mutation($input: CreatePostInput!) { createPost(input: $input) {
   ... on PostActionSuccess { post { id dueAt } } ... on MutationError { message } } }"""
+def video_path(v):
+    return v.get("file") or f"videos/{v['id']}.mp4"
+
+
 def main():
     if os.environ.get("CHECK_ONLY") == "yes":
         print("Buffer key present:", "yes" if KEY else "NO (secret missing or empty)", "| length:", len(KEY))
@@ -39,24 +45,6 @@ def main():
         except Exception as e:
             print("CHECK FAILED:", type(e).__name__, str(e)[:400])
         return
-    if os.environ.get("PREVIEW") == "voices":
-        import subprocess
-        subprocess.run([sys.executable, str(ROOT / "voice_samples.py")], check=True)
-        for g in (["config", "user.name", "framerelay-promo-bot"], ["config", "user.email", "bot@users.noreply.github.com"],
-                  ["add", "previews/voices.mp3"], ["commit", "-qm", "voice samples"], ["push", "-q"]):
-            subprocess.run(["git", *g], check=True, cwd=ROOT)
-        return
-    if os.environ.get("PREVIEW") == "yes":   # build a voiced video, save it for listening, post nothing
-        import make_videos, subprocess, shutil
-        vid = os.environ.get("VIDEO", "").strip() or "02-three-moments"
-        out = make_videos.build_one(vid)
-        (ROOT / "previews").mkdir(exist_ok=True)
-        shutil.move(str(out), str(ROOT / "previews" / f"{vid}.mp4"))
-        subprocess.run(["git", "checkout", "--", f"videos/{vid}.mp4"], check=False)
-        for g in (["config", "user.name", "framerelay-promo-bot"], ["config", "user.email", "bot@users.noreply.github.com"],
-                  ["add", f"previews/{vid}.mp4"], ["commit", "-qm", f"preview {vid}"], ["push", "-q"]):
-            subprocess.run(["git", *g], check=True, cwd=ROOT)
-        print("Preview saved (nothing posted):", vid); return
     if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch" and os.environ.get("CONFIRM_POST") != "post":
         print("Manual run: nothing posted. To really post, type the word post in the 'confirm' box."); return
     dry = "--dry-run" in sys.argv
@@ -65,30 +53,14 @@ def main():
     if now.weekday() not in DAYS and not manual:
         print("Not a posting day (Mon/Tue/Thu/Fri). Nothing to do."); return
     posted = json.loads(STATE.read_text()) if STATE.exists() else {}
-    todo = [v for v in CFG["videos"] if not v.get("hold") and v["id"] not in posted and (ROOT / "videos" / f"{v['id']}.mp4").exists()]  # silent placeholders ship in the repo
+    todo = [v for v in CFG["videos"] if not v.get("hold") and v["id"] not in posted and (ROOT / video_path(v)).exists()]
     if not todo:
         print("All videos have been posted. Ask Claude for new scripts."); return
-    pick = os.environ.get("VIDEO", "").strip()          # manual test: run a chosen video
+    pick = os.environ.get("VIDEO", "").strip()          # manual run of a chosen video: still never a held one
     if pick:
-        todo = [x for x in CFG["videos"] if x["id"] == pick] or todo
+        todo = [x for x in todo if x["id"] == pick] or todo
     v = todo[0]
-    rel = f"videos/{v['id']}.mp4"
-    if os.environ.get("GOOGLE_TTS_API_KEY", "").strip() and "demo" not in v and not dry:
-        rel = f"videos/voiced/{v['id']}.mp4"          # new path each time, so no stale cache
-        import make_videos, subprocess, shutil, time
-        out = make_videos.build_one(v["id"])
-        (ROOT / "videos" / "voiced").mkdir(exist_ok=True)
-        shutil.move(str(out), str(ROOT / rel))
-        # the silent placeholder stays in videos/; the voiced one is what gets posted
-        subprocess.run(["git", "checkout", "--", f"videos/{v['id']}.mp4"], check=False)
-        for g in (["config", "user.name", "framerelay-promo-bot"], ["config", "user.email", "bot@users.noreply.github.com"],
-                  ["add", rel], ["commit", "-qm", f"voiced {v['id']}"], ["push", "-q"]):
-            subprocess.run(["git", *g], check=True, cwd=ROOT)
-        import requests
-        u = f"https://raw.githubusercontent.com/{REPO}/main/{rel}"
-        for _ in range(30):
-            if requests.head(u, timeout=20).status_code == 200: break
-            time.sleep(10)
+    rel = video_path(v)                                  # ready-made file; no AI voiceover is ever added
     url = f"https://raw.githubusercontent.com/{REPO}/main/{rel}"
     text = f"{v['caption']}\n\n{CFG['hashtags']}"
     if dry or not KEY:

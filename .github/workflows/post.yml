@@ -6,11 +6,7 @@ on:
     inputs:
       video:
         description: "Optional: video id to run (blank = next unposted)"
-        default: "02-three-moments"
-        required: false
-      preview:
-        description: "Type yes to build a voiced preview only (posts nothing)"
-        default: "no"
+        default: ""
         required: false
       confirm:
         description: "Leave EMPTY. Type post only if you really want this to post right now"
@@ -34,10 +30,8 @@ jobs:
       - name: Schedule via Buffer (does nothing without BUFFER_API_KEY)
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY_FRAMERELAY }}
-          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
           VIDEO: ${{ inputs.video }}
           CHECK_ONLY: ${{ inputs.check_only }}
-          PREVIEW: ${{ inputs.preview }}
           CONFIRM_POST: ${{ inputs.confirm }}
         run: python post.py
       - name: Save which videos were posted
