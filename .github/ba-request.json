@@ -1,8 +1,4 @@
-{"mode": "build", "style": "showcase", "name": "sc-test-02", "source": "ia:in-through-the-side-door",
- "kind": "interview", "crop_x": 0.45,
- "moments": [
-  {"label": "Strong opinion", "hook": "\"I decided I was qualified to write this\"", "clip_start": 1405.0, "clip_end": 1424.0, "lead": 4.0},
-  {"label": "Relatable", "hook": "Hours of interviews... now what?", "feature": true,
-   "clip_start": 1755.0, "clip_end": 1776.0, "start_text": "I have these amazing interviews", "end_after": "what do I do with that now"},
-  {"label": "Useful tip", "hook": "Writing a book? Write for people.", "clip_start": 2139.0, "clip_end": 2160.0, "lead": 3.0}
- ]}
+{"mode": "inspect", "transcribe_from_minute": 4, "transcribe_minutes": 40,
+ "frames_at": [400, 900, 1400, 1900, 2400, 2900],
+ "sources": ["ia:athena-unbound", "ia:the-publisher-playbook", "ia:preserving-government-information-book-talk",
+             "ia:the-public-domain", "ia:ai-tools-not-gods-book-talk"]}
