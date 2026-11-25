@@ -58,7 +58,9 @@ def main():
         print("All videos have been posted. Ask Claude for new scripts."); return
     pick = os.environ.get("VIDEO", "").strip()          # manual run of a chosen video: still never a held one
     if pick:
-        todo = [x for x in todo if x["id"] == pick] or todo
+        todo = [x for x in todo if x["id"] == pick]
+        if not todo:
+            print(f"{pick} is on hold, already posted, or missing. Nothing posted."); return
     v = todo[0]
     rel = video_path(v)                                  # ready-made file; no AI voiceover is ever added
     url = f"https://raw.githubusercontent.com/{REPO}/main/{rel}"
