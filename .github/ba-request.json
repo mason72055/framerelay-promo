@@ -1,2 +1,2 @@
-{"mode": "find", "min_minutes": 15, "max": 40, "rows": 50,
- "terms": ["oral history", "video podcast", "community television", "public access television", "fireside chat", "meetup", "webinar", "q&a", "storytelling"]}
+{"mode": "inspect", "transcribe_minutes": 15,
+ "sources": ["ia:physical-donations-to-the-internet-archive", "ia:in-through-the-side-door", "ia:publishing-beyond-the-market"]}
