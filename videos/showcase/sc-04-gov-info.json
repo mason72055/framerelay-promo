@@ -5,7 +5,7 @@
  "seconds": 22.4,
  "caption": "One 65-minute talk, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
  "yt_title": "One long talk, 3 ready-to-post clips #shorts",
- "captions_text": "we use the example of a tractor. You can have a very expensive tractor locked in a barn. But if the barn never gets unlocked and goes out into a field, you really haven't made use of the tractor. And the same is true of information.",
+ "captions_text": "we use the example of a tractor. You can have a very expensive tractor locked in a barn, but if the barn never gets unlocked and goes out into a field, you really haven't made use of the tractor. And the same is true of information.",
  "cutaways_in_clip": [],
  "moments": [
   {
@@ -33,9 +33,9 @@
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "credited_as": "Internet Archive & Authors Alliance",
-  "license_checked_utc": "2026-11-25T18:19:23Z",
+  "license_checked_utc": "2026-11-25T18:30:12Z",
   "featured_clip_start": 1439.08,
-  "featured_clip_end": 1453.85,
+  "featured_clip_end": 1453.46,
   "crop_x": 0.5
  },
  "words": [
@@ -125,18 +125,18 @@
    "e": 5.699999999999999
   },
   {
-   "w": "barn.",
+   "w": "barn,",
    "s": 5.699999999999999,
    "e": 5.959999999999999
   },
   {
-   "w": "But",
-   "s": 6.279999999999999,
-   "e": 6.300000000000001
+   "w": "but",
+   "s": 6.18,
+   "e": 6.32
   },
   {
    "w": "if",
-   "s": 6.300000000000001,
+   "s": 6.32,
    "e": 6.84
   },
   {
@@ -197,11 +197,11 @@
   {
    "w": "you",
    "s": 10.38,
-   "e": 10.62
+   "e": 10.6
   },
   {
    "w": "really",
-   "s": 10.62,
+   "s": 10.6,
    "e": 10.84
   },
   {
@@ -232,11 +232,11 @@
   {
    "w": "tractor.",
    "s": 12.14,
-   "e": 12.5
+   "e": 12.48
   },
   {
    "w": "And",
-   "s": 13.040000000000001,
+   "s": 13.08,
    "e": 13.319999999999999
   },
   {
@@ -267,7 +267,7 @@
   {
    "w": "information.",
    "s": 14.020000000000001,
-   "e": 14.42
+   "e": 14.38
   }
  ]
 }

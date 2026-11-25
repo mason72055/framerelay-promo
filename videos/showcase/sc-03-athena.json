@@ -2,8 +2,8 @@
  "name": "sc-03-athena",
  "style": "showcase",
  "file": "videos/showcase/sc-03-athena.mp4",
- "seconds": 19.1,
- "caption": "One 80-minute talk, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive, CC BY. framerelay.app",
+ "seconds": 19.5,
+ "caption": "One 82-minute talk, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive, CC BY. framerelay.app",
  "yt_title": "One long talk, 3 ready-to-post clips #shorts",
  "captions_text": "That means that for the price of buying 70 copies of every scholarly monograph and 70 subscriptions to every scientific journal, we could make academic content available to everyone.",
  "cutaways_in_clip": [],
@@ -33,7 +33,7 @@
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "credited_as": "Internet Archive",
-  "license_checked_utc": "2026-11-25T18:15:52Z",
+  "license_checked_utc": "2026-11-25T18:28:34Z",
   "featured_clip_start": 1354.81,
   "featured_clip_end": 1366.27,
   "crop_x": 0.5
@@ -157,16 +157,16 @@
   {
    "w": "make",
    "s": 8.429999999999998,
-   "e": 8.749999999999998
+   "e": 8.769999999999998
   },
   {
    "w": "academic",
-   "s": 8.749999999999998,
-   "e": 9.51
+   "s": 8.769999999999998,
+   "e": 9.53
   },
   {
    "w": "content",
-   "s": 9.51,
+   "s": 9.53,
    "e": 10.069999999999999
   },
   {

@@ -2,8 +2,8 @@
  "name": "sc-02-ai-tools",
  "style": "showcase",
  "file": "videos/showcase/sc-02-ai-tools.mp4",
- "seconds": 30.4,
- "caption": "One 65-minute interview, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
+ "seconds": 30.8,
+ "caption": "One 63-minute interview, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
  "yt_title": "One long interview, 3 ready-to-post clips #shorts",
  "captions_text": "every time I hear people go about Wild West anything when it comes to technology, the interpretation of legislators is, oh, we need to do more rules. But if you look at every Western movie, you know, the central piece is the sheriff. It's not the judge, usually, or the legislator.",
  "cutaways_in_clip": [],
@@ -33,7 +33,7 @@
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "credited_as": "Internet Archive & Authors Alliance",
-  "license_checked_utc": "2026-11-25T18:13:21Z",
+  "license_checked_utc": "2026-11-25T18:26:57Z",
   "featured_clip_start": 2111.62,
   "featured_clip_end": 2134.37,
   "crop_x": 0.45
@@ -77,11 +77,11 @@
   {
    "w": "Wild",
    "s": 2.46,
-   "e": 2.8600000000000003
+   "e": 2.84
   },
   {
    "w": "West",
-   "s": 2.8600000000000003,
+   "s": 2.84,
    "e": 3.2199999999999998
   },
   {
@@ -122,11 +122,11 @@
   {
    "w": "interpretation",
    "s": 7.739999999999999,
-   "e": 8.280000000000001
+   "e": 8.3
   },
   {
    "w": "of",
-   "s": 8.280000000000001,
+   "s": 8.3,
    "e": 8.68
   },
   {
@@ -141,7 +141,7 @@
   },
   {
    "w": "oh,",
-   "s": 9.559999999999999,
+   "s": 9.54,
    "e": 9.760000000000002
   },
   {
@@ -176,7 +176,7 @@
   },
   {
    "w": "But",
-   "s": 12.46,
+   "s": 12.48,
    "e": 12.739999999999998
   },
   {
@@ -197,21 +197,21 @@
   {
    "w": "at",
    "s": 13.239999999999998,
-   "e": 13.379999999999999
+   "e": 13.399999999999999
   },
   {
    "w": "every",
-   "s": 13.379999999999999,
+   "s": 13.399999999999999,
    "e": 13.959999999999997
   },
   {
    "w": "Western",
    "s": 13.959999999999997,
-   "e": 14.68
+   "e": 14.66
   },
   {
    "w": "movie,",
-   "s": 14.68,
+   "s": 14.66,
    "e": 15.64
   },
   {
@@ -252,11 +252,11 @@
   {
    "w": "sheriff.",
    "s": 18.38,
-   "e": 18.66
+   "e": 18.68
   },
   {
    "w": "It's",
-   "s": 19.88,
+   "s": 19.959999999999997,
    "e": 20.32
   },
   {

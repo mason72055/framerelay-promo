@@ -2,10 +2,10 @@
  "name": "sc-01-side-door",
  "style": "showcase",
  "file": "videos/showcase/sc-01-side-door.mp4",
- "seconds": 18.5,
- "caption": "One 60-minute interview, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
+ "seconds": 18.9,
+ "caption": "One 62-minute interview, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
  "yt_title": "One long interview, 3 ready-to-post clips #shorts",
- "captions_text": "I have these amazing interviews with people. Our, and for some people, I ended up talking to them like two or three hours. You know, I have all this repository of stuff that I'm like, what do I do with that now?",
+ "captions_text": "I have these amazing interviews with people hour and for some people I ended up talking to them like two or three hours. You know, I have all this repository of stuff that I'm like, what do I do with that now?",
  "cutaways_in_clip": [],
  "moments": [
   {
@@ -33,7 +33,7 @@
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "credited_as": "Internet Archive & Authors Alliance",
-  "license_checked_utc": "2026-11-25T18:04:54Z",
+  "license_checked_utc": "2026-11-25T18:25:04Z",
   "featured_clip_start": 1760.77,
   "featured_clip_end": 1771.67,
   "crop_x": 0.45
@@ -70,23 +70,23 @@
    "e": 1.8500000000000005
   },
   {
-   "w": "people.",
+   "w": "people",
    "s": 1.8500000000000005,
-   "e": 2.210000000000001
+   "e": 2.1900000000000004
   },
   {
-   "w": "Our,",
-   "s": 2.7300000000000004,
-   "e": 2.790000000000001
+   "w": "hour",
+   "s": 2.1900000000000004,
+   "e": 2.7699999999999996
   },
   {
    "w": "and",
-   "s": 3.09,
-   "e": 3.370000000000001
+   "s": 2.7699999999999996,
+   "e": 3.1500000000000004
   },
   {
    "w": "for",
-   "s": 3.370000000000001,
+   "s": 3.1500000000000004,
    "e": 3.5500000000000007
   },
   {
@@ -95,23 +95,23 @@
    "e": 3.7300000000000004
   },
   {
-   "w": "people,",
+   "w": "people",
    "s": 3.7300000000000004,
    "e": 4.01
   },
   {
    "w": "I",
-   "s": 4.030000000000001,
+   "s": 4.01,
    "e": 4.17
   },
   {
    "w": "ended",
    "s": 4.17,
-   "e": 4.33
+   "e": 4.35
   },
   {
    "w": "up",
-   "s": 4.33,
+   "s": 4.35,
    "e": 4.49
   },
   {
@@ -152,11 +152,11 @@
   {
    "w": "hours.",
    "s": 5.550000000000001,
-   "e": 5.91
+   "e": 5.93
   },
   {
    "w": "You",
-   "s": 6.610000000000001,
+   "s": 6.630000000000001,
    "e": 6.67
   },
   {
@@ -166,7 +166,7 @@
   },
   {
    "w": "I",
-   "s": 6.77,
+   "s": 6.75,
    "e": 6.99
   },
   {
@@ -216,12 +216,12 @@
   },
   {
    "w": "what",
-   "s": 9.15,
-   "e": 9.290000000000001
+   "s": 9.17,
+   "e": 9.41
   },
   {
    "w": "do",
-   "s": 9.290000000000001,
+   "s": 9.41,
    "e": 9.530000000000001
   },
   {
@@ -242,11 +242,11 @@
   {
    "w": "that",
    "s": 9.89,
-   "e": 10.15
+   "e": 10.17
   },
   {
    "w": "now?",
-   "s": 10.15,
+   "s": 10.17,
    "e": 10.55
   }
  ]
