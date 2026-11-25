@@ -1,0 +1,319 @@
+[    9.2] Think of your everyday interactions with technology.
+[   12.7] Scrolling, swiping, clicking.
+[   15.0] They feel intuitive, even effortless.
+[   17.9] Behind that seamless experience is a history shaped
+[   20.7] by women whose contributions have often gone unrecognized.
+[   24.8] As the field of interaction design
+[   26.3] took shape over the past 50 years,
+[   28.3] many of its most influential architects
+[   30.7] entered quietly through side doors,
+[   33.4] not always invited, but impossible to ignore
+[   36.0] once they were inside.
+[   38.1] Hi everyone, I'm Chris Freeland
+[   39.6] and I'm the librarian at the internet archive.
+[   41.4] And I'm gonna welcome you to today's book talk.
+[   44.1] Today we're exploring In Through the Side Door
+[   46.2] by Aaron Malone, a groundbreaking account
+[   48.8] of the women who helped invent and define
+[   51.5] the field of interaction design.
+[   53.5] Our conversation today will be led by author
+[   55.5] and interaction designer, Abby Covert.
+[   58.4] And as we start up here, I would like to make sure
+[   61.7] that you've subscribed to Future Knowledge, our new podcast.
+[   64.8] So we've been running this series of online book talks
+[   67.1] since 2021 and throughout that time,
+[   69.2] people have asked if we could turn these talks
+[   71.2] into a podcast for easier listening on the go.
+[   74.4] Certainly how I like to listen to podcasts
+[   77.5] and conversations like this.
+[   79.2] So it's taken a little while, but here we are.
+[   81.4] Last week we launched Future Knowledge with two episodes.
+[   84.6] Our recent chat with Joshua Levine and Tim Wang
+[   87.0] for their paper copyright, AI and great power competition
+[   91.4] and a classic episode featuring historian Peter Baldwin
+[   94.6] in conversation with copyright scholar P.M. Samuelson
+[   97.8] about Baldwin's classic text, The Copyright Wars.
+[  101.1] Both episodes are out now wherever you get your podcast.
+[  104.3] We'll have new episodes out every other Wednesday
+[  107.4] and this conversation is slated to come out in August.
+[  110.8] We're playing a little catch up
+[  111.9] with some of our recent talks.
+[  113.4] So please listen and subscribe with the link
+[  116.8] that Duncan has shared out in the chat
+[  119.0] and be sure to pick up your copy of In Through the Side Door.
+[  122.5] Duncan, who we've talked about mentioned previously
+[  124.9] is working behind the scenes along with Caitlin
+[  126.9] here today, thank you both.
+[  130.0] Sharing links out so that you can find the book
+[  131.8] through the publisher's website.
+[  133.2] This book is published by MIT Press.
+[  135.9] Before we dive in, we'd like to take care
+[  138.0] of just a couple of logistics.
+[  139.9] Please do say hi in the chat.
+[  141.8] Introduce yourself, let us know who you are
+[  143.8] and where you're tuning in from today.
+[  145.9] Our chat is open for today's discussion.
+[  148.2] Please do keep it relevant and respectful
+[  150.3] and feel free to drop in questions for our panelists.
+[  153.1] We'll pick those up at our Q and A
+[  155.1] as we come around to the end of our time together today.
+[  158.1] Tomorrow, a question that is always asked.
+[  160.2] Yes, we are recording today's session.
+[  162.2] All participants will receive an email tomorrow
+[  165.4] containing the recording from today's chat,
+[  168.3] the shared links and a chat transcript.
+[  171.1] So with that, here to introduce our speakers
+[  175.4] and set the stage for today's discussion
+[  177.3] is Dave Hanson, the Executive Director of Authors Alliance.
+[  181.6] Over to you, Dave.
+[  183.2] Thanks, Chris.
+[  184.3] Hi, everyone.
+[  185.7] Welcome to the talk today.
+[  186.9] I'm Dave Hanson, Executive Director of Authors Alliance.
+[  191.8] If you're not familiar with Authors Alliance,
+[  193.4] we exist to advance the interest of authors
+[  195.8] who want to serve the public good
+[  197.7] by sharing their creations broadly.
+[  202.3] And part of this talk series,
+[  205.8] one of the things that I really enjoy about this
+[  208.1] is when we're able to surface discussions
+[  212.5] and books that really get at stories
+[  215.0] that maybe a lot of people have missed
+[  217.1] about how we learn from and interact with each other.
+[  221.9] And this is one of those books that I think is really special.
+[  225.5] Some of the book talks that we do,
+[  227.0] I know a lot of the story beforehand,
+[  229.5] but I learned a ton going through this book.
+[  232.6] So I'm really, really pleased to introduce our author
+[  237.2] and collaborator today on this talk.
+[  243.6] And then we'll do questions and answers,
+[  247.0] kind of put those in the chat as we go along
+[  248.9] and we'll bring those in at the end.
+[  251.8] So first, I'm delighted to introduce Abby Covert.
+[  255.5] She is an author, teacher and community leader
+[  258.7] in the field of information and architecture
+[  261.0] and her work aims to make information architecture
+[  263.4] and sense making skills available to everyone.
+[  266.5] She has a pretty awesome website,
+[  268.1] so you should check that out.
+[  270.4] She is the chief sense maker at the Sensemakers Club
+[  273.8] where she curates daily peer led discussions
+[  276.1] about topics like information, governance, change,
+[  279.0] leadership, knowledge management and ethics.
+[  283.4] And her two books that I'd point you to
+[  286.3] are the first is called How to Make Sense of Any Mess,
+[  290.2] which I had encountered before this talk,
+[  292.4] and it's really awesome.
+[  293.8] And she has another book also called Stuck, Diagrams Help.
+[  298.1] So I won't dwell on those too much,
+[  300.2] but I would encourage you to go check them out.
+[  302.1] They're really neat resources.
+[  305.1] And Abby will be in conversation today with Erin Malone,
+[  310.7] who is the author of In Through the Side Door.
+[  314.9] Erin is professor and chair of the Interaction Design BFA
+[  319.1] program at California College of the Arts.
+[  322.6] She teaches a number of classes there,
+[  324.3] visual interaction design,
+[  325.9] IXD Foundations, Behavior and Interaction Design History.
+[  330.8] And she's been the principal interaction designer
+[  335.3] at Experience Matters Design.
+[  338.5] She's one thing I learned about her,
+[  341.5] that's pretty interesting.
+[  342.6] She spent several years consulting
+[  344.2] with the Anti-Defamation League Center
+[  345.9] for Technology and Society,
+[  348.3] working on fighting hate in online social spaces and games.
+[  352.4] It's pretty impactful work.
+[  356.3] And she has a long history here.
+[  357.8] She spent four years at Yahoo, Building and Managing,
+[  361.1] the Platform User Experience Design Team.
+[  363.7] She's worked at AOL at Altavista
+[  369.3] and a number of other Silicon Valley firms.
+[  372.6] She started her work in Silicon Valley at Adobe.
+[  379.8] I have many more things I could say about her.
+[  381.4] She's also author of Designing Social Interfaces
+[  385.4] from O'Reilly Media, which you might wanna check out.
+[  390.0] And if you look up her profile on the internet,
+[  392.1] you'll find after reading about a voluminous
+[  395.4] and really amazing career,
+[  400.2] you get to the bottom and you find out
+[  402.4] that she has spare time.
+[  404.6] So she says in her spare time,
+[  406.0] she is a writer, a photographer,
+[  408.3] and a letterpress printer.
+[  410.5] And I'm really pleased that she's a writer
+[  412.2] because this is a pretty amazing book.
+[  414.4] And I'm so glad to introduce her
+[  416.9] and have her lead us through this story
+[  419.5] of women in interaction design.
+[  422.8] So thank you.
+[  423.6] And I will turn it over to Abby and Erin.
+[  428.5] Erin, you wanna get set up with your tech?
+[  430.9] Yes, great.
+[  431.9] Thank you so much.
+[  432.7] I'm gonna share my screen.
+[  438.7] So thanks everybody.
+[  440.1] And so just to give a little bit of background
+[  444.4] about how this book came about
+[  446.1] and a little bit about my research process
+[  449.6] before we get into the conversation,
+[  451.5] I was working on a different book during the pandemic
+[  455.9] and I got to a point where I couldn't go any further
+[  458.8] because of the pandemic.
+[  460.3] I needed to be able to get into archives.
+[  462.7] So at the same time,
+[  464.6] I was also teaching a history of interaction design
+[  467.8] at California College of the Arts for the first time.
+[  470.8] And I was amazed that there weren't any stories of women
+[  473.8] other than Brenda Laurel and Susan Care.
+[  476.4] And so I started to look through all the design books
+[  480.4] I have on women in design
+[  482.1] and I kept finding bios of Brenda Laurel and Susan Care.
+[  487.0] And I was like, I've worked with so many women
+[  488.9] over the years.
+[  490.0] There's got to be more here.
+[  491.1] So I switched from the book that I was writing
+[  495.5] to start writing this book.
+[  497.2] And in the process, I also realized
+[  499.1] there was not a history of interaction design at all.
+[  501.6] There's a lot of pieces and a lot of places.
+[  504.0] So I wanted to dig out those hidden stories
+[  507.0] about women in, you know, who designed technology.
+[  511.9] So I started by looking through all my women
+[  514.7] and design books and finding, you know,
+[  517.0] who was covered, who was not,
+[  519.0] what was the structure of the books,
+[  521.2] how were those put together.
+[  522.8] A lot of these women in design books are just profiles
+[  526.8] one after the other without anything stringing them together.
+[  530.4] But I spent a lot of time perusing those
+[  532.8] mostly graphic design, architecture, interior design
+[  537.0] and some games.
+[  538.5] And then I reached out to my network across social media
+[  542.3] across Twitter before it was X, LinkedIn, et cetera,
+[  547.0] through my user experience design
+[  548.8] and interaction design community.
+[  550.5] And I asked people, if you were to read a book
+[  553.2] about women in interaction design,
+[  555.1] who should be in that list?
+[  557.2] And this is just one example of the many, many spreadsheets
+[  561.1] I have of names.
+[  562.6] And you can see there's more people
+[  565.0] than Jess Brenda Laurel and Susan Carr involved
+[  567.2] in this industry.
+[  568.6] And you see an explosion of women coming
+[  571.7] into the field of computers and software design
+[  575.8] after the graphical user interface came into being.
+[  580.1] And so you have people that are doing user research
+[  583.1] and graphic design and visual design and writing
+[  585.7] and all kinds of cognitive psychology
+[  588.5] and social psychology coming into this field
+[  591.9] not as computer programmers.
+[  594.7] So I also spent a lot of time in the Wayback Machine
+[  598.2] looking up websites, trying to find stories of women
+[  601.4] particularly in the early era of the web.
+[  604.5] So there's a sort of an era pre-web
+[  607.1] where you've got in the mid 80s with Apple
+[  610.8] and all the software design.
+[  612.5] And then as the web comes online as well as CD-ROM,
+[  617.5] so I trolled through hundreds and hundreds of websites
+[  622.1] on the Wayback Machine.
+[  624.3] I also did deep dives into technology and design history
+[  628.2] looking at computer history
+[  630.2] and how things came about and who was involved,
+[  634.1] much more technical than where I get into in the book.
+[  637.7] But I wanted to make sure I was having a good wide range.
+[  642.0] And there's a lot of people that I wrote about
+[  644.3] that actually ended up not being in the book
+[  646.4] and I'll talk about that in a little bit.
+[  651.1] I also in the process of writing,
+[  653.7] once I had my contract with MIT Press
+[  658.4] and submitted a manuscript then peer review,
+[  664.3] came back, did some rewriting.
+[  666.3] And I basically rewrote the whole book
+[  668.6] in terms of all the connection content
+[  672.6] that strings together the small profiles.
+[  675.7] And so I dug into feminism and critical race theory.
+[  679.5] And in the final book, I ended up mapping the eras
+[  682.8] of interaction design to the waves of feminism
+[  686.0] up until 2012, which is where I stopped.
+[  689.6] But I also did a lot of work in looking at
+[  693.4] gender and technology and new media.
+[  696.1] Many of these books that I'm showing right here
+[  698.1] I actually found first on the internet archive
+[  701.5] and decided I actually needed my own copies
+[  703.5] that I could highlight and put post it notes in.
+[  706.8] And then I went back way back old school
+[  709.4] to index cards where I put all my quotes
+[  713.3] and things and collecting.
+[  714.3] So this was a two and a half year process
+[  718.4] that from the start of this sort of mission
+[  723.1] to get these stories.
+[  724.9] And in that process, I started doing some social media
+[  729.2] announcements of the accolades and the contributions
+[  735.3] of many of the women who I was researching.
+[  738.6] And so I pushed these out across social media
+[  740.8] for over two years.
+[  742.3] And then I also in the process I interviewed
+[  745.4] about 55 or more women in the field.
+[  749.6] There are several women who are no longer with us,
+[  751.7] but talking to people about their experiences
+[  756.4] and how they got involved in technology.
+[  759.3] And then I took all those little snippets.
+[  761.9] I self-published a little book that's a timeline.
+[  765.9] That's also on my website.
+[  767.3] The timeline is on the website.
+[  769.7] Just one, I was testing self-publishing.
+[  771.9] I did this kind of before I had a contract with MIT Press.
+[  775.5] And this became a nice little giveaway
+[  778.5] and also was selling these to help fund
+[  781.4] being able to pay for an editor.
+[  783.7] Because publishers don't give you all that information,
+[  786.7] all those resources anymore.
+[  788.8] And then there is a website where all the people
+[  791.9] that I ended up cutting from the book,
+[  795.0] even though I may have quotes from them
+[  796.4] are on this website, women and interaction design.
+[  799.3] And I've been publishing these over the last two
+[  802.4] and a half years as about a couple of months,
+[  806.6] maybe once a month, it ebbs and flows
+[  808.9] depending on my schedule at school.
+[  811.9] And then the output, the end of it, is the book.
+[  815.5] So that's just a little bit about my process
+[  817.9] for how I got here and all the kinds of things
+[  820.4] that I ended up doing with the research
+[  822.7] that are above and beyond the book.
+[  825.6] So here's some links.
+[  828.4] Hopefully Duncan can put those in the chat for you guys.
+[  832.6] Erin.
+[  833.6] And let me just stop sharing.
+[  835.6] Hi.
+[  836.6] Hey, Abby.
+[  837.2] I'm excited to talk to you about this.
+[  839.2] So first of all, I just want to say congratulations.
+[  842.3] This is a tremendous body of work,
+[  845.0] not just the book that I'm holding,
+[  846.9] which is amazing just to get a book that someone can hold,
+[  849.3] but also the body of work behind it
+[  851.6] and just how deep you went into the research.
+[  854.0] So I know that you just gave us the really broad strokes
+[  857.4] of your research process.
+[  858.7] Is it OK if I get a little nerdy with you?
+[  860.5] Yes, please.
+[  862.4] Cool.
+[  863.5] So the first thing I want to talk about is your why.
+[  865.8] You mentioned that it was 2020 and you can go any further
+[  868.6] on your other project.
+[  870.4] But I have a hard time believing that that's
+[  872.1] like enough to get us through here.
+[  874.8] So what is the big why?
+[  876.5] Is it about future generations?
+[  879.4] I put this much two and a half years of your life
+[  881.4] into documenting this history.
+[  884.0] I was pissed off.
+[  885.2] So that was the end.
+[  887.7] You know, I had this.
+[  888.8] I was taking over this Interaction Design History
+[  890.9] class from a previous professor who went on sabbatical.
+[  894.5] And he's amazing.
+[  895.7] And he actually helped me with my proposal to MIT Press.

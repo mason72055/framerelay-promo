@@ -1,0 +1,118 @@
+[    4.0] For years, the open access movement has promised a more equitable world for scholarship.
+[    9.6] But as more of our publishing infrastructure is shaped or captured by commercial incentives,
+[   15.7] a harder question keeps surfacing.
+[   17.9] If knowledge is openly available but controlled by the same market forces as before,
+[   22.8] has anything truly changed?
+[   24.9] Hi everyone.
+[   25.9] I'm Chris Freeland and I'm a librarian at the Internet Archive.
+[   28.4] I want to welcome you to today's Book Talk.
+[   31.4] In his book, Publishing Beyond the Market, Samuel Moore challenges us to rethink open access from the ground up.
+[   37.5] Guiding our conversation today will be someone who knows quite a bit about scholarly publishing herself, Heather Joseph, the Executive Director of Spark.
+[   45.0] And as we start up here, I'd like you to say hi and chat.
+[   49.0] Please, introduce yourself and let us know where you're joining in from today.
+[   53.0] You'll see that our chat is open for today's discussion.
+[   56.0] Please, we're asking you to keep it relevant and respectful.
+[   59.5] And please do drop in questions for our speakers today and we'll work those into the Q&A as we come around to the top of the hour.
+[   69.0] Tomorrow, a question that is always asked, yes, we are recording today's session and all participants will receive an email tomorrow containing a link to today's recording,
+[   78.5] to those shared links and also to the chat transcript.
+[   81.0] So, just be aware, we are preserving this and we'll make the chat transcript public.
+[   86.0] Now, a question.
+[   87.5] Have you subscribed to the Future Knowledge podcast?
+[   90.0] So, after we host these live sessions, we turn them into a podcast so you can listen to them on the go.
+[   95.0] We have new episodes out every other Wednesday.
+[   97.5] And the episode that just came out this week was from our talk with Corey Doctorow for his latest book about how the internet became awful and what we can do about it.
+[  107.0] Please do listen and subscribe using the links that Duncan, who's working behind the scenes here today along with Caitlyn and Sterling.
+[  113.0] Thank you.
+[  114.0] Duncan has shared some links out in the chat.
+[  117.0] And also, be sure to pick up your copy of Publishing Beyond the Market, which is available both for purchase in print and you can read an open access version online and download it too.
+[  128.4] So, thank you, Sam, for making that open access version available and also thanks to the University of Michigan Press.
+[  136.4] So, okay, as we get started here today, I would like to welcome Brewster Cale, the internet archives digital librarian to the screen for a little context setting.
+[  145.9] Are you there, Brewster?
+[  146.9] Yes, and thank you very much for putting this on and thank you for this, Sam and Heather.
+[  152.9] This is so important.
+[  153.9] I mean, we run a library that's becoming more and more difficult.
+[  158.4] I mean, back in the old days, we would buy things like really buy things and then make it more available to people through lending, through interlibrary loan, through the Xerox machine that was planted in every library.
+[  170.9] All these things are becoming incredibly complicated.
+[  173.9] Now that we have these gatekeepers that are constricting access so that we have intermediaries that are asserting enormous levels of control.
+[  183.9] And our libraries are worse in many ways than they were when I was growing up.
+[  188.9] That was not the digital promise.
+[  190.9] So, please, Heather and Sam, help us out here and provide a path.
+[  196.9] Thanks, Brewster.
+[  201.3] So here to introduce our speakers and to set this page for today's discussion is Dave Hanson, the executive director of authors Alliance over to you, Dave.
+[  210.3] Thanks, Chris.
+[  211.3] And thanks Brewster.
+[  212.3] And thank you for everybody who's joined.
+[  215.3] I'm really glad that you're here today.
+[  217.3] This is a talk that I've really been looking forward to.
+[  220.3] So, of course, authors Alliance, I think many of you are familiar with authors Alliance and we, we spend a lot of time working on scholarly publishing issues.
+[  230.3] And in particular, this past year we spent a lot of time working on how to support some of the legal infrastructure around open access, particularly with regard to grant funded works and thank you, Heather and spark for collaborating so much with us on that.
+[  248.3] But one of the major challenges, I think that academic publishing faces today is that so much of what is published is dependent on an increasingly concentrated set of ownership interests that dictate how the infrastructure that supports these publishing systems really work.
+[  270.3] I think many of you know me.
+[  272.3] And for, for several years, I was at Duke University in a role where I was responsible for figuring out how to handle some of the collections acquisition and payment things that, you know, go out to some of the major now conglomerated publishers that that we deal with every day.
+[  295.3] And one of the things that happened, I was, I was there seven years and over the course of seven years, even that short amount of time, what you saw what I saw was a kind of collapse of competition.
+[  309.3] If you could say there was even competition at the beginning of that seven years where you look around and you see relics and else if you're kind of gobbling up all of the pieces of infrastructure that you think you like.
+[  320.3] I remember when they bought SSRN and then they bought B press and you sort of see these things just sort of dissipate that we relied on as real critical infrastructure for sharing scholarly works.
+[  333.3] And so this conversation in Sam's book about kind of open access infrastructure and scholarly publishing infrastructure I think is really, really important and really well timed.
+[  344.3] So thank you. I'm going to do just some brief introductions to Sam and to Heather for those of you who don't know them.
+[  352.3] Sam, Sam Moore is a scholarly communications specialist at Cambridge University Library.
+[  359.3] I had the pleasure I don't end up in Cambridge very often but I had the pleasure of meeting Sam a couple years ago actually when we did a in person book talk at Cambridge we collaborated on with Peter Baldwin who actually gave a talk for this series on his book.
+[  373.3] Athena Unbound.
+[  376.3] And so Sam is a affiliated lecturer at the Cambridge digital humanities and a college research associate at Kings College Cambridge and his research sits within the digital humanities and focuses on topics related to academic publishing research practices in the humanities and social sciences
+[  399.3] and issues relating to research communication. So he holds a PhD in digital humanities from Kings College London.
+[  407.3] And he's also one of the organizers of the radical open access collective which is a pretty cool thing you should check out.
+[  414.3] You can do a little Google search for that.
+[  418.3] So Sam's going to be talking about his book today in conversation with Heather Joseph.
+[  423.3] Heather is the executive director of Spark, which has been one of the leading advocates in the United States on open access.
+[  434.3] And for the last 20 years, Heather has led Spark and had some really has had some really amazing wins on the policy front in terms of pushing policy
+[  446.3] and helping not just policy happen but helping the organizations that are necessary to support open access kind of move along with that policy to see open access to scholarly publishing grow.
+[  460.3] So one really shining example to me is that behind the scenes in many ways I think sparked it a ton of the groundwork that led to the federal government implementing a policy just a few years ago that said that
+[  474.3] all federally funded research that where the government's paying grant dollars out that research has to be immediately available to the public for free once it is published.
+[  486.3] So Heather gets a lot of credit for seeing those kinds of policies be put in place.
+[  493.3] So Heather has a long history before Spark as well.
+[  497.3] I always think it's kind of interesting when I do these intros I learned about people who I've known for a long time.
+[  503.3] Heather I was checking out your LinkedIn and I did not know about the one year stint at Elsevier.
+[  508.3] So that's a kind of interesting background note.
+[  511.3] But she has a ton of experience in scholarly publishing and open access and so I think this will make a really interesting conversation today.
+[  521.3] So, with that, I will hand it over to Sam and he's going to do a intro to the book.
+[  530.3] Thank you very much Dave.
+[  532.3] And thanks to the organizers. Yeah, it's really nice to join you all this evening and kind of UK time.
+[  539.3] So, so what I'm going to do is try to introduce some of the themes of the book, particularly kind of academic publishing how it's kind of a weird industry.
+[  548.3] So I should say from the outset that I've just noticed that there's there's a sale going on on University of Michigan press you can get the book for 50% off right now.
+[  556.3] If you do want to buy a print version but it's also open access as well as Chris said.
+[  561.3] But so so academic publishing is kind of a notoriously extractive industry.
+[  567.3] And it's been that way for quite a number of years.
+[  571.3] It's a very sort of interesting industry in the sense that the labor and the content is provided by working academics who get their salaries by and large to kind of universities and those places.
+[  581.3] But then commercial organizations sort of take that labor and they repackage it and they organize peer review they do lots of helpful things but essentially they they managed to get a lot of their work for free.
+[  593.3] And so the open access movement in many ways was sort of responding to what they saw as the increasing kind of commercial control of the publishing industry of academic knowledge production.
+[  606.3] And so in the say in the 90s this sort of manifested in what was called the cereals crisis where journals, journal prices were increasing far beyond the rate of inflation.
+[  618.3] Now, academic libraries need to subscribe to as many journals as they can because obviously you need as much coverage of the literature as possible you can't just have small amounts of it.
+[  628.3] And so they are essentially dealing in kind of many monopolies really if you publish one article then you can sort of control that.
+[  635.3] And so, so the open access movement in say I think it was sort of the early 2000s became this thing that was responding to the economic conditions.
+[  645.3] And they were looking at sort of new digital technologies and they were saying actually we can we can use digital technologies to make stuff freely available.
+[  656.3] And so that was the kind of exciting time and interesting time for these advocates and they thought we can we can put these technologies to good use, and we can do so just to give the literature to people.
+[  666.3] That might that they didn't necessarily frame that in purely kind of in terms to that might make the economics of publishing better.
+[  673.3] That was the end goal really for sort of how the open access movement was originally kind of defined.
+[  678.3] So it turns out that kind of what happened there, because they were focusing on open access to the literature and how to make that happen.
+[  688.3] Commercial publishers were essentially kind of still welcome in the kind of in the camp.
+[  693.3] And so they extracted and continue to extract, just like they did for subscription publishing, they do so with open access as well.
+[  701.3] And they do that with regards to primarily to article processing charges, which are individual payments that are paid to publishers to make the work open access and those payments kind of total, I mean, average of around sort of $3,000 I think on the top of my head.
+[  718.3] And then alongside that this the old subscription model which still exists today and it's still just as kind of important to an extent.
+[  726.3] While there's more open access material being published.
+[  729.3] Those APCs have sort of turned into new forms of subscriptions as well via what's called transformative agreements, which kind of allow universities to pay in advance for publishing at the same time as access.
+[  742.3] So these two things are really related.
+[  744.3] And so, so the economics of it has meant that while in the subscription market.
+[  752.3] Publishers were not necessarily incentivized to publish tons of papers. It was just more of a kind of sense of, if you publish certain things people will subscribe to them.
+[  761.3] And that's how the economics work. But now with the open access movement.
+[  766.3] One thing which has happened is this push for volume and commercial publishers are very much incentivized by these article processing charges.
+[  775.3] And so we see kind of now no end of publications that shouldn't have been published because publishers are not really keeping track on what they're publishing and they're letting things kind of slip.
+[  786.3] They're also very incentivized to automate a lot of this stuff and to remove remove humans from the process as much as possible.
+[  793.3] And so, and so all that's kind of bad. And so that's a sort of a very basic introduction to kind of what's happened with academic publishing and I'm sure that Heather and I will kind of get through some of this throughout the conversation.
+[  804.3] So, so my book sort of takes that as the starting point that the open access kind of failed to live up to its promise. We have lots more open access stuff now which is fantastic and it's really good I don't want to downplay that.
+[  815.3] However, it's it has meant that the same act is that commercially controlled publishing kind of before open access still still control it now.
+[  824.3] And so I took it as a starting point and I wanted to see, could we could what would it look like to have a more progressive approach to to sort of open access publishing and to academic publishing.
+[  834.3] And I tried to do that through the lens of the commons or the digital commons.
+[  839.3] And so the digital commons is a term that actually all around the same time as open access was a thing that was that was kind of coming up and it meant kind of it was really framed as sort of we can make we can make free access to stuff we can give like Wikipedia
+[  853.3] kind of seem as a digital commons or creative commons being the same kind of thing we can license things and make it freely available. And, and my argument really is that those things, including open access and the commons in the digital sense did not really take
+[  868.3] production into account didn't really take how we actually produce this stuff into account it was still very happy to say actually commercial actors are kind of fine in this space, they can still make money as long as the stuff is free.
+[  880.3] Now to an extent that there was like you can see the logic there they're responding to a particular moment where we have these new technologies and we want to make stuff freely available and and and it's a kind of a liberal argument for kind of how this kind of stuff works.
+[  893.3] But it turns out that if you give if you allow commercial actors kind of in in that regard they just hover it up and they just.

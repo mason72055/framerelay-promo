@@ -1,0 +1,145 @@
+[    3.3] Hi everyone. My name is Chris Freeland and I'm a librarian at the Internet Archive.
+[    7.3] I want to welcome you to today's webinar about physical donations to the Internet Archive.
+[   12.3] So some people are surprised to learn that the Internet Archive has an active physical donations program.
+[   17.3] We work with libraries, schools, publishers, and individual collectors
+[   22.3] who are looking to donate physical materials for preservation and digitization as funding allows.
+[   28.3] We also have an innovative literacy partnership with Better World Books, a trusted partner for many libraries.
+[   34.3] So if you've got extra books, bound periodicals, microfilm, LPs, or other media
+[   39.3] and you're looking to find a preservation home for those materials, this session is for you.
+[   45.3] And I also want to say a thank you to those who are here from our rescheduled session.
+[   50.3] Glad you could make it back today. So we wanted to start by asking everyone to say hello in chat.
+[   55.3] Please drop a little note in, let us know who you are and where you're tuning in from today.
+[   61.3] Our chat is open for today's session. Please keep it respectful and on topic.
+[   67.3] And we will use the chat to gather up questions for our speakers as we go into a couple different Q&A sessions
+[   75.3] throughout today's conversation.
+[   77.3] We are recording today's session. That's a question that always comes up.
+[   81.3] Yes, the session recording and the chat will be preserved on the Internet Archive
+[   87.3] and we'll send an email out to everyone who registered tomorrow with a link to the video and to the chat.
+[   94.3] And so as I've said a couple of times now, the chat is open. Don't put anything in there that you don't want the world to read.
+[  101.3] So I'd like to bring our presenters to the screen. So it would be great if Liz, Christina, Emily,
+[  107.3] Kaslan and Jeremy could kick on your video and just wave hello. So today's we're going to be hearing from the away team
+[  115.3] donations team at the Internet Archive and from Christina at Better World Book.
+[  119.3] So we've got Liz Rosenberg, who's the donations manager at the Internet Archive, Christina Griffin,
+[  124.3] who is the director of Strategic Sales at Better World Books.
+[  127.3] We've got Emily Brash, who works with Liz and donations along with Jeremy Modell,
+[  133.3] a away team manager and Kaslan, who also works with the away team.
+[  137.3] So that's the crowd that's going to be talking with you today and I'd like to give you the game plan for our conversation.
+[  145.3] So Liz is going to kick things off with a little overview of who the Internet Archive is, who we are, what we do and the people behind the scenes here.
+[  156.3] Christina is going to tell us about Better World Books and the impact that they make at local, national and at international levels.
+[  165.3] Then Liz is going to talk, come back and explain how the Internet Archive works with Better World Books to help preserve collections.
+[  171.3] And then finally we're going to walk through all the details of the Internet Archive's donations program.
+[  176.3] As I mentioned, we'll be stopping at multiple points along the way for some questions.
+[  180.3] So do drop your questions into the chat and I will work them in when we make those breaks.
+[  185.3] So with that, I would like to welcome Liz to the screen for a deeper dive into our donations program.
+[  192.3] Over to you, Liz.
+[  193.3] Thank you, Chris, and thank you all for coming to the session today.
+[  198.1] I'm excited to share with you all about the physical item donation program at the Internet Archive, which can help you preserve your collections.
+[  206.1] But first, a little bit about who we are.
+[  210.8] The Internet Archive is a 501c3 nonprofit digital research library, and this year we were designated as a federal depository library.
+[  219.8] You're based in San Francisco, but our library serves patrons from around the world.
+[  224.8] Like a paper library, we provide free access to researchers, historians, scholars, patrons with print disabilities, and the general public.
+[  232.8] Our mission is to bring universal access to all knowledge.
+[  237.8] We are most well known for our Archive of the Internet the Wayback Machine, but most folks don't know that we also preserve physical collections through this robust physical item donation program.
+[  249.8] But this program is only possible thanks to our small and mighty team who are here today.
+[  253.8] Jeremy, Micah, and Kazlon help lead away teams.
+[  256.8] Yes, like Star Trek, we're a bunch of nerds where we go on site to pack and ship whole libraries.
+[  262.8] We coordinate donations from individuals and libraries alike, sending supplies, shipping labels, and trucks to ensure a smooth journey to the physical archives.
+[  271.8] The physical archives are managed by Frank and Matt, who take great care and securing palettes for long-term storage, keep track of all the wonderful collections we preserve, and coordinate shipments to the digitization center.
+[  283.8] Our program mission is pretty broad, actually. We are generally seeking to preserve and digitize any items we do not have already in our library.
+[  294.8] No collection is considered too large or too small.
+[  298.8] We have received donations as small as just a few books or records, and we have gone on site to pack and ship whole libraries in every size in between.
+[  307.8] We are most interested in archives or collections that will be of interest to researchers in the future.
+[  313.8] But as this program has developed, we've started to encounter a really great problem. We've preserved a lot of items already.
+[  320.8] So we are currently seeking well-curated materials that are not accessible elsewhere.
+[  329.2] The items that are donated to the Internet Archive are preserved in the physical archives and shipping containers like these.
+[  335.2] Once digitized, items return to the physical archives to be stored in perpetuity.
+[  340.2] We believe preserving the physical object to be equally important to providing digital access.
+[  346.2] Since the start of this program in 2020, we have physically preserved over 7,000 pallets of media.
+[  351.2] But we like to express the scale of this work in our favorite unit of measurement, elephants.
+[  356.2] Those 7,000 pallets are roughly equivalent in weight to 1,104 African elephants.
+[  363.2] In order to get those collections or elephants to the physical archives, our team often supports our donors in puzzling out logistics.
+[  373.0] This can include everything from providing packing supplies, coordinating parcel shipment, booking freight,
+[  380.0] or even beaming down our way team to assist with the packing and shipping of large collections.
+[  386.0] The logistics of packing and shipping can feel daunting for both individuals and libraries alike,
+[  391.0] so we try to help make the donation process as easy as possible.
+[  395.0] Through this program, we are able to give a second digital life to donated collections.
+[  402.9] We try to digitize donated materials and make them available publicly as funding allows.
+[  407.9] We make no guarantees as to if and when this might be.
+[  410.9] There are some media types we are not yet digitizing, but we are happy to physically preserve them until we are able to do so.
+[  418.9] We make digitized media as accessible as we can in our digital library, so these collections can live on to serve patrons for many years to come.
+[  426.9] A lot of folks also don't know, but we do have a literacy partnership with Better World Books.
+[  434.0] As a certified B Corp, Better World Books supports libraries and global literacy programs through their book sales and donations.
+[  440.0] One of the organizations they donate books to is the Internet Archive.
+[  445.0] So to speak more about this wonderful literacy partnership and what Better World Books does,
+[  449.0] I'd like to go ahead and pass the mic to Christina from Better World Books.
+[  454.6] Thank you, Liz. Yes, I am Christina Griffin.
+[  457.6] I am the Director of Strategic Sales here at Better World Books.
+[  461.6] We are an online bookseller that operates on a reuse, reuse, recycle philosophy.
+[  466.6] We are here to solve the biggest challenges libraries face, like handling discards and community donations.
+[  473.6] We have two unique services that are tailored to make your life easier.
+[  477.6] And the best part, it comes at no cost and it helps generate funding.
+[  482.6] To support libraries of any size, we provide shipping supplies and we cover all the shipping costs.
+[  488.6] We also offer a stress-free solution for community donations with our Dropbox program.
+[  494.6] Each compact bin holds 800 books.
+[  497.6] We manage the service, scheduling and offering ways for community to notify us when the bins are full.
+[  504.6] Simply place and benefit.
+[  506.6] Better World Books was founded in 2003 by three Notre Dame graduates with a mission to create a more sustainable way to sell and donate books.
+[  517.2] From humble beginnings, operating out of dormitories, we've grown to operate three global facilities with over 3,000 partners worldwide.
+[  526.2] Here on the screen on the left, we have a picture of our founding CEO, David Murphy, and on the right, Dustin Holland.
+[  535.2] Giving back is at the heart of our mission. Together with clients and customers, we make a difference with each pre-loved book.
+[  547.7] Their support helps fund access to books in literacy.
+[  553.0] We give out educational grants every year and last year alone, we were able to support 19 organizations with over 43,000 in funding for early readers.
+[  563.0] As part of our reuse philosophy, we also donate books to the Internet Archive and Books for Africa.
+[  573.7] Yes, so the big question is what do you accept?
+[  575.7] So we're moving on to our acceptance guidelines.
+[  577.7] We make it easy to understand what items are accepted so you can make an informed decision without any guesswork.
+[  584.7] We provide both written and visual guidelines to best meet your team's work.
+[  588.7] We are here on the screen.
+[  591.7] We have listed books that we accept and books that are best donated or recycled locally.
+[  597.7] While we list your books across four different conditions, so even the most well-loved circulated books have a chance.
+[  604.7] Please make sure that your books are free of mildew, mildew, mildew, mold and heavy dust, plus no water damage and spine and pages should be intact.
+[  613.7] And don't worry, library treatments can remain as they are.
+[  616.7] So at Better World Books, we are sustainably driven and we're always looking for smarter, more sustainable ways to work,
+[  625.8] reducing on energy efficiency, reducing waste and supporting a circular economy.
+[  630.8] We reuse 44% of our boxes.
+[  633.8] We help save 7 million trees and with recyclable paper options such as mailers and void fill,
+[  639.8] we eliminate the need for over 58,000 pounds of plastic annually.
+[  644.8] Thanks, Christina.
+[  651.3] Now that we know a little bit more about each of our organizations, let's dive in a little bit deeper about how we work together.
+[  660.3] Of course, Better World Books donates books that are unique to the Internet Archive for preservation, but they also help us dedupe
+[  667.3] miscellaneous to book donations, finding homes for each book and avoiding the landfill.
+[  672.3] And we also collaborate with Better World Books to help preserve large collections where the donor cannot pack and ship by running collaborative away teams.
+[  680.3] So if you're considering the donation that includes books from your library, there are a few paths you can take.
+[  687.8] If you're seeking to donate books that bit Better World Books's acceptance criteria that Christina just described, please reach out to client services at betterworldbooks.com via email.
+[  699.8] And if you're an existing Better World Books client who has a large collection needing a home that cannot donate without help with the packing and shipping,
+[  707.8] please contact your Better World Books rep about a collaborative donation with the Internet Archive.
+[  712.8] We may be able to help.
+[  715.8] And finally, if you're seeking home for books that do not meet the Better World Books acceptance criteria, or you have non-book media,
+[  722.8] or you simply can't dedupe your books ahead of donation, please go ahead and fill out the Internet Archive's donation form.
+[  728.8] For donors that can't dedupe ahead of donation, we can explore collaborative donation with Better World Books too.
+[  734.8] So we know that was a lot of information so digest, so we're going to pause here for questions about the literacy partnership between the Internet Archive and Better World Books.
+[  745.1] Thank you for that Liz and Christina both. So we do have some questions that we'll bring in here.
+[  751.1] And so for everyone in the chat, we're going to bring a couple of the questions up here.
+[  755.1] And then there are some that we're going to hold to the longer Q&A session at the end.
+[  759.1] So a first question is Liz, do we work with donations in Canada?
+[  765.1] We do, yes. We are accepting donations through Internet Archive Canada, and we'll have more information about that later in the webinar.
+[  773.1] Awesome, thank you. Here's a question about format, and I imagine we'll probably get some other formats coming along, and I know you're going to talk about it, but let's just kick this one off here.
+[  782.1] What about interactive DVDs?
+[  786.1] We are accepting DVDs that are educational in their format, basically.
+[  791.1] So if you're interested in donating them, go ahead and fill out the donation form, and we'd love to learn more about that collection.
+[  798.5] Here's another, there's a question about ISBN search, but I'm going to hold that to the to the longer session at the end.
+[  806.5] But here's another one, maybe this is a good one to just to hit briefly.
+[  810.5] You talk about story and perpetuity. What about the environmental controls?
+[  815.5] Is there anything that you'd like to mention about environmental controls and monitoring in the collections?
+[  823.5] Sure, the physical archives themselves, we consider them to be closed stacks, so not really visible like a traditional library.
+[  830.5] And we are currently working towards climate monitoring and control across all locations.
+[  836.5] Let's do one more question on format and then keep going on and we'll hold the other questions until we come in.
+[  843.5] So, non-book collection, so what about fanzine collections as well as like, how about nitrate film?
+[  854.5] We absolutely love fanzines. I'm already thinking of a donation that we recently received, very unique.
+[  860.5] They were actually Star Trek fanzines, we loved them so much.
+[  863.5] So we are accepting them, definitely reach out if you're interested in preserving a collection of fanzines.
+[  869.5] And we are also accepting nitrate film. We have a wonderful film preservation team with the Preylinger Archive that is able to digitize film at scale.
+[  880.9] Seeing here, there's comic books. Yeah, I think basically the takeaway is if we don't, if the Internet Archive doesn't already have it, you're interested in taking it.
+[  888.9] Is that right, Liz?
+[  889.9] Exactly. And later in the webinar, we'll explain exactly which media types we are currently both accepting, preserving, and digitizing versus accepting.
+[  899.9] Yep.
