@@ -1,3 +1,2 @@
-{"mode": "inspect", "transcribe_from_minute": 15, "transcribe_minutes": 22,
- "frames_at": [1000, 1200, 1400, 1600, 1800, 2000, 2200],
- "sources": ["ia:in-through-the-side-door"]}
+{"mode": "build", "name": "ba-test-01", "source": "ia:in-through-the-side-door",
+ "before_at": 1400, "clip_start": 1653.2, "clip_end": 1666.8, "crop_x": 0.45, "kind": "talk"}
