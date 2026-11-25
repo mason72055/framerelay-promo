@@ -1,0 +1,372 @@
+[  240.0] Thanks, Chris. And hi, everyone again, I'm Dave Hanson, Executive Director of Authors Alliance.
+[  247.0] For those of you who aren't familiar authors alliance, our mission is to advance the interests
+[  251.6] of authors who want to serve the public good by sharing their creations broadly. And we work
+[  258.5] to help them, especially on issues of law and information policy. Our members come from virtually
+[  265.1] all fields of authorship from bloggers and journalists, academic authors, fan fiction writers.
+[  271.9] What really unifies us is that we want our work and ideas to make a difference in the world,
+[  276.6] and we want our writing to reach as many people as possible. So authors alliances actively supportive
+[  282.2] of efforts to promote, for example, open access for scholarship, the subject of the book we're
+[  288.8] talking about today, and supporting libraries like Internet Archive and its efforts to share
+[  294.5] its collections, for example, through controlled digital lending. So if you're an author, and what
+[  300.8] I describe sounds like the kinds of things that you care about, I'd invite you to join us as a member.
+[  306.4] It's free. It's a great way to stay in touch and help us have a better connection with you,
+[  312.7] and it also helps us as we seek to stand up for and represent the views of authors who support
+[  318.5] the public interest. So today we have two guests with us, really, really excited.
+[  326.7] First to introduce Chris Borg, who is the director of libraries at the Massachusetts
+[  332.6] Institute of Technology, where she has also oversight over MIT Press. She's the founding
+[  339.1] director of the Center for Research on Equitable and Open Scholarship. And prior to assuming her role
+[  345.5] at MIT, Chris worked for 12 years at Stanford University Libraries. She has extensive experience
+[  350.6] promoting equitable and open scholarship, and is an advocate for the role of libraries in promoting
+[  355.8] social justice and democracy. And then our author for today, Peter Baldwin. And Peter Baldwin is
+[  365.4] professor of history at UCLA and is interested, especially in the historical development of the
+[  371.6] modern state, a broad field that has led him in many different directions. His books have dealt with
+[  378.3] those issues, particularly looking at those issues in France, Germany, Britain, Sweden,
+[  383.8] Denmark, and the United States. He's published work on the comparative history of the welfare state,
+[  390.2] on social policy more broadly, on public health, and on the history of copyright.
+[  396.1] So some of you may remember in the fall we had Peter join us for a conversation about one of his
+[  400.3] previous books, the copyright wars, three centuries of transatlantic battle. And today,
+[  407.0] we're really excited to hear him talk about his new book, which is launching today, published by MIT
+[  414.0] Press, titled Athena Unbound. Why and how academic knowledge should be free for all. And so with that,
+[  422.2] I will hand it over to Chris Borg to start the show.
+[  430.5] Great. Thanks so much, David. And first, let me thank the author's alliance and the internet
+[  435.5] archive for hosting this event and for inviting me to be part of this conversation. Thanks also
+[  441.0] to the 200 and some folks who are on the call and are saying hello in the chat, really appreciate a
+[  446.6] lively conversation. You know, it's funny, we didn't compare notes here, but I think you'll hear
+[  451.9] a theme that about timeliness. I cannot think of a better and more important time for us to have
+[  458.9] books like Athena Unbound to talk about. As others have noted, this is like just such a really active
+[  466.4] and I think pivotal moment for the future of open knowledge and open access. We've got, you know,
+[  473.7] trends in positive directions towards more openness. I cite, I tend to cite here in the U.S.
+[  481.5] The recent OSTP memo, dictating calling for a zero embargo, open access for publications, data,
+[  490.9] other research output for federally funded research as a big positive move. But of course,
+[  498.1] there are inevitable counterbailing forces at work as well, seeking to shut down scholarship
+[  505.9] and to shut down some routes to open knowledge. And of course, one that might be front of mind
+[  512.8] for many of us here on this call is the recent summary judgment in the publisher's favor in the
+[  517.8] hatchet versus internet archive case. We will touch on that in a second. But bottom line is it's right
+[  526.4] now is a really complicated and ever change moment in time in what has been an ever-changing
+[  533.8] and complicated landscape of scholarly knowledge production and sharing. And Peter's book,
+[  541.6] Athena Unbound, which again is available as an OA version as well as purchasing the print version
+[  549.8] if that's your preference. Peter's book takes this really complicated, like I said, ever changing
+[  557.4] fast moving perhaps and slow moving at times landscape and gives us what I view as a really
+[  565.4] clear-eyed sort of no holds bar, no punches hold, historical perspective on how the current system
+[  574.0] and norms governing scholarly knowledge and production and sharing and dissemination have
+[  580.2] evolved. He does this with minimal jargon, a whole lot of very well-referenced footnotes
+[  591.0] and a lot of really compelling and frankly witty and sharp analogies. And because of that,
+[  602.3] it means that this is a book that I think is likely to appeal to those interested in the topic
+[  609.4] but who are not maybe like me already a meshed in what I think Peter might refer to as the two
+[  617.1] insular world of us OA enthusiasts. I don't want to put words in your mouth, Peter, but
+[  622.7] I don't see you shaking your head at me. Anyway, the book, you've got to read it. Please read it. I
+[  630.1] think it describes really clearly the various obstacles to open knowledge, including something
+[  640.9] that's often missing which is a very careful and detailed description of the different obstacles
+[  647.0] for different kinds of content and differently situated authors. And then it lays out a very
+[  657.0] pragmatic, good enough path towards a solution. Again, I think it could not be more timely we
+[  666.2] are at a moment of inflection here in the movement towards open knowledge. And I'm excited to talk
+[  673.5] to Peter about the book. And now I want to hear, you know, we all came here to hear from you Peter,
+[  678.1] so I know you have, I'll give you the floor so you can tell us about the book in your own words
+[  684.0] instead of me blathering about it. Thank you very much, Chris. And thank you internet archive
+[  690.6] and all for putting this on. I'm very, very gratified. So many are paying attention. I want to make
+[  699.7] four brief points about the book, and then I will turn myself over to the tender mercies of Chris to
+[  705.1] do she wishes with me. Open access, as I don't need to tell this audience can be justified in many
+[  711.7] different ways. The arguments from public utility claim that content is made more valuable by
+[  717.0] being spread more widely. The logic of network says that the more something is shared, the more
+[  721.5] useful it is social justice tells us that open access gives those who are excluded from knowledge
+[  727.4] access to it. All these changes would make our use of information more efficient and
+[  733.1] effectful. And they would make the world a better place. But the morally most compelling argument
+[  738.4] in favor of open access, I think it's a different one, and that is embedded in the work for higher
+[  742.9] doctrine. Some authors have already been paid for their work, and they would seem to have no claim
+[  748.6] to benefit once again. If you're an engineer who works for Boeing or Apple, you would never
+[  753.4] imagine that you had rights to the IP that you develop as an employee. But some university
+[  759.4] professors and some researchers scientific scholarly researchers do think this, and the copyright
+[  765.0] exception doctrine in common law, undergirds that, even though they're paid to undertake research and
+[  770.1] to write up the results, they want to be treated as though their free lands are teased as well,
+[  775.5] and therefore be allowed to sell their IP. Now, scientists among university researchers
+[  780.4] don't really suffer from the solution. They've never been paid for the articles and the journals,
+[  784.6] and they don't write books. So the first point that I want to make is that open access really
+[  791.1] applies best to scholarly work that's already already been paid for by taxpayers. As the
+[  797.4] ultimate funders, taxpayers have a right to see that work without having to pay for it. Again,
+[  803.3] it would be nice to have open access for other types of content, but that's not something that
+[  808.4] we can demand. It's something we can ask for, but not insist on. Scholarly knowledge, of course,
+[  813.5] is only a small fraction of all content. University research makes up about a third of all research.
+[  819.0] The rest of it is corporate and unlikely ever to become open access. So university research is
+[  825.4] one small fraction of one small part of the entire content landscape, and that's really all I'm talking
+[  832.4] about in the book. Other content may be made up in access, but I don't see any inherent reason
+[  839.0] why it would necessarily be that the week could necessarily expect it to be. So for content such as
+[  847.4] film and music, for example, Netflix and Spotify may be as close to open access as we get. In other
+[  853.8] words, content is widely available at a reasonable cost, but it's not probably free. If we stick with
+[  860.6] scholarly literature, the second point I want to make is that the core principle of open access
+[  865.4] is that producers pay to disseminate their work. Producers already pay for the research costs and
+[  871.8] for the cost of writing up that research. The changes of an access is that they pay for dissemination
+[  877.5] as well. If you look at commercial content, the consumer pays both for production and for
+[  884.4] dissemination. The cost of a ticket, an album, a book, whatever it is, brings the medium into your
+[  890.7] hands, but it also, of course, pays the rent for the author, whether that's Steven Spielberg or
+[  895.8] Dan Brown or Beyonce or whoever it may be. In scientific content, in contrast, production has
+[  901.8] already been paid for, usually by the government or by other funders. And the only question that
+[  907.3] remains to be dealt with is how to disseminate it. If the high energy physics articles that are
+[  913.4] produced out of the work of the Large Hadron Collider had to bake the cost of that research
+[  919.7] into their prices, each article would cost something like three million dollars a piece
+[  926.2] in polishing charges. So for scientific content, the cost of dissemination is actually only a very
+[  932.2] small part of the research funding. And most estimates put it at somewhere between two and three
+[  937.0] percent of the total. And that is why open access is a problem that seems to me to be on the verge of
+[  943.4] being solved, at least for the sciences. If you've already paid $300,000 for each scientific
+[  950.3] article published annually in research costs, then another $3,000 or $4,000 for an article publishing
+[  956.7] charge is basically a rounding error, and it's simply not that big a deal. But for the humanities
+[  962.0] and the social sciences, things look different. First of all, books remain a more favored medium
+[  967.6] in these fields and their publishing costs, of course, are larger, although obviously also more
+[  972.2] intermittent. Secondly, the costs of disseminating humanities and social science content in the
+[  979.2] analog era used to be covered by university libraries. They paid to buy books, they paid for
+[  984.9] the subscriptions to scholarly journals in both the humanities and in the sciences. That convenient
+[  991.8] arrangement was ended by the so-called serials prices. Throughout the 70s and 80s,
+[  997.6] scientific journal publishers increased the numbers of periodicals and their costs.
+[ 1002.2] This of course was long before open access, it was long before digitality, and it really
+[ 1006.1] has nothing to do in particular with those developments. The library's acquisitions budgets
+[ 1012.1] were increasingly funneled into the pockets of the science publishers. Today, the proposal
+[ 1018.8] is that library budgets will be flipped to pay for article publishing charges instead of for
+[ 1023.4] subscriptions and the retail price of monographs. That's all well and good, and in an ideal world,
+[ 1030.5] it might well work, but the change comes at the end of an era when publishers had already
+[ 1036.3] devoured the lion's share of library budgets. In other words, the cement in the current state
+[ 1042.6] of affairs means to pay article publishing charges to make work open access rather than pay for
+[ 1049.0] subscriptions to conventional paper journals, but because the money for humanities publications
+[ 1054.9] has already been drained off to the scientific publishers, this works only for the sciences.
+[ 1062.1] In other words, what I'm trying to say here is that we can't just extend gold open access
+[ 1066.5] through the humanities and the social sciences because they don't have research budgets to cover
+[ 1071.0] this and because the library budgets have been swallowed up for the sciences. That brings me
+[ 1076.8] to my third point, which has to do with the quantity of scientific information. Is there too
+[ 1083.7] much of it? There's a lot of talk about how science publishers are putting out ever more
+[ 1088.3] information. There's certainly more information published every year. The question is, is there
+[ 1093.4] too much? Indeed, the question is, what would it even mean to say that there's too much?
+[ 1098.8] One argument that there's too much information goes something like this. Each researcher is putting
+[ 1104.6] out more and more. The neoliberal university squeezes its academic drones to greater feats of
+[ 1110.2] productivity and it makes them publish evermore. Sometimes they salami slice the results,
+[ 1115.7] they publish ever shorter articles with less content but more of them. Now, here the question is,
+[ 1122.0] is this true? The evidence suggests that it's not. One countervailing factor is that evermore
+[ 1127.2] scientific articles are written collaboratively. And if you divide the growing number of articles
+[ 1132.5] by the growing number of collaborators, the result is that the actual number of articles per
+[ 1137.8] researcher is flat or even slightly declining. But it seems to me there's another and in many
+[ 1144.8] ways a more meaningful argument on the increasing quantities of information as well. More and more
+[ 1150.0] researchers from evermore different countries are spitting out more work. Scientific research is no
+[ 1155.4] longer the preserve of middle-aged white guys from the developed world. There are lots of newcomers
+[ 1160.2] who are participating as well. The ranks of researchers from the global south has mushroomed
+[ 1165.6] in the last past several decades. China and India, of course, just two of the elephants
+[ 1170.6] in the room. More researchers means more research. That's a good thing. And it's precisely this
+[ 1176.6] expansion of overall scientific productivity that has produced the problem we face.
+[ 1182.1] This explosion of research is what prompted the science publishers to begin expanding
+[ 1187.0] the number of journals. That was necessary. That was good. But that's not to say that the massive
+[ 1192.4] increase in subscription costs voiced it on the system by the scientific publishers was equally
+[ 1197.3] justified. That was just rent-seeking. So on the one hand, we have more research and on the other hand,
+[ 1204.7] each bit of it is costing us more to publish and to read. So we have two problems that need to be
+[ 1210.9] solved. One is the exaggerated cost of the science publishers. The other is how to handle the ever-growing
+[ 1217.4] amount of research and information. And arguably, the second isn't really a problem at all in the
+[ 1223.1] sense of something bad anymore, at least in any embarrassment of riches is the problem. More research
+[ 1229.0] from more researchers is a good and we need to figure out how to deal with it. That brings me to
+[ 1235.7] my final point and in a sense full circle to the question of who pays for disseminating
+[ 1242.1] scholarly literature and scholarly content, the ever-increasing amount of scientific information
+[ 1247.7] would be impossible to disseminate globally in the old analog system where readers have to pay for it.
+[ 1255.3] Libraries in the global south do not have the resources they need. And even in the industrialized
+[ 1260.9] world, only scholars and others who have some affiliation to universities have access to scholarly
+[ 1266.2] knowledge, which is to say that 98, if not 99% of the population does not. Digitality
+[ 1272.5] makes it possible to have information at any laptop, not just in major research libraries,
+[ 1278.0] but that works only if the producers pay both for creating the information and also for disseminating
+[ 1284.4] it. How much, if that's true, is it going to cost? I have the calculations in the book and I will
+[ 1290.7] just sort of summarize them extremely briefly here. If we try to estimate the cost of a global
+[ 1297.8] analog scholarly library, in other words, one flakes on earth that would contain every piece
+[ 1303.6] of scholarship produced whether in book form or in article form, my estimate is that it would
+[ 1310.0] cost 150 million every year on an ongoing basis to acquire that scholarly knowledge. That's just
+[ 1317.0] the acquisitions not running costs or anything like that. To make that material, the same material,
+[ 1322.2] open access is of course quite a bit more expensive. If you assume that it costs $10,000 per book in
+[ 1328.4] book publishing charges, the cost is about $4 billion. If there are 3 million articles published
+[ 1334.4] annually at an average APC in 2000, that's 6 billion. So we're talking about a bit more than 10 billion
+[ 1341.8] a year compared to 150 million for a global analog library. The global open access library for
+[ 1349.4] scholarly literature would be 70 times the cost of one global analog scholarly library. That means
+[ 1355.4] that for the price of buying 70 copies of every scholarly monograph and 70 subscriptions to every
+[ 1361.7] scientific journal, we could make academic content available to everyone. Keep firmly in mind that
+[ 1367.8] there are about 80,000 academic libraries globally. So this is in effect bulk purchasing
+[ 1373.6] at its best. But the discount that we get is even better than just something that is shaved off the
+[ 1379.0] price of the content. The discount that we get is in effect to make it free for everyone to read.
+[ 1384.7] And by everyone here, I mean the 5 billion users of the internet, 60% of the world's population
+[ 1391.3] and continually growing. Now that of course deals only with the scholarly literature and
+[ 1397.0] conventional libraries would still be needed to allow the lending of commercial and other content.
+[ 1403.3] Where would this money, this 10 billion a year, where would it come from? Well, arguably in some
+[ 1408.6] sense it's already there. The expenditure of the world's research libraries in acquisitions alone
+[ 1415.1] is 6 billion. So we're halfway there. And on top of that, there are savings to be harvested
+[ 1420.8] as well. Consider of course the possibility of tapping down the egregious overcharging of the
+[ 1426.0] scientific publishers. Given that the most successful of the make profit margins of 20 to 40%,
+[ 1431.8] it's a distinct possibility that prices could be cut. Consider also that American research
+[ 1438.2] libraries alone employed 86,000 staff in 2012 paying them something along the lines of three
+[ 1447.0] and a half billion dollars in salary. No, nobody least of all in this audience wants to fire librarians.
+[ 1454.2] But it's clear that a great deal of rationalization will be possible in the digital future where we're
+[ 1460.3] going to have one collection, not tens of thousands. And consider of course also the question of storage.
+[ 1467.0] In 2019, North American collections housed almost a billion volumes of which 60 million
+[ 1473.0] were distinct titles. That means that we are housing, heating, cooling, shelving, re shelving,
+[ 1479.0] and otherwise taking care of 940 million redundant volumes that will serve no purpose in a digital
+[ 1485.5] future. Obviously digital collections incur their own expenses, but possibly they are fewer. So my
+[ 1491.6] point is that the monies are largely already in the existing system. They have to be repurposed.
+[ 1497.8] That's not going to say that they will be repurposed. That's a political question,
+[ 1502.0] but it's not necessarily the case that we have to find additional monies if we can do that repurposing.
+[ 1508.2] And that brings me to my final point and that I really will show out for the moment.
+[ 1513.1] Distributing knowledge in this manner also solves the problem of equity among nations.
+[ 1518.9] Each nation pays to make its own output available and in return it receives the rest of the world's
+[ 1525.6] output as recompense. So the richest nations pay the most and the poorest nations receive much more
+[ 1532.9] than they have to pay for. This, it seems to me, is equity at its purest. It's from each
+[ 1538.5] according to their ability, to each according to their need, a slogan that has an oddly familiar
+[ 1544.4] ring, but which seems to be actually to work in this case. Thank you.
+[ 1555.5] Thanks so much, Peter. I appreciate that summary of the big main points in the book.
+[ 1562.1] For those who missed the introduction, I am in fact the director of the libraries at MIT.
+[ 1571.6] And while I won't speak for all libraries, I do want to make my first question about libraries
+[ 1577.5] in our role. You know, your book, as I said, provides like a really kind of clear-eyed,
+[ 1587.2] full-no punches kind of view of the ways in which various players in the system.
+[ 1595.1] And here you talk about publishers and authors and funders and libraries.
+[ 1601.0] The ways all of those players and stakeholders have been complicit, frankly, either passively or
+[ 1607.3] actively in propping up this current system that that mainly benefits publishers, many publishers,
+[ 1614.7] sort of allows many authors and especially faculty authors in the sciences to kind of keep doing
+[ 1623.0] what they're doing without paying much attention to these debates. And the system also, as you
+[ 1629.2] very rightly point out, hamstrings libraries by straining our already limited budgets.
+[ 1635.5] And that system also keeps lots of scholarly content locked behind paywall.
+[ 1641.1] So that one doesn't work. Many players and many stakeholders are complicit in propping it up and
+[ 1647.3] creating it. In the book, you highlight two libraries in particular for doing some of the right things,
+[ 1656.2] right? You talk about the New York Public Library and you praise their work on trying to make out
+[ 1662.6] of frameworks available with permission from rights holders when they can get it.
+[ 1667.0] And then you also spend some time talking about the University of California system and their
+[ 1675.9] bravery, I guess, if you will, in boycotting Elsevier for two years.
+[ 1681.5] Although you characterize their eventual contract with Elsevier as sort of a testament to the
+[ 1687.8] publisher's clout. So I'll get to a question in a moment. I'm kind of pontificating for now.
+[ 1694.9] I do want to point out that for those who don't realize that MIT has been out of contract
+[ 1701.6] with Elsevier coming on three years now. And in fact, we plan to remain out of contract for the
+[ 1708.7] foreseeable future. I think that's sometimes less well known. We maybe don't have quite the PR
+[ 1715.1] machine that the University of California has. I'll also note that the University of Oregon is
+[ 1721.3] also out of contract with Elsevier right now. So go ducks.
+[ 1728.1] I want to turn this comment into a question and ask Peter for your thoughts on other than the
+[ 1740.2] handful of us who are willing to walk away from an Elsevier contract and stay away.
+[ 1748.9] What are concrete steps that research libraries can do today within the next year to try and move
+[ 1758.8] us towards this future that, as you described, seems quite attainable. But what should we be doing
+[ 1766.5] now to get us closer down that path? You're asking a question of me as though I were a librarian.
+[ 1775.5] I mean, I have a few opinions here. I will say, you know, libraries, of course,
+[ 1780.3] you would expect them to be and they ought to be on the front line of this because they are,
+[ 1784.1] after all, in the business of getting information out there. And what could be more about that than
+[ 1789.8] open access? On the other hand, libraries are conflicted because it's not just open access.
+[ 1796.2] It's the totality in general that leaves their role in the future extremely unclear, you know.
+[ 1800.8] What is their role when ebooks are the medium, the preferred medium? They don't own them. They
+[ 1806.1] don't store them. They are just sort of the funnel between publishers and the readers.
+[ 1814.2] And so libraries, you know, have a conflicted position this and no libraries and more so,
+[ 1822.4] I think, than the research libraries. My experience with the research libraries is
+[ 1827.6] that they're actually not all that interested in opening up their collections, even the ones
+[ 1831.3] they could open up, the public domain stuff, in large measure, because they regard the collections
+[ 1837.2] as a kind of a tool in hiring new faculty, because faculty are promised to exclusive access to the
+[ 1844.9] riches in the libraries that they won't find anywhere else. In the minute you can read every
+[ 1850.2] book in Widener, even in Oklahoma, why would anyone necessarily sort of pull up stakes and
+[ 1856.8] see that as an attraction to move to Cambridge Mass? So, I'm not persuaded that research
+[ 1863.0] libraries are sort of forced for good in this respect. The New York public, whose praises I
+[ 1867.4] think in the book, is, to my knowledge, the only major research collection that is
+[ 1874.2] unconflicted in this sense, because it has no faculty, no students, and it owes its allegiance
+[ 1882.0] to the reading public in the same way that it serves the reading public through its
+[ 1887.0] branch libraries, and so it's the only institution I can think of that actually really wants to
+[ 1891.8] get the stuff out, and it's therefore trying to do so. The internet archive, I think we can all
+[ 1897.9] agree, is a library, so I would include it, of course, as, you know, in the avant-garde of leading
+[ 1904.9] this church, but you ask sort of, you know, for practical things that can be done tomorrow,
+[ 1910.5] there's the obvious thing, which is more of the stuff that legally can be put up and out,
+[ 1917.8] is all sitting there waiting for someone to kind of pay for the scanning and do it, so there's always
+[ 1923.4] something somewhere in the, you know, compact building somewhere that can be scanned and put up.
+[ 1929.7] Then there's the whole question of the stuff in between, the sort of incopyright but out of print,
+[ 1935.2] and there it seems to me that other research libraries gives me ought to follow the example.
+[ 1942.8] I would have said, you know, last week, the example of the internet archive and implemented
+[ 1948.4] some form of control digital lending that's off the table for the moment, or I'm not quite
+[ 1954.5] sure how this works legally, perhaps it's still on the table insofar as an appeal has been launched
+[ 1958.7] and in terms of, but anyway, obviously it's less doable now that it was a week ago.
+[ 1965.8] The New York public has been trying to sort of thread the needle on this by asking permission,
+[ 1972.1] trying to track down rights holders, setting up a slash fund whereby anyone who then comes
+[ 1979.0] out of the woodwork later on to claim damages for a book that has been lent without their permission
+[ 1983.8] would be sort of paid something as a compensation, and in other words, trying to do some variant
+[ 1990.9] of control digital lending that isn't going to trigger the ire of the publishers.
+[ 1996.8] The strange thing, this is not quite in response to your question, it's
+[ 2001.7] control digital lending is something that you would think clever publishers would have an interest
+[ 2006.2] in or at least be able to see what the advantage is because they have no idea what books in their
+[ 2013.0] backlist are valuable, the only way they're ever going to find out, except by rating sales
+[ 2017.9] figures and use bookstores and companies or so many of them, I don't know if that's centralized
+[ 2022.6] anywhere, the best way for them to find out if they've got any sleeper hits in their backlist
+[ 2028.1] is to go look at what books that are controlled digitally lent are actually sort of off the charts,
+[ 2034.9] and if there are some like that, obviously it should be part of some deal with the publishers that
+[ 2039.4] they get to get them back as it were, and they're taken down from websites like the internet archives,
+[ 2047.1] and in return they can go off and publish your new edition. I don't know if that answers your
+[ 2052.3] question. It does, I don't necessarily agree with everything because what fund would that be
+[ 2061.2] in a conversation? I'll only, but we can take up some of that later, I don't want to harp
+[ 2065.7] too much on libraries, I'll only push back a little bit that well, while certainly there has
+[ 2072.1] been a time in the history of many research libraries where touting the size of our collections,
+[ 2078.3] our print collections as sort of a competitive advantage, was certainly prominent. I think most
+[ 2088.7] of us in research libraries now take great pride in the expertise that we provide on campus. It's
+[ 2096.7] really the people, certainly at the MIT libraries and many of my peer libraries, it's the expertise
+[ 2102.0] that the staff of the libraries provide to the community in navigating, as you say, what could
+[ 2108.7] be seen as too much information, but one of the ways that it is not too much information for
+[ 2114.4] students and faculty to wade through is because they have the expert guides who helped them navigate
+[ 2122.6] it. But let me switch to a slightly different topic and take the heat off of libraries and librarians
+[ 2130.1] and those of us who work in them and talk more about the authors, particularly faculty authors.
+[ 2134.9] You talked a lot about the concept of work for hire as one way sort of around the copyright
+[ 2142.9] issue a little bit, but you also talk about the pernicious effects of the prestige economy that
+[ 2153.5] governs the behavior of many faculty and scholarly authors. I wondered if you could talk about
+[ 2164.6] what you think the prospect of reforming. There's a number of moves going on.
+[ 2172.2] Here in the US to try and reform and revise and recalibrate hiring and promotion and tenure
+[ 2180.3] guidelines to include incentives for practicing open scholarship or sharing research outputs
+[ 2188.6] openly. I wonder if you could talk a little bit about where you see that as a tactic to try and
+[ 2197.8] break down the stranglehold. So, you know, there's been a, some extent, a shift in attitude. My
+[ 2208.1] colleague Russell Jacoby wrote a book back in the 80s, I think it was, on public intellectuals and
+[ 2215.0] why academics no longer provided public, you know, no longer supplied the chain of future public
+[ 2225.5] intellectuals. The academics have all become narrow specialists writing only for each other
+[ 2230.4] and publishing in the university president and that sort of thing. And in a sense, of course,
+[ 2235.6] that has completely changed. I mean, there is no historian who wouldn't give Hitler a right arm
+[ 2240.7] to be published by FSC or something like that and, you know, reach a broad audience. But of course,
+[ 2248.1] within a commercial framework where you have to pay for the book and the position you hire
+[ 2253.4] key for the sciences, of course, is even more ferocious that scientists don't have any illusions
+[ 2259.4] of ever being paid for their work in the way that some humanities and science scholars still, you
+[ 2264.6] know, fancy themselves as potential artists who could sort of break through to a bigger audience.
+[ 2270.0] Scientists don't have that illusion, but they are still slaves to a prestige hierarchy,
+[ 2275.4] but that, of course, theirs has to do with getting into the those journals that are
+[ 2280.2] hardest to crack. And that now in return, French lie at the APPs in reflection of that. So the
+[ 2288.0] prestige hierarchy, whether it's going with commercial publishers, in the case of the humanities
+[ 2293.9] as a scientist, or whether it's going with the most expensive open access journals in the sciences,
+[ 2300.7] is one that provides the wrong incentives. I mean, the purpose should be to get the stuff out there.
+[ 2307.4] And so how can one to realign the incentives? The university system itself seems to be
+[ 2315.4] to be perfectly capable of setting up its carrots and its sticks. So as to reward open access in
+[ 2322.9] so far as it chooses to do so, it could without any consideration of any institution outside the
+[ 2330.5] university say that for promotion and tenure, we will either count work that is published
+[ 2336.5] of an access more or possibly a little more draconianly not take work that's not published
+[ 2342.2] of an access into account at all for promotion and tenure. That would be perfectly free to
+[ 2347.5] publish what they wish, but they wouldn't get rewarded within the university system for doing so.
+[ 2353.7] And given the fundamental premise of promotion and tenure that you've got to publish,
+[ 2357.9] this is the publisher parish phenomenon that we now all accept as second nature. Nobody believes
+[ 2363.4] we should go back the days of the gentleman scholar who just sort of sat there teaching his
+[ 2369.9] gentleman C students who couldn't care last and you know reading for his own benefit and those
+[ 2376.0] days I was always a he. And not publishing anything. What's the point of a scholar who doesn't produce
+[ 2381.6] something with what they're doing? So we take completely for granted that publishing parish is
+[ 2386.3] okay for tenure and promotion. I don't really think that it's a big change to say publish and
+[ 2392.6] parish or parish but publish of an access. It's just a you know it's a slight twist to the
+[ 2398.4] requirement that we publish. So it seems to me the universities have actually a fair amount of leverage
+[ 2403.1] whereby they can help channel scholarly output in the right direction.
+[ 2412.6] Yeah I think I'm on record as being in favor of realigning incentives and
+[ 2419.6] and reforming promotion and tenure in fact to reward and recognize open scholarly practices. I
+[ 2427.4] actually I think that the OSTP memo for US institutions is a real boon for that because what we have
+[ 2435.4] now is we're you know rather than asking folks to completely change the way they've been evaluated
+[ 2441.7] for you know decades and the way they you know the system they grew up in thinking that
+[ 2446.3] publishing in these three journals for example are the only way to get promotion and then we
+[ 2450.7] pull the rug out from under them and say no do this other thing. Rather than doing that we get to say
+[ 2457.1] you've got federal funding you're now required to share the outputs of your research openly
+[ 2464.5] since you're required to share it we're going to as an institution recognize and reward the
+[ 2471.0] work that it takes to do so through promotion and tenure guidelines. So I think that OSTP
+[ 2477.6] memo really changes the game for us and makes that the work that many of us are doing through
+[ 2484.0] Helios and some other groups and I'd love if somebody dropped the link to Helios in the chat for me
+[ 2490.7] you know I think it makes that work actually it just aligns really well with that work and
+[ 2495.6] and makes that work a little bit easier. So I think final question for me I think
+[ 2503.7] and then maybe we'll be able to open it up to questions from the audience.
+[ 2511.1] In the book you talk a bit about you seem to have a bit of impatience for the theorizing and the
+[ 2519.7] uh too much talking about OA amongst the library crowd the Vogue crowd the
+[ 2527.2] the OA movement as you call it and you even have a few things to say about the science of science
+[ 2534.4] and it seemed to have a little bit of impatience for that and that's even as other funders right
+[ 2542.2] so so NSF and Sloan and Mellon Foundation are eager to fund projects that help us understand
+[ 2554.5] through a you know rigorous research help us understand the very systems that open movements
+[ 2561.0] and and open knowledge policies and practices are intended to change. It seems like your perspective
+[ 2569.5] is that I think and let me ask this question it seems like your perspective is that we already
+[ 2574.7] know enough to make the right call about how to move forward is that right like are are are you
+[ 2584.6] you know what about the and and that it's really a legal the the main obstacle is a legal one
+[ 2591.2] I guess many of us see the cultural challenges as the sort of most part most difficult to overcome
+[ 2600.1] which is a you know sociologist myself I think there's a lot of benefit actually studying and
+[ 2607.1] understanding people's motivations and understanding the culture you're trying to change
+[ 2613.1] am I am I right that you like where's your stance on science of science and on
+[ 2619.2] more study of the phenomenon to inform our moves? Impatient more surely some mistake I can't believe
+[ 2627.0] you would accuse me of that but I didn't mean to seem impatient but I will say this I mean the
+[ 2633.1] book is written from a perspective not of the internalist battles among various factions in the

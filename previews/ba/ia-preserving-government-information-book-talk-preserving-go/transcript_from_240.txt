@@ -1,0 +1,431 @@
+[  240.0] Let's change that and the guidance that you guys, by having deep knowledge of the whole
+[  246.4] area of government documents in the United States and it's going, uh, democracies, libraries
+[  251.0] also going on in Canada.
+[  253.3] How can we spread this out as a worldwide movement and your leadership in documenting the importance
+[  259.9] of this whole thing is, is critical.
+[  262.6] So thank you very much for writing the book and coming in here speak, speak about it.
+[  270.8] Thanks Brewster.
+[  271.8] And I want to acknowledge all the folks, the, the love and support shown from Stanford here
+[  277.2] in the, in the chat.
+[  278.4] So thanks everyone from Stanford and all the other librarians and everyone else who's tuned
+[  282.9] in here today on what's sure to be a really good and fascinating conversation and timely
+[  288.1] as well.
+[  289.1] So here to introduce our speakers and to set the stage for the rest of today's discussion
+[  293.8] is Dave Hanson, the executive director of authors alliance over to you, Dave.
+[  299.4] Thanks Chris.
+[  301.2] And thanks you.
+[  302.2] Thank you, James and Jim for doing this talk with us today.
+[  306.5] So you know, from, from my perspective, government information is one of the most critical research,
+[  315.8] pieces of research information that the authors that I work with rely on.
+[  320.2] I mean, it's really kind of a fascinating thing to look across the, the range of authors
+[  326.4] from historians to people in education to people in law that are so dependent on access
+[  333.9] to government information and having some reassurance that the information that they're
+[  339.3] accessing is preserved in a way that maintains its integrity.
+[  346.0] And so, you know, I, I'm really excited for this talk.
+[  351.1] And I'll go ahead and introduce our speakers and then get out of the way so we can hand
+[  355.3] it over to them.
+[  357.6] So first I want to introduce James Jacobs, who's the US government information library
+[  364.1] and at Stanford University Libraries, where he supports the research needs of the university
+[  369.8] and works on both traditional web collection, sorry, traditional collection development,
+[  375.4] as well as digital projects like locks, US docs.
+[  379.7] So among other things, he is the co-founder of free government information, freegovinfo.info,
+[  388.3] which I hope makes its way into the chat as a link for you all to check out.
+[  394.9] I'm also pleased to introduce Jim Jacobs, a librarian emeritus from UC San Diego, where
+[  402.1] he served as the data services librarian from 1985 to 2006.
+[  409.2] He has served as a technical consultant to the Center for Research Libraries in their
+[  415.6] audits and certifications of the trusted digital repositories of how to trust Portico and locks,
+[  422.0] which is pretty cool and some, some pretty technical stuff.
+[  425.9] And he is also co-founder of freegovinfo.info.
+[  432.1] So in conversation with James and Jim today, we have Sherry Laster, who is the head of
+[  439.1] Open Collections, Curation, and Access at Arizona State University Library.
+[  445.6] In addition to prior experience as a government information library and Sherry is past chair
+[  452.8] of the Depository Library Council, which is the advisory body for FDLP, and past chair
+[  460.3] of ALA's government docs round table.
+[  464.9] So I am going to turn it over to you three, and I'm really looking forward to the conversation.
+[  472.0] Thanks.
+[  485.8] Do you want to start, Jim?
+[  487.5] I will start.
+[  489.1] I'm Jim.
+[  490.1] Hi, everyone.
+[  491.1] I'm James.
+[  492.1] I'm thanks Brewster and Dave and Chris for inviting us to speak today.
+[  497.3] Yeah.
+[  498.3] Thank you so much to the Internet Archive.
+[  500.0] This book literally could not have been written without the resources of the Internet Archive.
+[  506.0] We want to begin with a very simple example of government information.
+[  511.1] And that's the food pyramid, which probably many of you have seen before.
+[  515.1] The Department of Agriculture has been giving nutritional advice to consumers since at least
+[  519.7] the 40s when there was food rationing.
+[  522.0] And in 1990, they adopted an illustration of a pyramid to suggest different quantities
+[  527.9] of food and categories of food for a balanced diet.
+[  535.5] It's changed these illustrations over the year today.
+[  539.4] It's not even a pyramid anymore.
+[  540.8] It's a plate.
+[  543.9] But it's, and it's, advice has changed over the years about what good nutrition is and
+[  549.7] what different categories of foods you should eat and what quantities.
+[  554.3] But the record of those different government suggestions and advice is the history of
+[  561.0] our government.
+[  563.5] Every government information is about preserving all those different recommendations so that
+[  567.8] we can have a record of government activities.
+[  571.0] It's also about ensuring that the information that's created and collected and produced
+[  576.5] by the government is not erased or altered.
+[  579.6] And it's also about, although the food pyramid is a trivial example, the principle remains
+[  586.4] the same for laws, reports, and irreplaceable information that the government gathers through
+[  592.1] censuses and surveys.
+[  594.0] James?
+[  595.0] Yeah.
+[  596.0] So we imagine that a number of folks here today, I'm so glad to see 142.
+[  602.4] That's pretty amazing.
+[  604.4] Have tuned in because they've become aware that the current Trump administration has
+[  609.6] been altering, withdrawing, and deleting government information, not to mention federal
+[  615.3] employees and entire agencies, and doing so at a frightening scale and pace.
+[  622.5] There are a lot of excellent examples of projects that are addressing this complex and
+[  628.5] enormous problem that we're talking about in our book about the loss and the preservation
+[  634.7] of government information.
+[  636.5] And you can find a list of them at the datarescueproject.org website.
+[  641.5] They have a whole list, sort of a running list of projects that are currently active.
+[  648.5] And needless to say, the Internet Archive is central to the success of many of these projects,
+[  654.3] including one that's close to my heart, the End of Term Archive, which the Internet Archive
+[  660.4] is an active participant.
+[  663.8] These projects are all working to rescue specific publications, specific titles, specific
+[  671.0] websites, and specific data sets.
+[  674.6] But one of the problems that these kinds of rescue efforts face is that there is no list
+[  680.8] of what the government has published or altered or withdrawn.
+[  685.8] There's no denominator out there that we know of.
+[  690.8] We've tried to get a little bit closer in our book, but there's not really one number.
+[  697.0] And there's no list of what has already been preserved and protected against loss.
+[  702.4] There's not even a common agreement about what constitutes successful preservation.
+[  708.7] So without preservation infrastructure, preservationists like Jim and myself and Shari and lots
+[  714.4] of other people are essentially working in the dark.
+[  719.8] So what we're trying to do with our book is provide a context for all of this.
+[  725.2] We do that by doing three things, which we don't think anyone else has done before.
+[  730.2] The first thing is we analyzed a ton of data so that we could get that denominator that
+[  735.3] James mentioned, the characterized the government, what the government is publishing digitally.
+[  741.6] We quantify what's being published by which branches of government, and we're trying to
+[  746.9] describe the kinds of information they're producing.
+[  750.1] It's important to characterize the different kinds because government information includes
+[  754.9] everything from unique archival records to widely distributed publications like the
+[  759.1] congressional record to databases and raw data.
+[  763.5] As well as publics and weird stuff like that.
+[  766.0] Weird stuff, naps.
+[  769.8] We also analyze preservation data to characterize what the government is preserving that gives
+[  775.1] us the numerator.
+[  776.4] And we can contrast those two numbers and find out what the gap is in government preservation.
+[  785.4] The second thing that we're doing in this book is we're examining why these gaps exist.
+[  792.3] We do this by looking at the preservation laws and the regulations and the policies, projects
+[  798.3] and activities in both the paper era when government information was published in paper
+[  807.2] and ink books and distributed to FDLP libraries around the country.
+[  812.0] And now in the digital era where virtually all government publications are posted as
+[  817.4] digital files on the web.
+[  820.5] This lets us pinpoint which preservation practices have worked and which have not worked and
+[  826.0] why.
+[  827.0] For example, one of the big causes of those preservation gaps in the digital age is the
+[  832.3] use of what we think of as paper era preservation techniques that simply don't work or don't
+[  839.2] scale in the digital age.
+[  842.9] Jim?
+[  844.5] The third thing we do is to define the elements needed for new digital preservation infrastructure
+[  850.6] or DPI.
+[  852.6] We use those elements to suggest a framework for building an infrastructure and we use that
+[  857.2] framework to provide a vision of how a successful DPI might work on the day-to-day level.
+[  863.4] Finally, we suggest the steps preservationists can take today to start creating and
+[  869.1] preserving information.
+[  871.9] If the preservation community in which we include government agencies but also non-government
+[  877.3] libraries and archives work together toward a common goal of preserving government information,
+[  882.9] we won't find ourselves again having to rescue information as it is being deleted.
+[  887.7] Instead, we will preserve it as it is being published and protected from alteration and
+[  893.1] erasure.
+[  894.1] The goal of a successful digital preservation infrastructure will be to preserve a record
+[  899.6] of changing government policies, not implement those policies by altering or erasing old information.
+[  907.4] That's the end of our short presentation.
+[  909.8] I think Sherry is taking the round.
+[  913.4] Great.
+[  914.4] Thank you so much, Jim.
+[  916.8] Hi, everybody.
+[  917.8] I'm really excited to be here today to talk with James and Jim.
+[  922.4] Just a little bit of context from my perspective, because I'm super interested in long-term
+[  928.8] public access to government information.
+[  931.5] I probably would have considered this book timely whenever it came out.
+[  935.6] I read an early draft in November 2024, just after the election, and I even remember thinking,
+[  942.2] this is timely.
+[  943.4] But we're calling the concerns that arose prior to the start of the first Trump administration
+[  948.0] about stability of access to resources from the Obama administration absolutely did not
+[  953.9] prepare me for the landslide of changing access to resources from the Biden administration
+[  959.6] that started earlier this year.
+[  961.7] This landslide has been precipitated by a series of executive orders and other actions
+[  966.0] directing federal agencies to overturn their previous practices, including round diversity
+[  971.8] and inclusion, the climate crisis, public health, and so much more.
+[  977.2] These orders have had profound effects on people and communities in the United States
+[  981.4] and around the world.
+[  983.0] They've also served as a tool of erasure.
+[  986.6] They direct agencies to change the words they use now.
+[  990.0] They also demand that agencies seek to change the words they used in the past, which tries
+[  996.6] to change some of the evidence of past government activity and, in a sense, is an attempt to
+[ 1000.9] change that past itself.
+[ 1003.0] And of course, they can't change the past.
+[ 1005.6] We can't change the past.
+[ 1007.8] US government information has never truly been unbiased and fully disinterested, but the
+[ 1014.6] digital environment that we live and work with today, it's possible that to kind of attempt
+[ 1020.5] to tweak some of the artifacts of this evidence here and there.
+[ 1024.6] And these changes are themselves evidence of government activity, which comes back around
+[ 1030.4] to why I'm so interested in public access to government information in the first place
+[ 1034.5] and why we need to work together on its preservation.
+[ 1037.2] So as a librarian who focuses primarily on collections life cycle management, I am certainly
+[ 1042.4] familiar with preservation, but I tend to be thinking a little bit more about the what to
+[ 1046.7] preserve than the how to preserve it.
+[ 1049.8] And so I think with that in mind, I want to get this conversation started by digging
+[ 1053.3] into what it means to preserve government information.
+[ 1058.0] And I'm just starting out with a quote from software developer and social scientist Ed
+[ 1062.8] Summers, who currently happens to be a colleague of James's at Stanford University, Ed has said,
+[ 1068.8] if you are not providing meaningful access in the present to digital content, then you
+[ 1074.0] are not preserving it.
+[ 1076.0] So that brings me to my first question for discussion.
+[ 1079.2] Jim, what is the relationship between access and preservation?
+[ 1084.5] And I just like to hear for U.S. government information how it worked in the print era
+[ 1088.5] and how does or how should this work in the digital era?
+[ 1092.4] Well, thank you.
+[ 1095.4] One of the definitions, there are lots of definitions of preservation.
+[ 1098.6] One of the definitions of preservation is access in the future.
+[ 1103.4] And in fact, we've always had access to government information when you could get information
+[ 1109.2] that was made public.
+[ 1111.5] In the paper era, the access infrastructure was libraries.
+[ 1116.9] And because libraries guaranteed long-term access, preservation was sort of a byproduct
+[ 1122.2] of the access infrastructure.
+[ 1123.9] But in the digital age, that's changed.
+[ 1127.0] The access infrastructure, which is the web, has no preservation byproduct the way the library
+[ 1134.8] infrastructure did in the paper era.
+[ 1137.2] In most cases, there's no guarantee legal or procedural or policy-wise for long-term
+[ 1143.2] access to digital government information.
+[ 1147.7] Access can be withdrawn, it's the flick of a button.
+[ 1153.5] It was for a long time, I should mention that this book is not one of those overnight books
+[ 1160.0] that we wrote last November.
+[ 1162.9] James and I have been writing about this for 20 years.
+[ 1165.8] And for a long time, we were able to say, we'd be able to pinpoint small areas where
+[ 1172.5] something would be taken offline or something would be changed.
+[ 1176.5] And we'd identify those and say, we needed an infrastructure to keep this from happening.
+[ 1181.8] But mostly those were mistakes or aberrations.
+[ 1186.0] In this year, we've seen that it's not just the mistake or an aberration, but a government
+[ 1191.2] policy to erase and alter and remove information.
+[ 1196.6] That means that we really need a digital preservation infrastructure to complement the
+[ 1201.6] access infrastructure.
+[ 1204.3] And we don't have to start from scratch on that, it's the good news.
+[ 1207.4] We've got lots of things in place.
+[ 1209.8] And James and I are not rocket scientists.
+[ 1212.7] We haven't come up with some good technical solutions.
+[ 1217.4] We're just drawing on things that we've all seen and used every day.
+[ 1221.7] I want to close before I turn it back to you, Sherry, to say one of the other things that
+[ 1228.0] ways that we think about what preservation is in the digital age is to say that it has
+[ 1233.6] to have five guarantees.
+[ 1236.3] And those guarantees are not just that it's preserved, but discoverable.
+[ 1241.2] Not just that it's discoverable, but deliverable.
+[ 1244.1] Not just that it's deliverable as bits, but it's readable.
+[ 1248.5] Not just that it's readable, but it's understandable, and not just that it's understandable, but
+[ 1253.1] it's usable.
+[ 1254.1] With that, I'll stop, then move on.
+[ 1260.4] And I just put something in the chat about an ALA American Library Association publication
+[ 1266.1] from the 1980s and 90s called Less Access to Less Information by and about the US government.
+[ 1273.0] So librarians have been documenting access or lack of access to government information
+[ 1279.8] for many, many years.
+[ 1282.0] And Jim and I had this series digitized, and it's now freely available on our website.
+[ 1292.9] You know what you're all saying makes a lot of sense and really lines up with my experience
+[ 1297.2] working with why do we do this work?
+[ 1300.3] And I think that Jim, you're sort of hierarchy of everything that preserved government information
+[ 1306.1] needs to be, also speaks to some of the incentive structure around doing this work, right?
+[ 1313.0] Because if we preserve things and nobody ever touches it or uses it, how is that preservation?
+[ 1319.7] How does that actually advance these particular interests?
+[ 1324.6] And I think too that having a greater understanding of the technology side of how it is that digital
+[ 1332.8] content is captured and preserved can kind of help to elucidate why this relationship is
+[ 1340.8] in place.
+[ 1341.8] So why is it not enough just to say that, well, these bits and bytes are still out there somewhere.
+[ 1346.6] So I'm just wondering if you have any kind of reaction to the underlying why behind this
+[ 1355.1] way of thinking about preservation?
+[ 1358.2] Well, I have two things.
+[ 1363.5] One thing is that government information is valuable for a number of reasons.
+[ 1373.6] Some of it's valuable because it documents the activities of government and makes government
+[ 1377.3] accountable.
+[ 1379.0] But another thing is that it is government information is valuable because it's irreplaceable.
+[ 1385.2] Government collects a lot of information, it collects information from states, it does
+[ 1389.3] scientific surveys, it creates information by funding science, it collects information
+[ 1396.1] with censuses, it does GIS location, and that information, if we lose it, can't be re-collect
+[ 1407.3] it.
+[ 1408.3] You can't find out what the population of a city was in 1950 in 2025.
+[ 1414.1] You have to record that information and keep it safe.
+[ 1417.7] The second thing is that we talk about this in the book just briefly, that having the
+[ 1424.3] information preserved is important because the information has value.
+[ 1430.5] But the information really only has value if it's usable.
+[ 1435.1] It needs a use value as well as an intrinsic value.
+[ 1439.2] We use the example of a tractor.
+[ 1442.0] You can have a very expensive tractor locked in a barn, but if the barn never gets unlocked
+[ 1447.7] and goes out into a field, you really haven't made use of the tractor.
+[ 1452.5] The same is true of information.
+[ 1455.6] I think the piece that I've always been interested in that Jim hinted at is that the idea of
+[ 1463.6] control, all of the use of government information, access to government information, all of
+[ 1471.6] this can't be done unless you control that information.
+[ 1475.9] That's one of the things that I think has sort of maybe gone away from the frontal lobes
+[ 1485.6] of many librarians with the internet age and many in the public who think once it's published,
+[ 1492.2] once it's on the internet and it's there forever.
+[ 1495.8] Thank you for the internet archive and the way back machine, but that's not always the
+[ 1499.8] case and we need to actually collect that information in order to do all of the other things, including
+[ 1509.0] preservation and access, et cetera, et cetera, et cetera.
+[ 1512.1] But control of the information, I think, is one of the keys.
+[ 1517.6] And just a conceptual underpinning of collecting information is itself really huge.
+[ 1523.4] So I guess I want to next kind of move to one particular tactic for collecting government
+[ 1528.7] information, which is web harvesting.
+[ 1531.4] So can you give us a high-level overview of web harvesting for U.S. government information
+[ 1538.5] and who does what, why do they do it and I think there are some gaps, what are some of these gaps?
+[ 1545.1] Yeah, I can handle that one, Jim.
+[ 1549.0] So web harvesting of the federal domain has been happening since the internet archive
+[ 1554.0] brought the way back machine online in 1996, which may have been pre-internet or just when
+[ 1561.6] like Gopher switched over to internet, regular internet, but more concerted efforts began in
+[ 1570.5] 2004 and expanded with the inception of the End of Term Archive in 2008.
+[ 1577.1] End of Term Archive seeks to harvest the entire .gov, .mil federal web domain every
+[ 1584.2] four years at the end or end and beginning of each presidential term, hence the name End of Term.
+[ 1591.8] There have been many smaller and more targeted projects from organizations like the Library of
+[ 1598.7] Congress, the National Archives and Records Administration, the Government Publishing Office,
+[ 1603.5] as well as individual libraries through programs like Archivit, subscription service,
+[ 1609.7] again an internet archive service, thank you, one that I use very often.
+[ 1615.1] And lastly, there's been serendipitous web harvesting of individual URLs via things like
+[ 1623.3] internet archives save page now tool, which I'm sure everyone has bookmarked on their browser,
+[ 1629.2] right? Right? It's something that I use almost on a daily basis. When I answer a reference
+[ 1637.4] question or a research consult and I find an answer on the federal web domain, I always
+[ 1644.2] save that page so that I know that I can get back to it later in case things change or get
+[ 1650.2] deleted. So I like to describe what's happening in terms of web harvesting as in a water metaphor,
+[ 1659.2] I guess. So there are there are drips and there are pools and there are oceans of web harvesting
+[ 1665.5] going on. But despite all of these activities, thanks Chris for putting the same page now in there,
+[ 1672.8] despite all of these activities, it's difficult to know the content gaps. Since we really don't have,
+[ 1678.7] as I mentioned earlier, we don't really have a denominator of the entire scope of the federal
+[ 1683.7] government information that's published on the web. There are some known gaps. For example,
+[ 1692.3] web and mapping apps that display data and or need to be queried or need to have a human input
+[ 1700.7] in order to change the display or query a database, those kinds of web tools that have become
+[ 1710.5] de rigour in 2025 don't lend themselves to web harvesting via heretics or other sorts of web
+[ 1721.8] harvesters. There are projects that are underway. Some of the projects that are listed on the Data Rescue
+[ 1730.4] Project site are targeting these kinds of sites that that don't lend themselves to
+[ 1737.2] traditional web harvesting. Do you have anything to add? I should just add that we document
+[ 1747.3] the gaps in the book. One of the things that we discovered which sort of surprised me is that
+[ 1754.2] the judicial branch and the legislative branch are fairly well preserved. It's the executive
+[ 1761.4] branch which is of course the biggest branch and by far the biggest publisher which is very badly
+[ 1767.6] documented preserved. The other piece that we found which I didn't realize was that the legislative
+[ 1775.5] branch is preserved over and over and over again in many different ways, not just with web harvesting
+[ 1785.4] and not just with the internet archive. There's some inefficiency in the current system
+[ 1793.2] which we could improve on. We have the models. I'm really glad. James, you briefly mentioned
+[ 1800.9] the U.S. Government Publishing Office, the Library of Congress, National Archives and Records
+[ 1805.6] Administration. These are all federal agencies that play a critical role in the current government
+[ 1811.9] information, federal government information ecosystem. I think that one of the things that
+[ 1817.9] I've reflected on is that they each have their mission and their target areas that they are able
+[ 1823.6] to work in at their current capacities and with the technologies and relationships that they have in
+[ 1829.0] place. It's important to recognize that also though that I think there's been a perception
+[ 1835.4] in the past that oh well the government will take care of its own materials and again there are
+[ 1840.8] extremely hard-working folks in civil service who are working on efforts every single day but
+[ 1847.0] we also have to acknowledge that there have been, there are different kinds of content and materials
+[ 1852.1] that just aren't being captured for reasons that you all go into in your book. So kind of moving
+[ 1861.6] us along a little bit because we've been talking a little bit about this problem space and of
+[ 1865.5] course we want to talk about solutions. There's a lot more that goes into digital preservation than
+[ 1870.7] just scooping everything up from the web and hoping for the best. So can you introduce the concept
+[ 1876.4] of a digital preservation infrastructure as you mentioned earlier and just share just a little
+[ 1882.4] bit about the characteristics and some of the assumptions that go into thinking about this
+[ 1886.6] infrastructure? Yes. First of all a lot of people think of infrastructure when we use term infrastructure
+[ 1896.2] people think of things like highways and railroad tracks and for transportation and houses for
+[ 1905.7] housing infrastructure and an electrical infrastructure is the wires and cables and
+[ 1917.1] production of electricity. But we use a broader term that has been made popular in more recent years
+[ 1926.1] to being the stuff that's built on top of that structure and that means that it's made up not
+[ 1932.7] so much of of hardware but of social norms and common practices and principles and standards.
+[ 1940.7] It's kind of a soft thing but it works when it works and in fact in our definition of infrastructure
+[ 1949.2] when it's successful it's invisible. You don't even know it's there until it breaks and we've seen
+[ 1955.2] it breaks this year. In the paper era the federal depository library program the F-D-O-P
+[ 1962.8] which we've probably mentioned by acronym without spelling it out before relied on the infrastructure
+[ 1970.4] of libraries and their practices and functions. Nobody had to tell every library they didn't have
+[ 1977.8] to be in law saying you should have shelves and catalog your books and maybe have a reference
+[ 1984.0] test. That was the way libraries worked and in the paper era it made sense to just send
+[ 1991.7] public documents to libraries to provide access in both short-term and long-term.
+[ 1999.9] Let me give you some examples of some elements though because you asked specifically about those.
+[ 2003.9] One of the elements of a digital preservation infrastructure is simply to have a goal of
+[ 2010.4] preserving government information. A lot of times our goals are to keep our institution healthy
+[ 2018.8] or to crawl the web or to make sure that F-D-O-P survives. But digital preservation needs a goal
+[ 2029.0] of preserving information and if our institutions are the best ones to do that our institutions will
+[ 2035.2] survive and if they're not then they'll be replaced by other institutions. It's also not about tactics
+[ 2041.6] and tools it's about we need the goal as a thing that we point toward making sure that whatever it
+[ 2051.0] is we do with whatever tools ends up with the preservation of government information. Another
+[ 2056.7] element is to provide a way for libraries and archives to collaborate by fulfilling their
+[ 2062.2] traditional roles. As I mentioned earlier government information covers everything from
+[ 2069.4] unique records that have never been published to common publications like the Congressional
+[ 2075.2] Record to non-traditional in the paper era and now traditional in the digital era,
+[ 2082.2] information in databases and raw data files and so forth. In the past archives collected
+[ 2089.5] those records and libraries collected publications and it was kind of a clear cut mostly division
+[ 2095.7] of labor but now those those things are overlapping both in how they're published and how they how
+[ 2102.6] they're preserved but there's still a lot of differences. For instance the National Archives
+[ 2108.9] only preserves about one to three percent of the records that agencies produce whereas libraries
+[ 2115.6] have preserved closer to a hundred percent of the published government information.
+[ 2121.3] So what DPI needs to harmonize those two things make it so that libraries can keep doing what
+[ 2127.2] libraries do, archives can keep doing what archives do but we'll have a big system that works for both.
+[ 2133.9] But the prime underlying element of a digital preservation infrastructure
+[ 2138.5] is to address the needs of users. That's the thing that makes us allows us to decide
+[ 2146.0] have we been successful or not. Not how many bits we preserved not how many data centers we have
+[ 2151.8] not how many files have been downloaded today but are we addressing the needs of all users.
+[ 2158.4] And to do that we need to challenge some of the assumptions from the the paper era.
+[ 2163.7] One of those assumptions I'll just give you a couple of examples is the difference between
+[ 2169.0] availability and accessibility. Availability is binary and information is either publicly
+[ 2174.8] available or it's not whereas accessibility can vary by degrees and different dimensions such as
+[ 2180.1] discovery and identity and cost and how how easy it is to use. Another assumption is the
+[ 2189.0] difference between information and information services. The web provides services that get
+[ 2196.0] ad information and our web harvesting mostly tries to preserve websites but doesn't always get
+[ 2202.7] all the information behind the websites and I'm guessing I'm using myself as an example here.
+[ 2209.4] I don't really want to look at an old government website. I don't really care what it looks like.
+[ 2214.2] There are people who do and we should address the needs of those people but most people are
+[ 2219.2] looking for the information that those websites provided rather than what font did they use and
+[ 2224.5] what color and how trivial were the were the graphics that they used in years ago.
+[ 2231.2] So we need to start thinking about preserving information rather than preserving information
+[ 2236.5] services. And just to kind of dive into a little bit more focus here and one of the things
+[ 2243.6] that I know you said in the book is a successful DPI should focus as much on discovery and delivery
+[ 2250.2] as on storing. So in the context of web archiving there is a discovery and delivery gap and that's
+[ 2257.1] something that I'm very curious about especially because we're speaking here today with our friends
+[ 2260.8] at the internet archive. Can you just in our last couple minutes before the audience Q&A can you
+[ 2266.0] just say a little bit about that particular gap and maybe some solutions?
+[ 2270.9] Yeah. So I think there are some solutions starting to bubble up and this sort of gets at what we've
+[ 2280.7] conceptualized as this as the digital preservation infrastructure. It's kind of layers of an onion
+[ 2288.5] where you have preservation and access and discovery all happening in conjunction with each other.
+[ 2297.0] So I talked a bit about web archiving as a significant tool to preserve that information.
+[ 2305.0] But web archiving is just the first necessary step of collecting content of importance.
+[ 2310.8] As Chris put it in the chat, preservation without access is just hoarding. So knowing that most
+[ 2317.0] people don't have the bandwidth or the technical skills to download and explore terabyte work
+[ 2323.2] files. End of term archives started in 2016 to do full text indexing of each of the end of term
+[ 2332.4] archives. You can get at that. You can access that search at web.archive.org. They have a collection
+[ 2341.2] search for each of the end of term archives. We've also done some exploration of different kinds
+[ 2348.4] of content that we've collected over time. For example, we've extracted out all of the PDF files
+[ 2354.8] from end of term crawls and are making those full text searchable with the understanding
+[ 2361.1] and the assumption that a PDF file is more than likely to be a published document or a report,
+[ 2369.4] something that people are more interested in accessing, not as Jim said the 2004 version of the
+[ 2377.6] EPA website. And on that front, we've done some smaller pilot projects targeting other kinds of
+[ 2385.2] information. One example that I particularly love is a brainchild of Jefferson Bailey at the
+[ 2391.8] Internet Archive. And he made a collection called the military industrial PowerPoint complex,
+[ 2398.8] which extracted out slide decks from the dot mill web domain that we had harvested through end of
+[ 2406.0] term archive. And made that a standalone collection. I think that's a really beautiful thing and
+[ 2414.6] something that we can do more of. And so I want to expand on that and create other what I like to
+[ 2421.6] think of as special collections. And the first one that I really want to work on and one that's
+[ 2429.5] the impetus of a lot of the data rescue projects that are happening now is to create a data collection
+[ 2436.4] extracted from the archives of, you know, the 13 statistical agencies, as well as the data rescue
+[ 2444.1] project and environmental, what is that public environmental data partners, too many acronyms in my
+[ 2451.3] brain, to enhance and expand on the work of those organizations in regard to collecting and
+[ 2459.9] preserving government data and making it accessible for the long term.
+[ 2465.8] I just want to add quickly that we quote in the book a survey of library leaders.
+[ 2473.3] And one of the questions and answers that came out of that survey was that people didn't understand
+[ 2479.3] how archived websites are used for discovery or how they're referenced. So this isn't just us saying
+[ 2487.1] I don't know how to do it. It's there's there are other people who are finding this the current
+[ 2492.1] way that we do things primitive. And I think that it's the case that once we
+[ 2499.5] have an infrastructure for digital preservation, we can rely on things being where they are not
+[ 2508.7] moving or changing having persistent addresses will be able to develop new services, information
+[ 2515.6] services for that information that targets specific communities. And those communities can
+[ 2522.4] be very large, like a city or state for public libraries or a large university or very small,
+[ 2529.4] like a branch library or a community of people who are interested in military power plants.
+[ 2536.2] Yes. Well, that gives us all a lot to think about here. So thank you, Jim and James.
+[ 2542.1] And I want to go ahead and turn things back to Dave Hanson to begin the audience Q&A.
+[ 2549.1] Thanks. Yeah, that was that was really fantastic. And especially appreciate the discussion about
+[ 2555.7] discoverability. And I I'm a librarian by training. I was a law librarian, actually,
+[ 2562.7] I still don't understand Sudox. So I could talk in Sudox if you want. But the only one that would
+[ 2571.2] understand would be Shari. So this has been really, really great. So we have lots of questions.
+[ 2580.2] And I'm going to start off with a pretty heavy one that someone asked early on in the talk, which was
+[ 2588.7] about who has both the right and the responsibility of preserving and sharing government information.
+[ 2597.4] And the question is couched in terms of looking at what's happening with the federal government right
+[ 2603.9] now, kind of actively seemingly rejecting the responsibility for preservation and permanent
+[ 2611.4] unrestricted public access. And so, you know, how do all the rest of us, I guess, kind of fit into that
+[ 2619.5] picture? I can start on that. We go into some detail of the history of this. For a long
+[ 2627.4] time, librarians in particular have said that the government has a responsibility to preserve
+[ 2634.2] preserve its own information. And for a variety of reasons that has ended up.

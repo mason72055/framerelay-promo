@@ -1,0 +1,516 @@
+[  240.0] And the longer term and the public domain is really an important part of that bigger picture and longer term
+[  246.0] So this is this is an incredibly important book
+[  249.8] to me because it
+[  251.8] it really explains in the context of current law almost a philosophy behind the public domain of like
+[  259.2] Why should we care about this thing?
+[  261.2] And and and what is it? What are the boundaries of this to begin with? So
+[  265.4] So I would like to introduce our speakers
+[  271.9] Jamie Boyle is of course the author of the public domain and I should say maybe before introducing Jamie a little about
+[  280.6] Why this book now?
+[  282.7] So you may be looking at this and thinking gee this book was published 17 years ago
+[  288.0] and
+[  289.6] And so I wanted to give some reflections on just why
+[  293.5] We are
+[  295.1] We're doing a talk about this today. I told Jamie earlier one of the reasons why is this is just one of my favorite books ever
+[  301.9] And I have long wanted to hear him talk about it on this series
+[  306.9] But I also think that this is a moment of just great reflection about what it means to have a commons
+[  315.7] What it means to have a public domain in a world where we see
+[  319.8] large tech companies for example
+[  323.2] roving the web and scraping everything in sight and
+[  326.9] And exploiting that in certain ways, but also
+[  330.9] seeing
+[  332.4] really productive and beneficial uses from research communities and creators doing incredible things
+[  338.4] With with those materials and so just a reflection on like how has the world changed?
+[  343.4] And and might our thinking need to change about the public domain as well
+[  347.5] So I'm really excited for this talk
+[  350.3] For that reason so I will do just some very brief
+[  354.3] introductions and then get out of the way
+[  357.0] So Jamie Boyle is the William Neal Reynolds professor of law at Duke Law School
+[  362.4] He is the founder of the Center for the study of the public domain
+[  367.2] Which does great work all year long but particularly around December of every year where
+[  374.5] Jamie and Jennifer Jenkins and the crew with the Center for the study of the public domain
+[  381.0] Remind us about all of the new and interesting things that are entering the public domain
+[  386.1] His his newest book is called the line
+[  390.1] Artificial intelligence and the future of personhood published by MIT Press and we actually did a really fun talk with Jamie on that book
+[  398.0] I guess that came out last year and the podcast episode is out which you can
+[  403.5] Download and check out online
+[  406.3] So in conversation with Jamie will be Molly Schaeffer van Howling
+[  411.1] I had to really condense her intro because I could have gone on for a long time
+[  415.9] She is the Harold A. C. Hobock distinguished professor of patent law and intellectual property at UC Berkeley School of Law
+[  424.9] She's the co-director of the Berkeley Center for Law and Technology
+[  428.9] She's one of the founders of authors alliance. She is
+[  433.9] The was the associate reporter for the recent a la a la copyright restate and project
+[  439.5] I could go on for several more paragraphs, but I think you get the point that
+[  444.5] Molly knows quite a bit about copyright law the public domain and
+[  450.4] And how that system of laws affects the creation and dissemination of works
+[  458.3] So I'm really excited for this talk and I will get out of the way. I'm going to turn it over to Jamie and he's going to
+[  466.2] Get us going. Thank you
+[  469.2] Thanks very much, Dave. This is incredibly exciting. I mean, first of all
+[  474.2] authors always wonder if anyone reads their books at all and for me to be talking about the book 17 years after
+[  480.9] It was published next year. It's going to be able to vote
+[  483.9] Is you know sort of like that? That's a great feeling more so because some of the people introducing me are my heroes
+[  491.5] Molly is one of my heroes. I've worked with her as an academic as a
+[  495.6] creative commons
+[  497.4] Supported her try to support her work with wonderful work with authors alliance admired her scholarship
+[  502.8] Chris and Dave are longtime friends and and colleagues
+[  507.0] Brewster is just one of my heroes
+[  509.6] And and has been for a very long time and the internet archive
+[  513.4] And authors alliance just really deserve your support there. There are two institutions that just do unmitigated good in the world and everything
+[  520.7] You can do to support them and to learn more about them. You should
+[  524.7] So
+[  525.6] I'm going to Molly's going to explain I think and had some incisive questions about it, but I'm going to start by just reading
+[  532.5] The opening words from the book because I think that might help us set the stage
+[  538.3] I was writing a book in 2008 trying to get people who were then going
+[  542.9] Oh my god, the internet spam and porn and pretty much nothing else
+[  548.1] That was all they could think about the internet and I was writing trying to get people not lawyers
+[  552.5] Just just actual people to think about intellectual property
+[  556.5] And so that turns out to be a really challenging task just for a writer. Um, so this is how I began
+[  563.7] Each person has a different breaking point for one of my students. It was a United States pant number
+[  570.2] 6004 596 for a sealed crustless sandwich
+[  576.0] In the curiously mangled form of English that pant law produces it was described this way
+[  581.7] A sealed crustless sandwich for providing a convenient sandwich
+[  586.3] Without an outer crust which can be stored for long periods of time without a central filling
+[  591.5] From leaking outwardly
+[  594.1] The upper and lower feelings are preferably composed of peanut butter and the center filling is comprised of at least jelly
+[  603.5] But why does this upset you? I asked you've seen much worse than this and he had
+[  608.1] There are patents on modified human genes on auctions on algorithms or business methods
+[  613.1] The us Olympic committee has an expansive right akin to a trademark over the word olympic and will not permit gay activists to hold a gay olympic games
+[  620.7] The supreme court sees no first amendment problem with this
+[  624.1] Margaret Mitchell's estate famously tried to use copyright to prevent gone with a win from being told from a slave's point of view
+[  631.0] Congress periodically considers legislative proposals that would allow the ownership of facts
+[  635.8] The digital millennium copyright act the DMCA gives content providers a whole array of legally protected digital fences to enclose their work
+[  644.3] In some cases it effectively removes the privilege of fair use
+[  647.9] Each day brings some new internet horror story about the excesses of intellectual property some of them are even true
+[  655.9] With all of this going on
+[  658.1] This enclosure movement of the mind this locking up of symbols themes facts and genes
+[  665.2] Ideas and eventually people
+[  668.5] Why get excited about the patent thing of a peanut butter and jelly sandwich?
+[  672.3] I just thought there were limits. He said some things should be sacred
+[  677.4] This book is an attempt to tell the story of the battles over intellectual property the range wars of the information age
+[  684.2] I want to convince you that intellectual property is important
+[  687.1] That it's something that any informed citizen needs to know a little about in the same way that any informed citizen needs to know at least
+[  692.5] Something about the environment civil rights or the way the economy works
+[  697.1] In the pages that follow I will try to show you that current intellectual property policies
+[  701.1] Overwhelmingly and tragically bad in ways that make everyone and not just lawyers and economists should care about
+[  709.0] We're making decisions that will have a negative effect on our culture our kids schools our communication networks on free speech
+[  717.1] medicine and scientific research
+[  720.3] I don't write this as an enemy of intellectual property
+[  724.3] Parenthetically I'll say I want to stress this point a dot communist ready to end all property rights. In fact, I'm a fan
+[  732.3] It's precisely because I'm a fan that I'm so alarmed about the direction we're taking
+[  737.1] Still the message of the book is neither doom nor gloom. None of these decisions is irrevocable
+[  742.3] The worst ones can still be avoided altogether and there are powerful counterweights
+[  746.8] In both law and culture to the negative trends I describe here
+[  750.5] There are lots of reasons for optimism. I'll get to most of them later, but one beer is mentioning now
+[  755.3] Contrary to what everyone has told you the subject of intellectual property is both accessible and interesting
+[  760.8] What people can understand? They can change
+[  764.1] Thanks
+[  767.8] Jamie it is such a delight to be joining you here today
+[  771.6] I don't know if you even remember the first time we met it wasn't in
+[  777.6] 2008 when you published the public domain it was at least 10 years before that
+[  782.5] When you were a rising star law professor, I was a star struck law student
+[  788.2] And you were already taking the message of the public domain kind of on the road and came to my law school
+[  794.6] To talk about it you convinced me to care about intellectual property
+[  798.5] To care about the public domain and even to want your job
+[  803.1] And to join you as you've mentioned in lots of projects
+[  807.5] since then
+[  808.7] so
+[  809.9] Did we fix it? Is there still reason to be worried about the public domain and its health
+[  817.7] Many years later today in 2025
+[  822.9] That's a very deep question
+[  824.6] We fixed some bits of it and we got some bits tragically wrong, but
+[  829.9] Okay, why care about it? Here's four reasons. I was just trying to think you know, how should I respond to that that question
+[  836.6] Um, four reasons why you might care about the public domain first if you care about creative arts
+[  840.7] Um, so copyright has a great role to play supporting artists supporting distributors
+[  845.2] But it also has this role in protecting the public domain
+[  848.0] So the future creators can draw on that to make new wonderful culture
+[  853.0] If you wanted a single story from 2025 that exemplifies this
+[  857.3] It's the current suit the reggaeton lawsuit
+[  860.1] which is an attempt by
+[  861.8] Subtalented musicians or than their lawyers to monopolize the basic denvo rhythm
+[  866.5] There's the basis of reggaeton
+[  868.5] And they are sued 163 recording artists between 2000 and 4000 songs
+[  873.4] We don't even know
+[  875.4] And basically what's saying is we own a genre
+[  879.1] And when you hear people saying we own a genre
+[  882.1] That's where you can tell that intellectual property is going wrong and we are encroaching into the public domain
+[  887.8] Second reason if you care about science
+[  890.0] So again, patents can play a vital role. I'm I believe in patents
+[  893.4] I like having new drugs that say lives and patents can play a role there. Um, though there's some problems
+[  898.3] They can't fix
+[  900.1] But the public domain of basic scientific knowledge is just as vital and if you want a single example
+[  905.8] Um, look at the way that the fight to make government funded research available to the world at the cost of reproduction namely zero
+[  913.8] Look at what covid taught us about that
+[  916.1] Basically we got scientific knowledge to flow as fast and freely as the awful virus. It was attempting to cure
+[  923.0] Right
+[  924.1] And that's what the public domain can do well. What wouldn't well mobilize
+[  928.4] Third reason if you care about cultural heritage
+[  930.5] And if you're going to an internet archive talk and you don't care about cultural heritage
+[  934.4] I think you went to the wrong place
+[  936.2] So I just think that's uh kind of a basic point. No one may need um refreshing on that
+[  942.5] But you know librarians have a word for what copyright has done and archivists what copyrights done to their field
+[  947.8] They call it the 21st century black hole
+[  951.2] Uh copyright pulls in all of these works most of which are not commercially available
+[  955.9] Most of which we don't even know who the copyright owner is makes them unavailable for no good reason
+[  961.4] And lock them up right at the moment when we had the technology
+[  965.2] Which could have made the world's cultural heritage available to the world for nothing
+[  970.8] Deep irony and finally if you care about economic and expressive freedom
+[  975.3] We live in an astoundingly oligopolistic market a point that I think you and I will come back to
+[  981.0] You pick your market and you'll can see oligopoly and oligopoly and monopoly distorting it
+[  986.2] And oligopoly and monopoly by themselves are bad, but oligopoly plus ip
+[  992.2] Is an almost unbreakable
+[  994.4] Um set of manacles because people can basically say that any attempt to compete with me
+[ 1000.3] to do to facebook and instagram what facebook and instagram did to my space
+[ 1005.2] is illegal
+[ 1006.4] it's uh
+[ 1007.6] felony contempt of business model to quote uh cori doctorate
+[ 1011.0] And so I think if you want to be able to take your car to uh dealer that isn't that isn't your actual
+[ 1017.6] Isn't the the people who made your car
+[ 1020.0] If you want to be able to change the ink on your printer
+[ 1022.5] If you want to be able to change your social network like all of these things are things where ip can get in the way
+[ 1027.7] so
+[ 1029.0] creative arts
+[ 1030.5] science
+[ 1031.5] Cultural heritage and economic and for that matter political expressive freedom those are reasons we should still care
+[ 1039.5] So we're going to talk more about some of those current threats
+[ 1042.2] I hope jamie and also rewind a little bit to ask why you were so worried about the future of the public domain back in
+[ 1050.3] 2008, but first
+[ 1051.5] Let's pause a moment to talk more about what there is to celebrate about the public domain
+[ 1056.7] We've already heard that january 1 public domain day is coming up in the subsequent celebration at the internet archive
+[ 1064.4] authors alliance also celebrates the public domain as of course does the center for the study of the public domain
+[ 1071.1] At duke law school, which you found it. Um, so what is public domain day?
+[ 1075.9] All about is there something you're particularly looking forward to celebrating this year?
+[ 1081.6] Oh great question. Well, betty boop. I think betty boops arrival
+[ 1084.7] um, uh into the public domain at least the 1930
+[ 1088.2] a version of betty boop who
+[ 1090.2] really surrealistically has
+[ 1092.6] Just looks like betty boop, but has dog ears
+[ 1095.1] um and dates a dog chef called bimbo who serenades her on a duck that turns into a guitar
+[ 1101.5] Um, but I didn't know why the Walt Disney sort of corporate wholesomeness
+[ 1106.4] Like sort of dominated in the in the world of cartoons, but the the fly shirt trippy surrealism is something i've always just loved
+[ 1112.8] And so welcome betty 1.0. Um, but as i lay dying Faulkner, um, uh, somerset mom
+[ 1122.1] Cakes and ale
+[ 1124.1] Uh, only a mediocre push person is always at their best
+[ 1128.3] Mom is someone you probably most people haven't read and you should because he's as quotable as hell and he
+[ 1134.0] Out wilds Oscar wild sometimes
+[ 1136.6] um
+[ 1137.6] but I guess
+[ 1139.5] We were writing the site and I encourage you all to go to the public domain site, which thank you chris has posted you can in the chat
+[ 1146.7] um
+[ 1147.7] I think particularly at this moment with ai the conversation about ai and the arts really sort of dominating our our world
+[ 1155.8] What's fascinating for me is that I view public domain day as a time capsule being opened
+[ 1161.3] This is a time capsule from 1930
+[ 1164.4] And what comes out are not just the works of art which become free
+[ 1168.3] But the lives behind those works of art
+[ 1171.9] Right machines can make pretty patterns, but they didn't have the life the experience the meaning the pain the joy
+[ 1178.4] That's behind them and that really comes through for me this year and uh jennifer and I am writing the site
+[ 1184.3] It is mainly her work. Uh really thought that that was the most exciting thing about this year
+[ 1190.7] So the time capsule analogy is apt because I want you to go back in time
+[ 1196.8] to a different set of times when you wrote the book and even before that so in 2008 you were worried
+[ 1203.5] That the public domain was in danger and some of that
+[ 1207.1] Danger had emerged over the previous decade or so, but some of it you trace in the book back to
+[ 1215.2] 1976
+[ 1217.2] What happened then or starting in 1976 that changed the shape of intellectual property law copyright law in particular?
+[ 1226.5] That led to some of the patterns that you started to worry about
+[ 1230.7] Oh such a great question. Well, and which of course molly knows the answer to probably better than I because she is a wonderful scholar and you should read her work but
+[ 1239.2] The 1976 act was the culmination of a series of developments simplify
+[ 1245.1] Um, which basically did a bunch of things that had incredible impacts that at the time no one imagined
+[ 1250.9] The first thing is they got rid of copyright formalities
+[ 1254.0] um
+[ 1255.1] Which previously had required you don't actually say, you know, copyright chris chris preland 2025 if you wanted a copyright
+[ 1263.5] um, and what that meant was that, um, all of informal culture every
+[ 1270.2] Selfie you take every love note you send
+[ 1273.1] Uh, every home movie you make all of these things
+[ 1276.9] Um are now under copyright regardless of whether you wanted them or wanted that or not
+[ 1282.7] so
+[ 1283.9] Before that set of changes which culminated in 76
+[ 1289.1] Informal culture simply wasn't inside the world of copyright, right?
+[ 1292.7] No one would have thought that a home movie was copyright was like this and now it was and
+[ 1297.9] Basically that meant that 99 percent of our culture was outside of ip
+[ 1303.1] And suddenly it was inside of ip and that's enormously important for any historian for archivist or documentarian
+[ 1310.0] For all of us because we are denying ourselves access to our own culture and frequently doing so
+[ 1315.0] For no reason the creators may not have wanted that
+[ 1318.6] Um, the second thing was the term extension
+[ 1321.1] So, you know as late as 76 we had, you know 28 years plus 28 years
+[ 1326.0] um
+[ 1326.8] And what that meant was that you could actually get a work after 28 years and when it came to
+[ 1333.2] When it came to books 85 percent didn't renew so they said I don't want any new copyright
+[ 1338.5] It was very easy very cheap to renew. I don't want to do a whole copyright
+[ 1341.9] So that meant that 85 percent of the stuff went immediately into the public domain after only 28 years now it is life
+[ 1349.3] plus 70 or 95 years for corporate works. So
+[ 1353.6] Bottom line we suddenly put like basically
+[ 1357.4] 99 of our culture came from outside of the world of the ip into it with into a system for which it was not designed
+[ 1363.5] um, it wasn't designed for people either
+[ 1366.1] And we also suddenly enormously extended the copyright term
+[ 1370.6] Right at the moment in history where we were just about to get a technology
+[ 1374.6] Which would have allowed it allowed us to digitize it all and make it available to the world
+[ 1378.7] I mean cosmic irony, right? And so that's really what changed in 76
+[ 1384.5] It's so meaningful to me. Of course, Jamie that here you talk about automatic
+[ 1389.1] Copyright which continued to get even more automatic with even more changes going up through 1989
+[ 1397.4] the
+[ 1398.8] Shift in the balance of ephemera that ends up
+[ 1402.8] Copyrighted as opposed to in the public domain as part of what motivated us to work together on creative commons
+[ 1409.2] Which was designed in part to make it easier for people
+[ 1413.3] Who were motivated to to nudge their stuff back towards the public domain when they got a copyright?
+[ 1419.8] Automatically, but that's another story for
+[ 1423.6] For another event. Okay, let's fast forward another
+[ 1427.2] Little bit from 1976 to the period the run up to your publication of the public domain
+[ 1434.4] What was happening in that decade or so that had you so worried and in particular?
+[ 1439.3] I'm curious about something you refer to in the book as the internet threat
+[ 1444.8] Yeah
+[ 1446.4] So the internet threat was my attempt to summarize a particular worldview, which isn't entirely wrong as any
+[ 1452.5] Pernicious worldview, you know always has to have a straight of truth. The internet threat says the following thing
+[ 1457.8] The strength of our IP protections needs to be inversely proportional to the cost of copying
+[ 1463.2] So when you need a monk and a scriptorium to produce a copy of Aristotle's poetics
+[ 1468.2] Nobody needs ip
+[ 1470.1] Because it's basically a good was just like a cup of coffee when you have the Gutenberg press
+[ 1474.7] Then we start thinking about having copyright protection although we don't use it for 200 years
+[ 1479.2] Or more than 200 years after that 300 years after that
+[ 1482.9] And the internet threat says when you get to the world of the internet where the cost of copying is full and almost to zero
+[ 1490.6] The inversely IP protection should move asymptotically towards perfect control
+[ 1496.1] Right in other words the easier the copying the stronger the rights
+[ 1499.5] And that view was held sincerely by lots of people
+[ 1502.8] Who wanted to introduce a set of changes some of which would have destroyed the internet as we know it today
+[ 1508.1] as you know well introducing strict liability for
+[ 1512.9] Strict liability for all acts of reproduction
+[ 1515.9] Regardless of whether you knew it or not and with any transitory copy counting as that and as my students subject say to me it's like
+[ 1522.7] Smiling nicely towards grandpa's like professional boil that would have made google illegal
+[ 1527.9] And I say I know and it very nearly did
+[ 1531.6] Right and that was you know we were we came just this close
+[ 1535.5] To actually having no protections for mere conduits no protections for search engines no protections for social media
+[ 1542.0] Um, and so we would have got basically america online or cable news
+[ 1547.1] Right we wouldn't have had in any sense a free internet
+[ 1549.8] And that was one of the things that I was I was worried about although by the time I wrote the book
+[ 1553.7] The immediate danger on that had passed but its reverberations were continuing
+[ 1560.0] So
+[ 1561.2] fear about the internet threat
+[ 1564.0] Almost destroyed the internet's potential as an engine for creativity and dissemination
+[ 1571.2] Let's fast forward some more to today
+[ 1573.8] Are we experiencing an AI threat? Is it similar different overblown? Are we missing the AI potential worrying about the AI threat? What's your take on that?
+[ 1587.5] Oh, I mean
+[ 1589.1] Fascinating conversation which I love maybe we could just schedule like five hour conversation
+[ 1593.5] Between the two of us just to have that. I think there is an enormous threat and enormous potential
+[ 1599.0] Um, the threat I think is obvious. I've in the book. I talk about our 2020 downside vision
+[ 1603.6] We always see the with threats and accurately see them like we knew the bad things that would come about the internet
+[ 1608.9] We didn't I think understand the good thing. I think we see the bad things about AI the threats to artists which are real
+[ 1615.6] Um, the deep fakes etc etc the cheapening of some things that we hold dear
+[ 1620.9] Um, what I think the hope is and here's public domain also plays a role
+[ 1626.6] Is that we have lots of competing forms of AI and that's by no means a certainty
+[ 1631.9] Um, the big content companies are trying to make deals with the big AI companies
+[ 1637.1] And if you control the content that the stuff is trained on you can pick winners as to the technology of the AI
+[ 1644.9] Producing perhaps still another oligopoly. That's a real danger. We need to worry about it
+[ 1651.1] And then the other thing is that
+[ 1653.5] The thing that I really hope for is that AI could develop dramatic new scientific advances
+[ 1660.0] For which it will need
+[ 1662.7] Relatively unconstrained access towards our scientific archives towards our data
+[ 1667.8] Towards our scientific articles, which is you know many of which live behind paywalls
+[ 1672.2] And so ironically, I think we're so focused on the real threats
+[ 1677.9] that many of the things we're likely to do for example saying training AI is a
+[ 1682.8] copyright infringement
+[ 1684.7] Are actually maybe more likely to help hurt
+[ 1687.9] Artists who are the people I really want to help
+[ 1691.1] More likely to give us an oligopoly more likely to give us a mono culture
+[ 1696.3] um
+[ 1697.1] And for those of you who are interested in your history go back and look at the aolian company
+[ 1701.2] And what do they want to do with recorded music in the early part of the 20th century?
+[ 1706.9] I think the analogy is precise
+[ 1709.9] Basically if we control all of the content, we can control the technology and I think that should make us worried
+[ 1717.6] Jamie the questions that you're raising about, you know
+[ 1720.7] What would be the unintended consequences of applying copyright to certain dimensions of our current life
+[ 1727.4] They remind me of another line in your book where you refer to intellectual property as an evidence-free zone
+[ 1735.0] Are we still operating in an evidence-free zone as we?
+[ 1738.9] Try to tackle the challenges of intellectual property in the public domain today
+[ 1743.9] What I was referring to thanks molly. I I mean that line has actually had some legs
+[ 1748.2] What I was referring to is we make ip in a way that's just really bizarre as compared to every other form of advanced regulation
+[ 1754.2] So if you come up with a new epa regulation, I mean when we used to have an epa
+[ 1758.9] This is like legal history, but uh when we still when we had environmental protection
+[ 1763.3] Um
+[ 1764.3] You you would have to say okay. Here's what the dangers are to human health
+[ 1768.0] Right. This is the number of lives that we'll be saying. This is how much it will cost to do this
+[ 1772.9] And here's at least our best guess at the unintended consequences of the of the regulation
+[ 1777.4] Will it shift us to something that's even worse?
+[ 1779.5] Right
+[ 1780.4] And we do that with every form of regulation with a drug, right?
+[ 1783.0] You don't just have a celebrity coming in and saying this is a pink drug
+[ 1786.7] I love pink
+[ 1787.9] Right that we would laugh if that happened, right? You have you have the trials you have clinical trials that supposedly tested
+[ 1794.9] With ip, you come in and say if we lengthen the copyright term
+[ 1798.4] There will be more creative works and a celebrity comes in and goes
+[ 1801.8] I love the songs. They're like my children and congress goes yay
+[ 1806.4] We will extend copyright yet again with no evidence that it will help
+[ 1810.2] um
+[ 1810.8] Europe actually to its great credit
+[ 1812.8] Past the date of best director said let me we should look to see what effects it has
+[ 1816.9] They went away and did a study
+[ 1818.6] The study generally indicated though the first study was a guy walking around a bookstore and going
+[ 1823.8] Everything looks flying to me quite seriously the second study goes well actually there's no real evidence
+[ 1828.4] This is helping in some evidence that it's hurting, but they kept the database directive anyway
+[ 1832.6] So um no, I think we're still in an evidence-free zone when it comes to ip
+[ 1837.7] But I mean, I guess I was assuming that I could rely on public health and the environment as things that were
+[ 1844.6] Obviously we would never get kick science out of and they were the baseline
+[ 1848.7] I could refer to but the answers seem to be hey guess what?
+[ 1851.5] We can make environmental policy and NIH policy just as evidence-free as IP
+[ 1856.2] So it was not really the effect that I uh that I was hoping to have in terms of the comparison
+[ 1862.3] Well, that was depressing I so let's go down that road
+[ 1867.8] uh
+[ 1868.7] One thing maybe that's even worse than an evidence-free zone is a zone of misinformation
+[ 1875.9] And you write about that a bit in the book too in your final chapter
+[ 1879.5] You speculate about the possibility that the internet might evolve from the open web
+[ 1885.5] The topic of a recent internet archive event to a more closed
+[ 1890.4] network of specialized applications and you speculate it in the book that this might result in
+[ 1896.5] fewer scams less misinformation, but at the same time you say it would undercut the
+[ 1902.4] Iconoclastic technological cultural and political potential that the web offers
+[ 1908.3] Now we have in fact seen I think the rise of relatively closed applications like facebook and tiktok as opposed to
+[ 1916.2] We still have the open web but as our students don't seem to know about it
+[ 1920.9] But we haven't seen the reduction in scams and misinformation instead we seem to have the worst of both
+[ 1927.9] Worlds a diminished open web and and more scams and more misinformation. Am I wrong about that?
+[ 1934.5] Could it be even worse? What happened to give us this combination?
+[ 1940.3] Well, you've got a sculpt here. So I have to say
+[ 1943.2] That it could always be even worse, but I think you put it beautifully molly. I mean
+[ 1947.2] Um, I was worrying that we would descend from the internet world into I mean
+[ 1952.5] I didn't quite use the the the phrase app an app world, but
+[ 1956.7] Um, where um freedoms are are
+[ 1959.8] Specifically denied to users and that has largely happened and I think our our students
+[ 1965.7] So they've never experienced life
+[ 1968.1] Or only occasionally experienced life
+[ 1970.6] outside of the
+[ 1971.9] The the app world and for whatever reason the app doesn't work
+[ 1974.7] Then you go to the open web to find out why it doesn't work or something like that and as you know
+[ 1979.7] But we haven't had all the benefits. We've you know the scams have got worse the the lock-ins are got worse the manipulation is called worse
+[ 1987.1] So
+[ 1988.3] I come back there to the the answer and and here this is a link with another great um talk that
+[ 1994.3] Um the internet archive and all those aligns put on with kori doctorow
+[ 1998.6] To his points about in shitification that the problem here the the underlining problem
+[ 2004.2] Is oligopoly that a lot of this can be solved by competition
+[ 2007.9] Which is something that you know, it ought to be something that liberals and conservatives could come to together and say, you know
+[ 2014.2] Yeah, we might actually, you know, be able to agree
+[ 2018.2] That being locked into something is bad and having a diversity of voices a diversity of
+[ 2024.0] Services is much better
+[ 2026.2] And so I think ip is only one
+[ 2029.5] Part of that. I think antitrust is an enormous part of it. I think greater cultural awareness is an enormous activism is important
+[ 2037.5] Um union, um labor organizing and so forth
+[ 2040.6] But it is a part
+[ 2042.2] Because a lot of the bars that keep you in those apps those those little world gardens
+[ 2049.9] Are forged with ip
+[ 2052.0] And so that's something that I think
+[ 2055.6] Um, uh, could it get worse? I mean
+[ 2059.1] Clearly, uh, it could get worse. I I think
+[ 2062.2] Um
+[ 2063.1] I think the question is whether and we are going to have another cycle of creative destruction of the kind of the web ad
+[ 2069.7] Which remember there was this moment of
+[ 2072.1] Disintermediation, right?
+[ 2074.1] Anyone with a great idea can you know come and and put it up there new apps everywhere?
+[ 2079.3] You know, destroy the old social network because it's inadequate on privacy and create facebook
+[ 2085.6] Um, and so the you know, there there is the hope that dynamic pressures will be enough
+[ 2092.7] Um together with government action to actually make more of that
+[ 2096.7] Um to to to to give us a new cycle of openness and I think understanding the those ip bars is a key part of that
+[ 2105.7] I want to circle back to hope
+[ 2107.9] But not yet. I have one more depressing question to ask you about today's environment
+[ 2114.0] Now throughout the book you remind the reader that less intellectual property doesn't necessarily mean less creativity and less innovation
+[ 2123.1] In part because there are alternatives or compliments to intellectual property that can also provide sources of funding or just
+[ 2132.2] motivation the motivation of the joy of creating that generates lots of
+[ 2137.9] Works now when you wrote one of the alternative sources of funding for especially for expensive
+[ 2146.9] discoveries and creativity
+[ 2149.4] Was a federal funding of science and the arts
+[ 2153.2] This year as you have already alluded to we've seen massive cuts to that funding and so i'm curious
+[ 2158.7] What does that mean for the importance of ip and of the public domain?
+[ 2165.2] Uh, I mean that's it's a great point. I think you know, american science is being damaged in a way that
+[ 2174.0] I think no rational person could
+[ 2177.3] Cheer about which is not to say that our science funding was perfect
+[ 2180.8] Then nih but didn't have bloat that there weren't problems of
+[ 2186.1] to the
+[ 2187.8] conservatism in the non-political sense
+[ 2190.7] That iconoclastic scientists were having difficulty
+[ 2194.4] Getting funds that grants took too long the review process was slanted all those things are true
+[ 2199.6] Right, and we should we should fix them regardless what happens
+[ 2203.5] um
+[ 2204.4] But we took for granted a sort of vision of
+[ 2208.0] Innovation as a pyramid and at the bottom layer was this basic scientific research
+[ 2213.9] Some of which by the way was done by companies, but the vast majority of which was done
+[ 2218.7] Um as funded by governments and that that was a public good
+[ 2223.6] That actually benefited everyone that that it's a great deal like the the return the ROI the return on investment is fantastic
+[ 2232.7] Um, so it's true that with that in a bands
+[ 2237.4] There will be a greater pressure on private enterprise to fund things
+[ 2241.5] But I just don't see any world in which private enterprise is going to be incentivized to fund basic research that doesn't have a commercial payoff
+[ 2248.7] So I think we've basically taken the bottom layer of the pyramid and started cutting holes in it
+[ 2256.1] And then we're just hoping that the whole thing won't collapse
+[ 2259.0] So
+[ 2261.9] So that makes me
+[ 2263.8] Feel motivated towards an end that you talked about in the book
+[ 2268.2] That is being part of what you called a cultural environmental
+[ 2273.5] Movement to save like the equivalent of public
+[ 2277.8] Lands would be the public investments that you were just talking about
+[ 2281.5] Um, so in the book way back then you pointed to some emerging organizations that were part of a
+[ 2288.3] A fledgling cultural environmental environmental movement
+[ 2292.2] I've just suggested already that we still need maybe now more than ever
+[ 2297.0] Such a movement. I'm curious how you feel about that whether
+[ 2300.6] What's your view of the movement that you helped to inspire? Is it healthy?
+[ 2306.7] And um, if if you've inspired folks to care as much as you've inspired me to care, how can they be a part of it?
+[ 2316.2] Um, well, so thank you the analogy to environmentalism was was this
+[ 2321.5] Um, though it's hard to believe
+[ 2323.5] Um, the environment was made up. It was socially constructed
+[ 2327.5] If you talked in the 1940s to someone about the environment or environmentalism, they would have gone
+[ 2332.6] The stuff around us. They wouldn't have had the connotation
+[ 2335.6] That we had and if you told them that duck hunters and bird watchers
+[ 2340.3] Had shared interests
+[ 2342.9] Um, in preservation of wetlands or that someone who cared about pollution in la
+[ 2348.2] Had a shared interest with someone who worried about diminished salmon stocks in the rivers of new england
+[ 2353.8] They would have gone what earth are you talking about? Nothing links those ideas together
+[ 2357.8] There's nothing that links them together
+[ 2359.8] Now we look at it and go how can you not see the thing that links them together?
+[ 2363.5] It's care about the environment and so that's something where it was socially constructed people made something up
+[ 2369.7] They created a thing in their brains
+[ 2373.1] That made the world change shape and suddenly lots of things clicked together and alliances concrete political alliances
+[ 2380.8] That had never been imagined came into to view. So yes, I think we desperately need such a movement like that
+[ 2387.9] I think we need a movement
+[ 2390.2] That is effectively a movement for the common wheel
+[ 2393.8] For the open spaces of the mind
+[ 2397.2] A movement that actually tries to say here are the things that we believe in
+[ 2402.4] Which are these building blocks that will make us all better off
+[ 2406.4] If we can actually preserve them some of that is still the public domain
+[ 2410.2] Some of this is the stuff that you're talking about a commitment to to science
+[ 2414.2] Not just to funding science, but to the idea of science to the idea of scientific truth
+[ 2421.1] And the thing is that we've sort of assumed that those ideas spoke for themselves
+[ 2425.5] Who would be against basic scientific like are you like there's no pro-cancer party?
+[ 2431.3] Well, I mean, I didn't think that maybe there is there's no pro measles party
+[ 2438.3] Right and so I didn't think that you needed to say
+[ 2442.4] Hal Abelson used to talk about the fdb index to remember this fewer dead babies like
+[ 2447.3] Why do we need to pitch that that's a good idea?
+[ 2451.0] But apparently we do and I think that there are actually
+[ 2454.6] A lot of people I think a majority of people
+[ 2457.2] Regardless of their political whom they vote for who would say well, of course, of course
+[ 2463.1] I support those things
+[ 2464.6] Somehow we need to find a better way so that those people can find common calls
+[ 2474.9] Well, let's talk to some people who might want to be part of that cause I see Dave Hanson looking lively
+[ 2481.2] I know Dave is going to help us interact with the audience who's been submitting some questions for
+[ 2486.4] For Jamie and and I'll feel some too if there any for me
+[ 2490.8] Sure, yeah, I have I have quite a list and they're pretty good ones
+[ 2495.7] So the first one is really keying on on the public domain and observes that one of the
+[ 2502.7] Things that's interesting about the public domain is that when famous things come into the public domain
+[ 2509.4] The result is that we often see works that are probably fair use in the first place
+[ 2514.6] So for example, Winnie the poo as a zombie, right?
+[ 2519.2] And the question is why why is that why do we have that phenomenon of
+[ 2524.7] People like not going quite as far as they could have once once these works enter the public domain
+[ 2531.2] Yeah, and I think I saw the question in the chat sort of like why don't people immediately just produce low-cost versions of it
+[ 2537.3] They do it's just that reporters can't say hey a lot of really great books suddenly became cheaper
+[ 2544.4] Because it's you fewer people will click on that than the actual movie
+[ 2549.2] Winnie the poo one was a slasher movie called blood and honey
+[ 2553.8] And a lot of people go see that just shows you the public domain is a bad idea. So I think the answer is
+[ 2559.0] We do see a lot of those works there and we see we see them being produced
+[ 2566.4] But but the the attention often goes to the transgressive works
+[ 2570.9] the good news is
+[ 2572.7] Flip the story around
+[ 2574.5] Shakespeare has always been in the public domain
+[ 2578.1] So do you spend much time worrying about sleek shake sake Shakespeare slasher movies or Shakespeare porn?
+[ 2584.8] You know, I think you probably spend more time going oh my god
+[ 2587.4] I love west side story or I love forbidden planet, right? Or I love any of the
+[ 2593.8] Of the endless variations on Shakespearean works that have been produced
+[ 2598.3] So I think the good news is we do see immediate
+[ 2601.2] diminution of cost
+[ 2602.8] immediate increase of accessibility including places like the internet archive
+[ 2607.5] We also see some creative reuses the number of great gas be reuses is just exploding
+[ 2612.0] There's I think four more coming out this year, right? So so actually people do that
+[ 2617.4] And I just wish the reporters would stop focusing only on the slasher movies and actually celebrate some of the real stuff that's happening
+[ 2624.6] So Jamie sounds skeptical about the slasher movies
+[ 2629.2] I took the question in another way
+[ 2631.8] Why don't we see more slasher movies based on Winnie the Pooh or Jane Austen or whatever
+[ 2637.9] Given that there's a fair use case to be

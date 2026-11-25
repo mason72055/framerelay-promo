@@ -1,0 +1,338 @@
+[  240.0] excited about this one for a while. Caroline shared the draft of this book with me back in,
+[  246.2] I guess it was October or November, and I got a sneak peek, and it's just, it's really, really good.
+[  253.2] And I think especially in a moment when we're just inundated with hype, and I think hype on both
+[  260.5] sides, there's the sort of AI doomer crowd that the Skynet is coming in the world's going to end,
+[  267.1] and then on the other side of the ledger, we've got the technology company folks and other enthusiasts
+[  274.5] that are giving us the alternative view, and I just really appreciate that this is a level-headed,
+[  284.0] really, really thoughtful review of what we're really looking at when we're talking about AI.
+[  290.4] So you may have noticed that this is actually our second book in a series here on AI, and for a
+[  297.4] while Chris and I joked that we could have a book on basically any topic, and at the end, we would get
+[  304.0] at least three or four questions somehow relating it to AI, and so we thought we'd bite the bullet.
+[  310.6] And actually focus on this, and I think that it's turned into a really good series.
+[  315.3] So with that, I just want to again welcome everyone for coming, and I'll introduce our
+[  322.4] speakers and then hand it over to them so that we can hear what they have to say. So first,
+[  328.1] I'm going to introduce Glenn Moody, who's a London-based technology writer. He's the author
+[  333.6] of the book Rebel Code, Linux, and the open source revolution. He writes widely, and he's
+[  343.1] appeared in Wired, and Computer Weekly, and Linux Journal, and ours Technica, and probably many
+[  348.9] others that I have missed. His most recent project, or the most recent project that I've really been
+[  356.3] engaged with in reading, is entitled Walt Culture. So Glenn actually did a book talk with us, I guess
+[  363.3] it was several years ago now talking about Walt Culture. It has a fantastic website and blog
+[  370.3] keeping up with essentially what has happened over the last 20, 30, really 50 years, but a long,
+[  376.5] long journey of culture becoming more and more walled off and difficult to gain access to.
+[  384.1] So very excited to have Glenn with us, and he'll be in conversation with Caroline,
+[  391.2] and Caroline, I have the pleasure of talking with every couple of weeks,
+[  397.0] and she's just a wonderful person, and has a longtime strategist at the intersection of technology,
+[  405.0] law, and AI governance. She is based in Belgium, and really understands at a deep, deep level
+[  415.3] EU and global digital policy, and she really specializes in translating some of the complex
+[  423.4] issues in AI, and media, and copyright into things that actually make sense and matter to
+[  430.1] policymakers. So I learned this about her, I didn't know Caroline has lived in 11 countries
+[  437.0] across four continents, and so she brings a real global perspective that I think is unique.
+[  444.6] So I'm very excited to hear her talk about her book, AI Tools, Not Gods, and so I am going to
+[  451.0] turn it over to them. Thanks very much for that introduction, Dave, and also Chris and Brewster,
+[  465.6] and Caroline. Hello, it's good to see you again. We've worked together on a number of projects,
+[  471.1] but this one's entirely your own, and I think it looks really splendid, so I just hold up the
+[  475.7] physical copy, so we will, what they can acquire. I've really enjoyed reading this book. I also
+[  483.1] had a sneak preview before it was actually published, because it's such a different book from all
+[  488.4] of the others that are being published about AI. I mean everyone's been jumping on the AI bandwagon,
+[  493.6] but there's no other book quite like this because it focuses very much on policy,
+[  498.8] and that's something that's quite unusual in this world where people tend to be caught up by that
+[  503.1] hype. But before we get into the details of the really interesting way you've addressed that,
+[  508.8] I'd just like to ask you a more general question about your experience in the AI world. Most
+[  516.1] people think that AI is something new and possibly exciting, but in fact it's been around for over
+[  521.1] half a century, and I wondered when you first came across the idea how your views on it changed,
+[  528.5] particularly with the latest round of LLMs, the large language models, and the generative AI that
+[  536.5] is really driving the current sort of excitement around AI. Yeah, so I think I've been aware of
+[  545.8] AI for a very long time, although it didn't fall under that sexy term for a long time when I was
+[  553.0] dealing with it. It was, you know, text and data mining, machine learning, a lot less exciting in
+[  561.1] terms of terminology. And to me, what triggered me into writing the book and feeling the need to
+[  570.6] talk about it was just the fact that everything was AI and nothing was AI at some point in the
+[  576.5] conversation I was having with policymakers. And if you're in Brussels, which is the capital of
+[  585.3] policymaking in the EU, I mean, if there's one thing we produce a lot of in Brussels, its
+[  590.9] legislation and policy, and you're talking to people and they are talking about mathematics and
+[  599.2] applied statistics in a way that makes you think, are they really understanding what's happening
+[  605.1] here, then that's worrisome. And so I wasn't a specialist in AI back then. I did take a small
+[  615.0] online course at MIT to understand a bit what was under the hood, but I'm not a mathematician
+[  619.6] like Hugh Glenn. So I wanted to understand, you know, when people talk about AI, what does that
+[  628.9] actually mean and what does it cover? And once I started going into it and reading more and more
+[  634.9] out of it, I kind of came to a point where I thought, okay, I'm either going to become, you know,
+[  640.0] Homer Simpson's dad, like the old man going outside and shouting at clouds out of frustration,
+[  646.2] or if I want to look really intelligent, I'm going to write a book about it and try to go through
+[  653.3] an exercise of understanding this. The difficulty, I think, at the moment, and I was looking before we
+[  662.0] started, I was looking at some of the reactions that people had on social media to the announcement of
+[  668.0] the talk, is that AI has been decreased, the understanding that people have of AI at the moment
+[  678.1] is extremely limited, and it's limited to a number of very visible use cases, which are the chatbots,
+[  686.5] which are generative AI and within generative AI, an even smaller proportion of generative AI,
+[  692.1] which is, you know, the chat GPTs, Gemini's, the clouds of this world, and so a lot of the
+[  698.6] conversations on AI come from that point of view, you're thinking about a chatbot producing an
+[  707.2] averagely exciting email response, a mediocre piece of, I won't say art, but graphic, a mediocre
+[  716.9] graphic, or an averagely funny song on Suno or something, that's what a lot of people are thinking
+[  725.6] about when they talk AI, and that's where they then say sometimes very emotional things and push for
+[  732.1] some emotional actions by policymakers. When I think of AI, I see a breadth of possibilities,
+[  741.7] and I see a lot of applications that are happening that have nothing to do, which are GPT thank God,
+[  748.2] and that, you know, are, I always say, non-threatening to, for example, Sir Elton John when he produces
+[  755.5] music, because I don't think he's folding proteins in his kitchen as some of the deep minds applications
+[  762.8] in AI, for example, do. So, yeah, language at the end of the day is the biggest difficulty at the moment,
+[  770.2] I think in policymaking, in general conversation, in reporting of the media, there is a lot of sloppiness
+[  778.9] in language when talking about AI. Some of it is on purpose, you know, when you look at the Silicon
+[  787.2] Valley people and the marketing spin and the hype, that language and the use of language and the fact
+[  795.3] of making it look like some magic that's going to change the world, solve all problems, that's done
+[  801.7] on purpose, and that is done because when you're asking for 500 billion, one trillion, whatever
+[  809.1] enormous amount of investment, you can't say, well, it's just to improve my chatbots to become
+[  814.9] slightly less sycophantic and slightly more accurate, you have to announce that you're doing
+[  819.4] something, you know, that's wonderful and that will change the world for that amount of money.
+[  825.3] And then sadly, you know, as I said with Silicon Valley, I see where they're coming from,
+[  831.1] might not agree with it, but okay. But sadly, then it gets into the press that just in many cases
+[  838.2] just repeats what was said by one tech brewer another without challenging it very much or without
+[  846.2] pushing back on it, or when they do so, it's in the article in paragraph seven,
+[  851.7] which is where people never scroll down on their phone type of place.
+[  856.1] That's a bit because your book has some very interesting ideas, very detailed ideas about
+[  861.7] this essential problem of the stories. So perhaps you could say a little bit about
+[  866.2] the stories that you've identified within the AI world.
+[  872.0] Yeah, so I've looked at, first of all, it's not new. The fact that, you know, technology has a
+[  878.1] lot of stories around it. And we have that with the internet, the Wild West, the information
+[  884.0] superhighway, you know, there was a lot of terminology. There were metaphors, there were stories.
+[  890.1] The interesting thing with artificial intelligence is that a lot of the stories on AI existed
+[  896.8] before the technology was even there, or at least before it even realized its potential.
+[  903.1] So we've had sci-fi movies, sci-fi books about, you know, overlords taking control and robots taking
+[  910.8] over, and all of that has been in our imagination when machine learning was still very, very nascent
+[  920.1] and wasn't, you know, at all sophisticated back in the days. And I've tried to classify the type of
+[  927.7] stories in four myths, let's say, which are magic, madness, heaven, and sin. The magic one is the most,
+[  936.4] you know, I think everyone has realized that they're trying to sell AI as magic. And I talk about the
+[  942.5] sparkle emoji that is used often to refer. There's a lot of little stars every time you use,
+[  950.5] you look at the user interface for artificial intelligence, how it's produced. And that is,
+[  954.9] you know, their way of pushing like, ooh, something amazing is happening. Even though there's something
+[  960.3] amazing in many cases is just, you know, a parrot that is predicting a string of tokens that look
+[  971.3] like a sentence and that they hope will respond to whatever query you have at that time. But it
+[  979.5] sounds cooler, if you say it's magic, and it has intelligence and, you know, is sentient,
+[  984.5] obviously. So that's kind of on the magic side, like making it look like it's coming to life,
+[  992.1] it's using all of the anthropomorphic language, like it thinks, it believes.
+[  998.5] Recently, we had anthropic issued a constitution for Claude, the chatbots, you know, where it was
+[ 1005.6] talking about the emotions and how it should, that thing that they are programming should
+[ 1011.1] react to its emotions, et cetera, which was the biggest piece of anthropomorphization I've ever seen
+[ 1018.1] in my life. And I was actually, and oh, I should add, the constitution had people from the Roman
+[ 1024.6] Catholic clergy involved in its writing, which I'm not sure that's the best way to get ethics
+[ 1030.1] going into anything, but, you know, why not? And I was actually disappointed when I read that,
+[ 1036.5] because I thought the anthropic people were amongst the more, you know, controlled one or the four
+[ 1043.7] shy ones in terms of making bold statements. But I guess, you know, when you have an IPO lurking,
+[ 1050.0] you suddenly write a constitution. It would be my guess that that's the timing of it.
+[ 1060.1] So that's, but then you have the madness one. And the madness one is really that whole,
+[ 1065.3] you know, arms race type of mentality that has been created. And it's an arms race between
+[ 1072.9] continents, like, you know, USA wants to be quicker than China, Europe is vaguely making
+[ 1079.4] announcements that they want to do their thing to, you know, there's geopolitical dimension to
+[ 1086.9] the race. And but then there's a dimension of, you know, a couple of big companies wanting to
+[ 1094.5] alter each other and make the announcement of their, you know, my chatbot is better than yours,
+[ 1101.7] bigger than yours, quicker than yours, I guess, type of statement. And
+[ 1107.5] in both of those races, those are actually quite threatening in terms of policymaking.
+[ 1116.8] Because when you create a constant state of emergency, of urgency for everyone, like on the market,
+[ 1124.9] policymakers start doing shortcuts. And the shortcuts can be
+[ 1129.9] actually in both extremes, they can be shortcuts about, oh, let's not regulate anything, let's
+[ 1134.8] not legislate anything because we want to be quicker than the other guy. We don't want to be
+[ 1139.5] outpaced by China. And so whoops, let them do whatever they want. And we'll just, you know,
+[ 1144.9] see what happens, which is not a great thing to do for any technology or any human behavior is just,
+[ 1152.0] you know, it's like basically you take your kid and you throw it in the playground and say,
+[ 1155.4] do whatever, and we'll see what comes out of it. And then you have the other extreme, which is,
+[ 1160.5] you know, what comes from the doomers more, which is to say, oh, we need to regulate the hell
+[ 1165.7] out of this and push the pause button on AI, whatever AI is, because this is going out of control.
+[ 1174.9] The good thing, I think, is Europe did adopt something called the EU AI Act. And when that started,
+[ 1184.0] actually it was reasonably okay in terms of act because it had the intelligence of not looking
+[ 1191.3] initially too much at the technology, but it looked at the outcome. It looked at the behavior. So it
+[ 1197.5] kind of classified AI according to the level of risk, like high risk, medium risk, which made sense,
+[ 1204.5] I think that's that was a reasonably good way of looking at it and saying, okay, when it's in a
+[ 1210.5] military drone, that's high risk. When it's filtering your spam, we're reasonably okay with it. And
+[ 1218.5] anything in the middle, we'll see how we address it. The problem is that that good intention and
+[ 1226.2] that good classification that started in Europe then went into complete overdrive once actually
+[ 1232.9] chat GPT got released during the negotiations of the EU AI Act, and they seem to discover
+[ 1239.4] generative AI in Brussels. And then they started micro managing the whole thing by putting more and
+[ 1247.7] more and more and more details in the act, which is now 180 pages of monstrosity and is already
+[ 1255.5] starting to be relooked at because some of the provisions are considered as not appropriate
+[ 1262.1] anymore with the evolution of AI. And that leads me to the fact that policy makers and
+[ 1271.4] legislators are extremely bad at regulating technology because they don't understand technology. They
+[ 1279.8] shouldn't be expected to understand technology. And even when they understand technology, they can't
+[ 1285.7] predict technology because honestly, if you could predict technology, you would probably not be a
+[ 1290.8] policy maker. You'd be working at a venture capitalist and making a lot of money. So
+[ 1298.2] what I hope that policymakers will do more and more moving forward and looking at these challenges
+[ 1304.9] of technology evolving quite rapidly is regulate behavior. Because the outcomes of technology are
+[ 1312.9] what I call behavior, and they are really predictable. What people do with AI is the usual stuff you do
+[ 1320.7] with all AI, which is you cheat, you scam, you lie. And what the people that make AI do is the usual
+[ 1330.4] stuff that any company that has a competitive edge, or that has a gatekeeping position does,
+[ 1336.5] which is you kind of abuse your dominant position in any which way you can. And those are all very
+[ 1342.8] traditional ways of doing things. They're not very motivated by technology. And then looking at my
+[ 1349.7] two other myths that I looked at, which are heaven and sin. I'm really intrigued at the level of
+[ 1357.4] how should I put it? Godlike language, rituals, religious type of vibe you get out of the whole
+[ 1368.0] AI discussions, out of the presentations that are done around their products. I mean, we've had that
+[ 1375.3] in the past on technology like the Apple or meetings, TEDx type of talks, the light setting, the way
+[ 1387.2] they speak, no questions. You have to listen to the evangelists that are basically bringing technology
+[ 1393.3] to you. So it's been happening for some time, but with AI, it's kind of sped up. As I said, a constitution,
+[ 1401.3] clergy, giving their opinion on the ethics, there's a lot of dimensions here that are a bit weird,
+[ 1412.1] to be quite honest. And that merits to just be shrugged away a bit. And people thought should be
+[ 1418.7] told to kind of get a grip. Because to a large extent at this stage, to my knowledge, AI is a
+[ 1428.6] very sophisticated calculator. And if you're going to bow to the religion of a calculator,
+[ 1436.5] that's worrisome and that's on you. And then the last one, the most worrying one in terms of policy
+[ 1445.0] making is the sin one, the sin myth. So it's basically blame everything on AI. Major layoffs
+[ 1454.9] are being done by companies. Those are AI layoffs. Creators are under pressure and it's very
+[ 1464.7] difficult to have an income, blame it on AI. Anything that you can see, any problem,
+[ 1472.5] kids are having difficulties in remembering things, their attention span is decreasing,
+[ 1477.6] blame it on AI. I'm not saying AI doesn't have a role in any of those things.
+[ 1485.0] But usually all of those problems are a bit more complex than that. And they have their origins
+[ 1493.1] in societal problems in things not having been resolved by governments or by companies beforehand.
+[ 1502.1] And it's just very convenient to blame it on AI. But that's not the reality. There's been studies
+[ 1508.7] recently that actually a lot of the AI has been used as an excuse, for example, for major
+[ 1515.5] layoffs in certain companies. But it's not because those jobs have been displaced by people that
+[ 1523.6] or by AI taking over the functions. It was just a good way of saying, let's remove the people that
+[ 1531.0] we hired. There was a bit of overhiring, for example, in tech for a couple of years. And now they're
+[ 1537.0] kind of solving that. And maybe people should think that stock markets that value more
+[ 1544.4] decrease of headcount than looking at other expenditures. Maybe it's those stock markets that
+[ 1549.7] have a problem more than AI causing the problem. So there's a lot of things where you say,
+[ 1558.8] where they just point that AI as something very convenient, but where the reality is not such.
+[ 1564.6] And what is really worrisome is the use of AI did this or AI did that. Because AI doesn't do anything.
+[ 1574.9] AI is a software that was programmed by humans. So for example, when in Europe we recently had a
+[ 1584.4] big, how should I put it, we had a lot of emotions come out because of how grok behaved with deepfakes
+[ 1592.9] of women of nudes without consent of women on the X platform by generating those deepfakes.
+[ 1602.7] And a lot of the headlines were, grok did this or grok did that. And like, no, you know, Elon Musk
+[ 1611.4] created a software that allowed people to do that. And so at one end you have Elon Musk. And at the
+[ 1617.9] other end you have human beings, mostly men, doing things that are despicable.
+[ 1625.4] You know, grok, saying grok did something, that's a really convenient way to remove any
+[ 1630.1] accountability on both end of that chain. And I think that's the biggest thing. In the use of
+[ 1635.2] our language, we need to try and remove the AI word as much as we can, and to point towards
+[ 1642.5] who's accountable in doing these things.
+[ 1646.8] I mean, this analysis seems to me very powerful looking at this complex situation.
+[ 1652.0] And I know that you talk to policymakers in Brussels, particularly a lot. So I'm sure
+[ 1658.2] you've been saying some of these things to them. And do they acknowledge this when you speak to them
+[ 1662.5] or are they just completely baffled by it? I mean, how is this going down in the sort of
+[ 1667.2] centers of power, do you think? I think the problem is policymakers get asked all the time
+[ 1674.5] to do something about it. Do something about this or that. And in this case now there's a lot of
+[ 1682.2] ache feeling towards AI. A lot of people are just like, don't like it. Don't like what it's doing
+[ 1688.6] to my kids. Don't like what it's doing to creativity. Don't like this. Do something about it.
+[ 1694.9] And it's very difficult for policymakers. I always say legislators, legislators, regulators,
+[ 1702.4] regulate. I mean, so if you come to a legislator and you tell them do something about it, the first
+[ 1707.0] thing they think is, well, we'll do a new law. Where often my instinct to tell them is maybe
+[ 1713.0] you should enforce the ones you already have, because in a lot of cases you're not enforcing
+[ 1717.8] anything at the moment. So there is that there's that sense of we need to respond to people asking
+[ 1725.8] us to do something. There's also a sense of surely it can't be that simple that we just regulate
+[ 1734.3] behavior without specifying, you know, what was used. And I always tell them, well, I don't know,
+[ 1741.6] if you say, thou shall not kill and you don't specify where they are with a spoon,
+[ 1746.2] the thou shall not kill should apply reasonably well, you know, regardless of what you use. So how,
+[ 1751.7] why is it so difficult to accept that you need to take your hands away from technology
+[ 1757.4] and just look at behavior? And then I think, yeah, there is even amongst policymakers,
+[ 1765.9] there is a kind of policy race in terms of, you know, I've produced my act before you.
+[ 1773.8] My act looks better than yours. I mean, Brussels has this thing with the Brussels effect. They're
+[ 1779.9] so proud of having produced the first privacy legislation and the GDPR and that having influenced,
+[ 1787.7] you know, a lot of other countries and, you know, good on them, because initially the privacy
+[ 1793.4] legislation was actually quite good. It became a bit more difficult to comply with as time went by
+[ 1799.0] because they micromanaged again. But since that, they have this thing like, oh, you know,
+[ 1805.0] we're not good at producing AI companies, but we're going to produce the first legislation that
+[ 1810.3] installs guardrails. And I think in the US, it's a bit the opposite extreme to a certain extent,
+[ 1819.8] at federal level, there it's more like, oh, we will be the first one to do absolutely nothing
+[ 1826.2] about AI and just let it go. I would say, thank God, you have the state level that then intervenes
+[ 1833.8] and maybe adds a bit more safety into the whole thing. But it's they, you know, they were starting
+[ 1842.2] to get a grip on what AI was and wasn't. And starting, I think, to see like, okay, some of it
+[ 1849.5] is generative AI and chatbots, some of it is stuff that could be useful for medicine,
+[ 1854.5] some of it could go into industrial type of applications for agriculture. And what was
+[ 1860.3] the recent case? I saw improving how beer crates at Kalsberg are being shipped or whatever. You
+[ 1867.0] know, so they were starting to see the building blocks of AI as being a bit more complex than just
+[ 1871.6] chat GPT. And suddenly we had mold book and and clawbot and all of those things with
+[ 1877.4] agentic AI popping up. And guess what, you know, policymakers are doing in Brussels this week,
+[ 1884.4] they're looking at agentic AI to see how they could regulate that. So every time there's a new
+[ 1890.8] shiny little thing popping up, they have to do something.
+[ 1898.5] Okay, you described there well the sad state of reality in these circumstances. So let's just talk
+[ 1906.2] about a hypothetical situation where, I don't know, let's just make you the commissioner,
+[ 1911.0] EU commissioner for AI in an ideal world. How should we address the regulation of AI without
+[ 1919.6] making those same kind of mistakes? Well, I mean, I looked at there's three keys that I identify in
+[ 1928.5] my book, which is accountability, proportionality and durability. And so on accountability, it's
+[ 1937.1] looking at who benefits from AI and making sure that when you regulate, you try to
+[ 1944.8] go after the people that benefit from AI's lack of guardrails or lack of safety or whatever,
+[ 1954.8] and make sure that you go after them. So targets your regulation to the right people.
+[ 1963.4] In terms of proportionality, that's a bit the system that the EU AI Act has, which is like,
+[ 1968.6] look at the risks of the different types of AI and regulate accordingly in terms of like leaving
+[ 1976.4] some of it to normal legislation, you know, there's a lot of, we have a lot of legislation in Europe
+[ 1982.6] and the US has a lot of legislation, sectorial and at state level to protect consumers,
+[ 1990.2] etc. Just use that legislation for new technologies. And the durability part is that part where you
+[ 1999.0] look, you don't look at technology, but you look at behavior. So you don't have to change
+[ 2003.0] your legislation every time there's a change in terminology. And so basically, one of the examples
+[ 2008.8] I give in my book is the US Wire Act that has been, you know, looking at fraud through wire
+[ 2018.2] originally, but has adapted as technology moved to also address internet, social media, and it
+[ 2025.0] keeps on, you know, finding a new life for itself in terms of regulating bad behavior.
+[ 2033.0] And I think we need to have more approaches like that. In Europe, we had something called,
+[ 2037.8] well, we still have it, the e-commerce directive that was adopted over two decades ago. That was
+[ 2045.3] a lovely piece of legislation, five pages long, five pages, and it allowed the whole of the articles
+[ 2053.4] and it allowed the whole of the internet to flourish in Europe. And it actually had
+[ 2059.1] kind of an incentive approach to people behaving properly on the internet, let's say, without
+[ 2065.7] too much interference, rather than, you know, let's try to micromanage from every type of bad
+[ 2072.2] behavior. That directive is still an application and still functions. And the reason it functioned
+[ 2080.0] because they try to legislate a behavior e-commerce, they weren't trying to do the internet directive.
+[ 2089.2] They weren't trying to, you know, legislate a full ecosystem of things happening that
+[ 2094.4] are very different depending on how you look at the internet. So I think there's more of that
+[ 2102.2] that needs to happen, so more at a high level legislate, but then put more money into enforcement.
+[ 2111.2] Because every time I hear people go about Wild West's anything when it comes to technology,
+[ 2118.1] the interpretation of legislators is, oh, we need to do more rules. But if you look at every western
+[ 2126.2] movie, you know, the central piece is the sheriff. It's not the judge usually, or the legislator.
+[ 2133.9] They, I mean, they're not very much into western movies. You don't see the legislator coming into
+[ 2139.4] the movies. The sheriff is there. He has a gun and he looks mean when you're not behaving. We don't
+[ 2146.2] have a lot of sheriffs in Europe, for example, that are actually going after companies that
+[ 2153.8] misbehave or people that misbehave. And in some cases, I think it's a lack of willingness and in
+[ 2160.7] some cases, it's a lack of funding. But I think there needs to be a bit more enforcement in making
+[ 2167.8] sure that all of the rules that are there already get applied to the companies and to the people
+[ 2173.9] that misbehave. And then we need judges that understand technology, because that that is a
+[ 2180.0] difficult one on AI. And at the moment, we've had very differing court cases between, for example,
+[ 2187.0] the UK on copyright and AI and training data and Germany, just because I think in the UK,
+[ 2197.0] the procedure meant that the judge had experts come and explain to him how AI functioned.
+[ 2204.1] And I think he made a decent judgment based on that, because someone came and told him,
+[ 2208.6] well, this is the way the thing functions. And he went like, Oh, okay. In Germany, they didn't.
+[ 2214.0] They, you know, the judge kind of went like, Hey, I understand AI. It's like a photocopying machine.
+[ 2219.4] Let's go for it. And then you have very different results, which do not create
+[ 2227.0] trust in the judicial process, because it's just like, okay, that's all over the place.
+[ 2232.6] So I think there's a lot more if we could invest less money in creating new laws and put more
+[ 2237.7] money into enforcing the ones that are out there, and allowing like the geeky people to be employed
+[ 2245.2] into enforcement agencies and in courts. I think that would be that would be a really nice move.
+[ 2254.1] Okay. So turning this around then and just looking at what might happen if we don't do
+[ 2259.2] some of those things. I mean, what do you see might happen if we carry on doing what we're doing at
+[ 2263.7] the moment? I think we'll be one step behind the companies every time, because at the at the
+[ 2274.6] moment, as I said, we we legislate AI, we discover LLM's and the most narrow version of or the most
+[ 2287.0] narrow output of an LLM, which is a chatbot. And then we discover agentic AI, and every time we jump
+[ 2293.8] on it, and we try to, you know, patch it or do something like that, some piece of legislation that
+[ 2300.3] is ad hoc, that doesn't look at the bigger picture. And I think because we will be running
+[ 2308.1] behind every development, the companies was looking at it as a European, the companies that are in
+[ 2317.2] other geographies will just continue deploying whatever they feel like deploying, and the right
+[ 2323.0] questions will not be asked and the right safeguards will not be asked. For example,
+[ 2328.5] I still do not understand what the public interest value is in creating a clone of a human.
+[ 2337.7] What are we trying to achieve by creating something that replaces us? I mean, is any one of us happy
+[ 2344.5] with that? Is anyone looking to be replaced or have a replacement? I can see a lot of really useful
+[ 2351.1] uses of AI that are not that, and I'd like to see a lot of money go to that, but I'm not sure that
+[ 2358.1] the replacement of a human is like something that society is screaming for. I can see why some
+[ 2365.6] companies are screaming for it, and I certainly can see why the military would enjoy it, but I
+[ 2371.1] don't see why society as such would be looking for that, for example. Also, I think one of the big
+[ 2379.9] things that is not well understood maybe by the public is the amount of money that's being poured
+[ 2387.5] into AI. It's not just worrisome because it means that there's a hype cycle and that there's an
+[ 2394.6] inflation, the value of AI is being exaggerated, and there's this circle of money going from one
+[ 2404.5] AI company to another in a three-stooges type of gig that you get my money, I get your money, I
+[ 2415.6] give your money, I promise you my money, and we go back again, type of thing. That is worrisome,
+[ 2420.1] and the fact that the GDP of the US, the GDP growth of the US is totally dependent at the moment on AI
+[ 2427.5] is also worrisome, but even if you don't look at that, the biggest problem I find is that there's no
+[ 2433.8] money for other things. All the money is going into anything that has AI on it, and there's a lot of
+[ 2440.8] very nice brick-and-mortar type of initiatives and other things that are not happening at the
+[ 2447.1] moment because there's no money for those. It doesn't fit what venture capitalists or what
+[ 2453.3] investors want to invest in because if it doesn't say .ai, it's not interesting at the moment or
+[ 2459.6] they can't justify it. I think there are actions that can be done that are even not
+[ 2469.0] but that are driven by legislators or policymakers to say, well, no, we're not going to invest,
+[ 2476.5] not have all of the money go to AI, we're not going to invest in the biggest data servers that will
+[ 2483.7] dry out every piece of water that we can think of. I think that there needs to be a grown-up
+[ 2495.5] reaction of saying, okay, how much bigger or how many LLMs do we need to produce that are gigantic
+[ 2501.7] and whatever, and can we compare that to the benefits of AI that is focused, like small language models,
+[ 2509.7] targeted type of applications to improve certain things, as I said, agriculture. There's a lot of
+[ 2515.7] fields where you can try to tackle some of the problems of climate change, predictions of
+[ 2524.2] droughts and flooding and how do you address it? How can you automate things better so that help is
+[ 2530.7] there and things like that? But obviously that's not as sexy as having version 4.501 of some chat
+[ 2539.6] bot come out that can now make the images more glossy or something. But I'm afraid at the moment
+[ 2548.6] there's, people are so excited about every little new shiny thing. And when I say people,
+[ 2555.5] that includes legislators, that we're going to be running behind the facts if we continue to do it
+[ 2563.7] that way. And so, picking up on that issue of whether we're in a bubble, I won't ask you to
+[ 2570.4] answer the question of whether we are in a bubble, although I haven't. But again, hypothetically,
+[ 2574.9] I think it's worth exploring what might happen if we have a catastrophic crash of the AI market.
+[ 2581.1] How would that change things both in terms of what people did and also in terms of what,
+[ 2586.3] for example, the policy should be? I mean, are we in a bubble? Yes, I think that's an easy one.
+[ 2596.9] Will the bubble burst like it did with anything with an E in front of it in the past? We had that
+[ 2603.2] moment. I mean, I hope not to a certain extent because it will be painful for society as a whole,
+[ 2611.4] not just for the people that are doing AI. But I think it's slightly that something will happen.
+[ 2619.0] You can't burn cash at the rate that those companies are burning cash without at some points
+[ 2626.1] expecting a stock market reaction of some sorts. I imagine they're all betting on the fact that
+[ 2634.7] they will be too big to fail type of thing like the banks did.
