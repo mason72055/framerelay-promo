@@ -483,8 +483,14 @@ def prepare_clip(s, c0, c1, req, tmp, tag="clip"):
 
 
 def build(req):
+    failed = []
     for one in req.get("builds") or [req]:
-        (build_showcase if one.get("style") == "showcase" else build_one)(one)
+        try:
+            (build_showcase if one.get("style") == "showcase" else build_one)(one)
+        except (Exception, SystemExit) as e:          # keep building the rest; report at the end
+            print("FAILED", one.get("name"), "-", e); failed.append(one.get("name"))
+    if failed:
+        raise SystemExit(f"failed: {failed}")
 
 
 def build_one(req):
