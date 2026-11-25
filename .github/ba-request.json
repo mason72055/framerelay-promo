@@ -1,2 +1,6 @@
-{"mode": "build", "name": "ba-test-01", "source": "ia:in-through-the-side-door",
- "before_at": 1400, "clip_start": 1653.2, "clip_end": 1666.8, "crop_x": 0.45, "kind": "talk"}
+{"mode": "build", "builds": [
+ {"name": "ba-test-01a", "source": "ia:in-through-the-side-door", "kind": "talk", "crop_x": 0.45, "before_at": 1400,
+  "clip_start": 1652.5, "clip_end": 1668.5, "start_text": "here's the problem", "end_after": "anything about them"},
+ {"name": "ba-test-01b", "source": "ia:in-through-the-side-door", "kind": "talk", "crop_x": 0.45, "before_at": 1000,
+  "clip_start": 1400.5, "clip_end": 1427.0, "start_text": "I just decided", "end_after": "make any sense"}
+]}

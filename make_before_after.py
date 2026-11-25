@@ -309,6 +309,8 @@ def before_layers(tmp, before_text, channel, at, total, vid_y, vid_h):
 
 def after_layers(tmp, after_text, channel):
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+    tw = font(84).getlength(after_text)
+    d.rounded_rectangle([W / 2 - tw / 2 - 40, 190, W / 2 + tw / 2 + 40, 450], 36, fill=(8, 12, 22, 150))
     pill(d, W // 2, 250, "AFTER", (255, 214, 63, 235), (30, 20, 40), 40)
     shadow_text(d, (W // 2, 380), after_text, font(84), TEXT)
     ov.save(tmp / "after_title.png")
@@ -354,9 +356,11 @@ def write_ass(words, path, y=1380):
             "Style: Cap,Inter,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,7,3,5,60,60,0,1\n\n"
             "[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
     ev = []
-    for ch in chunk_words(words):
+    chunks = chunk_words(words)
+    for ci, ch in enumerate(chunks):
+        limit = chunks[ci + 1][0]["s"] if ci + 1 < len(chunks) else 1e9   # never overlap the next group
         for i, w in enumerate(ch):
-            s = w["s"]; e = ch[i + 1]["s"] if i + 1 < len(ch) else ch[-1]["e"] + 0.15
+            s = w["s"]; e = ch[i + 1]["s"] if i + 1 < len(ch) else min(ch[-1]["e"] + 0.15, limit)
             parts = [("{\\c&H3FD6FF&}" + x["w"].upper() + "{\\c&HFFFFFF&}") if j == i else x["w"].upper() for j, x in enumerate(ch)]
             ev.append(f"Dialogue: 0,{ass_time(s)},{ass_time(max(e, s + 0.05))},Cap,,0,0,0,,{{\\pos(540,{y})}}{' '.join(parts)}")
     path.write_text(head + "\n".join(ev) + "\n")
@@ -414,14 +418,52 @@ def render(before_src, clip_src, words, out, *, channel, before_text, after_text
 
 
 # ---------------------------------------------------------------- mode: build
+def norm(t):
+    return re.sub(r"[^a-z0-9']", "", t.lower())
+
+
+def find_phrase(words, phrase, last=False):
+    target = [norm(x) for x in phrase.split() if norm(x)]
+    hits = [i for i in range(len(words) - len(target) + 1)
+            if [norm(w["w"]) for w in words[i:i + len(target)]] == target]
+    if not hits:
+        raise SystemExit(f"phrase not found in captions: {phrase!r}; heard: {' '.join(w['w'] for w in words)}")
+    i = hits[-1] if last else hits[0]
+    return i, i + len(target) - 1
+
+
+def cutaways(clip):
+    """Time ranges where the picture is very different from the usual shot (e.g. a Zoom switch to someone else)."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(clip), "-vf", "scale=32:18,fps=10", "-f", "rawvideo",
+                          "-pix_fmt", "rgb24", "-"], capture_output=True).stdout
+    f = np.frombuffer(raw, np.uint8).reshape(-1, 18, 32, 3).astype(float)
+    if not len(f):
+        return []
+    med = np.median(f, axis=0); d = np.abs(f - med).mean(axis=(1, 2, 3))
+    bad = d > max(35.0, 3 * float(np.median(d)))
+    out, start = [], None
+    for i, b in enumerate(list(bad) + [False]):
+        if b and start is None:
+            start = i
+        if not b and start is not None:
+            if i - start >= 4:
+                out.append([round(start / 10, 1), round(i / 10, 1)])
+            start = None
+    return out
+
+
 def build(req):
+    for one in req.get("builds") or [req]:
+        build_one(one)
+
+
+def build_one(req):
     s = source(req["source"])                     # license re-checked from the item's own metadata
     total = s["duration"] or probe_duration(s["media"])
     at, c0, c1 = float(req["before_at"]), float(req["clip_start"]), float(req["clip_end"])
-    if not (8 <= c1 - c0 <= 22):
-        raise SystemExit("clip must be 8-22 s so the whole video stays within about 15-30 s")
-    if not (0 <= at and at + BEFORE_SECONDS <= total and 0 <= c0 and c1 <= total):
-        raise SystemExit("times are outside the video")
+    if not (0 <= at and at + BEFORE_SECONDS <= total and 0 <= c0 < c1 <= total and c1 - c0 <= 40):
+        raise SystemExit("times are outside the video (or window longer than 40 s)")
     if not s["creator"] and s["license"].startswith("CC BY"):
         raise SystemExit("REFUSED: CC BY needs a named creator to credit")
     who = s["creator"] or ("Internet Archive" if s["kind"] == "ia" else "Wikimedia Commons")
@@ -433,21 +475,37 @@ def build(req):
     with tempfile.TemporaryDirectory() as tmp:
         tmp = pathlib.Path(tmp)
         cut(s["media"], at, BEFORE_SECONDS + 0.5, tmp / "before.mp4")
-        cut(s["media"], c0, c1 - c0, tmp / "clip.mp4")
-        words = transcribe(tmp / "clip.mp4", req.get("fix"))
+        cut(s["media"], c0, c1 - c0, tmp / "window.mp4")
+        words = transcribe(tmp / "window.mp4", req.get("fix"))
+        t0, t1 = 0.0, c1 - c0
+        if req.get("start_text"):
+            i, _ = find_phrase(words, req["start_text"])
+            t0 = max(words[i - 1]["e"] if i else 0.0, words[i]["s"] - 0.15)
+        if req.get("end_after"):
+            _, j = find_phrase(words, req["end_after"], last=True)
+            t1 = min(words[j]["e"] + 0.35, words[j + 1]["s"] - 0.02) if j + 1 < len(words) else words[j]["e"] + 0.35
+        if not (8 <= t1 - t0 <= 22):
+            raise SystemExit(f"clip is {t1 - t0:.1f} s; it must be 8-22 s so the video stays about 15-30 s")
+        run(["ffmpeg", "-y", "-ss", f"{t0:.3f}", "-i", str(tmp / "window.mp4"), "-t", f"{t1 - t0:.3f}",
+             "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", str(tmp / "clip.mp4")])
+        words = [{**w, "s": max(0.0, w["s"] - t0), "e": min(t1 - t0, w["e"] - t0)} for w in words
+                 if w["s"] >= t0 - 0.05 and w["e"] <= t1 + 0.05]
+        cuts = cutaways(tmp / "clip.mp4")
         secs = render(tmp / "before.mp4", tmp / "clip.mp4", words, OUT / f"{name}.mp4", channel=f"{who} ({s['license']})",
                       before_text=before_text, after_text=after_text, at=at, total=total, crop_x=float(req.get("crop_x", 0.5)))
     caption = (f"Demo: a {length_words(total, kind)} turned into a ready-to-post vertical clip with captions. "
                f"Source: {who}, {caption_license(s['license'])}. {SITE}")
     rec = {"name": name, "seconds": round(secs, 1), "caption": caption,
            "yt_title": f"Long {kind} into a short captioned clip #shorts",
-           "captions_text": " ".join(w["w"] for w in words),
+           "captions_text": " ".join(w["w"] for w in words), "cutaways_in_clip": cuts,
            "source": {**{k: s.get(k) for k in ("spec", "page", "media", "title", "creator", "license", "license_url")},
                       "credited_as": who,
                       "license_checked_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                      "before_at": at, "clip_start": c0, "clip_end": c1, "crop_x": req.get("crop_x", 0.5)}}
+                      "before_at": at, "clip_start": round(c0 + t0, 2), "clip_end": round(c0 + t1, 2),
+                      "crop_x": req.get("crop_x", 0.5)},
+           "words": words}
     (OUT / f"{name}.json").write_text(json.dumps(rec, indent=1, ensure_ascii=False))
-    print("built", name, rec["seconds"], "s |", caption)
+    print("built", name, rec["seconds"], "s | cutaways", cuts, "|", rec["captions_text"])
 
 
 if __name__ == "__main__":
