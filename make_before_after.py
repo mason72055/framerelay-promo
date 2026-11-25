@@ -472,8 +472,8 @@ def prepare_clip(s, c0, c1, req, tmp, tag="clip"):
     if req.get("end_after"):
         _, j = find_phrase(words, req["end_after"], last=True)
         t1 = min(words[j]["e"] + 0.35, words[j + 1]["s"] - 0.02) if j + 1 < len(words) else words[j]["e"] + 0.35
-    if not (8 <= t1 - t0 <= 22):
-        raise SystemExit(f"clip is {t1 - t0:.1f} s; it must be 8-22 s so the video stays about 15-30 s")
+    if not (8 <= t1 - t0 <= 23.5):
+        raise SystemExit(f"clip is {t1 - t0:.1f} s; it must be 8-23.5 s so the video stays about 15-30 s")
     clip = tmp / f"{tag}.mp4"
     run(["ffmpeg", "-y", "-ss", f"{t0:.3f}", "-i", str(win), "-t", f"{t1 - t0:.3f}",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", str(clip)])
