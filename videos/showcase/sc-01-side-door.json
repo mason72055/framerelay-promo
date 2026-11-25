@@ -1,0 +1,253 @@
+{
+ "name": "sc-01-side-door",
+ "style": "showcase",
+ "file": "videos/showcase/sc-01-side-door.mp4",
+ "seconds": 18.5,
+ "caption": "One 60-minute interview, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
+ "yt_title": "One long interview, 3 ready-to-post clips #shorts",
+ "captions_text": "I have these amazing interviews with people. Our, and for some people, I ended up talking to them like two or three hours. You know, I have all this repository of stuff that I'm like, what do I do with that now?",
+ "cutaways_in_clip": [],
+ "moments": [
+  {
+   "at": 1409.0,
+   "label": "Strong opinion",
+   "hook": "\"I decided I was qualified to write this\""
+  },
+  {
+   "at": 1760.8,
+   "label": "Relatable",
+   "hook": "Hours of interviews... now what?"
+  },
+  {
+   "at": 2142.0,
+   "label": "Useful tip",
+   "hook": "Writing a book? Write for people."
+  }
+ ],
+ "source": {
+  "spec": "ia:in-through-the-side-door/In Through the Side Door_720p.mp4",
+  "page": "https://archive.org/details/in-through-the-side-door",
+  "media": "https://archive.org/download/in-through-the-side-door/In%20Through%20the%20Side%20Door_720p.mp4",
+  "title": "In Through The Side Door",
+  "creator": "Internet Archive & Authors Alliance",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "credited_as": "Internet Archive & Authors Alliance",
+  "license_checked_utc": "2026-11-25T18:04:54Z",
+  "featured_clip_start": 1760.77,
+  "featured_clip_end": 1771.67,
+  "crop_x": 0.45
+ },
+ "words": [
+  {
+   "w": "I",
+   "s": 0.15000000000000036,
+   "e": 0.33000000000000007
+  },
+  {
+   "w": "have",
+   "s": 0.33000000000000007,
+   "e": 0.4900000000000002
+  },
+  {
+   "w": "these",
+   "s": 0.4900000000000002,
+   "e": 0.6300000000000008
+  },
+  {
+   "w": "amazing",
+   "s": 0.6300000000000008,
+   "e": 1.0700000000000003
+  },
+  {
+   "w": "interviews",
+   "s": 1.0700000000000003,
+   "e": 1.5700000000000003
+  },
+  {
+   "w": "with",
+   "s": 1.5700000000000003,
+   "e": 1.8500000000000005
+  },
+  {
+   "w": "people.",
+   "s": 1.8500000000000005,
+   "e": 2.210000000000001
+  },
+  {
+   "w": "Our,",
+   "s": 2.7300000000000004,
+   "e": 2.790000000000001
+  },
+  {
+   "w": "and",
+   "s": 3.09,
+   "e": 3.370000000000001
+  },
+  {
+   "w": "for",
+   "s": 3.370000000000001,
+   "e": 3.5500000000000007
+  },
+  {
+   "w": "some",
+   "s": 3.5500000000000007,
+   "e": 3.7300000000000004
+  },
+  {
+   "w": "people,",
+   "s": 3.7300000000000004,
+   "e": 4.01
+  },
+  {
+   "w": "I",
+   "s": 4.030000000000001,
+   "e": 4.17
+  },
+  {
+   "w": "ended",
+   "s": 4.17,
+   "e": 4.33
+  },
+  {
+   "w": "up",
+   "s": 4.33,
+   "e": 4.49
+  },
+  {
+   "w": "talking",
+   "s": 4.49,
+   "e": 4.710000000000001
+  },
+  {
+   "w": "to",
+   "s": 4.710000000000001,
+   "e": 4.85
+  },
+  {
+   "w": "them",
+   "s": 4.85,
+   "e": 4.950000000000001
+  },
+  {
+   "w": "like",
+   "s": 4.950000000000001,
+   "e": 5.050000000000001
+  },
+  {
+   "w": "two",
+   "s": 5.050000000000001,
+   "e": 5.25
+  },
+  {
+   "w": "or",
+   "s": 5.25,
+   "e": 5.370000000000001
+  },
+  {
+   "w": "three",
+   "s": 5.370000000000001,
+   "e": 5.550000000000001
+  },
+  {
+   "w": "hours.",
+   "s": 5.550000000000001,
+   "e": 5.91
+  },
+  {
+   "w": "You",
+   "s": 6.610000000000001,
+   "e": 6.67
+  },
+  {
+   "w": "know,",
+   "s": 6.67,
+   "e": 6.75
+  },
+  {
+   "w": "I",
+   "s": 6.77,
+   "e": 6.99
+  },
+  {
+   "w": "have",
+   "s": 6.99,
+   "e": 7.15
+  },
+  {
+   "w": "all",
+   "s": 7.15,
+   "e": 7.290000000000001
+  },
+  {
+   "w": "this",
+   "s": 7.290000000000001,
+   "e": 7.470000000000001
+  },
+  {
+   "w": "repository",
+   "s": 7.470000000000001,
+   "e": 7.99
+  },
+  {
+   "w": "of",
+   "s": 7.99,
+   "e": 8.290000000000001
+  },
+  {
+   "w": "stuff",
+   "s": 8.290000000000001,
+   "e": 8.55
+  },
+  {
+   "w": "that",
+   "s": 8.55,
+   "e": 8.73
+  },
+  {
+   "w": "I'm",
+   "s": 8.73,
+   "e": 8.85
+  },
+  {
+   "w": "like,",
+   "s": 8.85,
+   "e": 9.01
+  },
+  {
+   "w": "what",
+   "s": 9.15,
+   "e": 9.290000000000001
+  },
+  {
+   "w": "do",
+   "s": 9.290000000000001,
+   "e": 9.530000000000001
+  },
+  {
+   "w": "I",
+   "s": 9.530000000000001,
+   "e": 9.610000000000001
+  },
+  {
+   "w": "do",
+   "s": 9.610000000000001,
+   "e": 9.77
+  },
+  {
+   "w": "with",
+   "s": 9.77,
+   "e": 9.89
+  },
+  {
+   "w": "that",
+   "s": 9.89,
+   "e": 10.15
+  },
+  {
+   "w": "now?",
+   "s": 10.15,
+   "e": 10.55
+  }
+ ]
+}
