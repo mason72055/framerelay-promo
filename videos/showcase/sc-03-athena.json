@@ -1,0 +1,188 @@
+{
+ "name": "sc-03-athena",
+ "style": "showcase",
+ "file": "videos/showcase/sc-03-athena.mp4",
+ "seconds": 19.1,
+ "caption": "One 80-minute talk, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive, CC BY. framerelay.app",
+ "yt_title": "One long talk, 3 ready-to-post clips #shorts",
+ "captions_text": "That means that for the price of buying 70 copies of every scholarly monograph and 70 subscriptions to every scientific journal, we could make academic content available to everyone.",
+ "cutaways_in_clip": [],
+ "moments": [
+  {
+   "at": 1100.0,
+   "label": "Big question",
+   "hook": "Is there too much research?"
+  },
+  {
+   "at": 1354.8,
+   "label": "Surprising number",
+   "hook": "Free research for everyone, for the price of 70 libraries"
+  },
+  {
+   "at": 2385.0,
+   "label": "Strong opinion",
+   "hook": "Publish or perish... but open access"
+  }
+ ],
+ "source": {
+  "spec": "ia:athena-unbound/Athena Unbound_720p.mp4",
+  "page": "https://archive.org/details/athena-unbound",
+  "media": "https://archive.org/download/athena-unbound/Athena%20Unbound_720p.mp4",
+  "title": "Book Talk: Athena Unbound",
+  "creator": "Internet Archive",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "credited_as": "Internet Archive",
+  "license_checked_utc": "2026-11-25T18:15:52Z",
+  "featured_clip_start": 1354.81,
+  "featured_clip_end": 1366.27,
+  "crop_x": 0.5
+ },
+ "words": [
+  {
+   "w": "That",
+   "s": 0.15000000000000036,
+   "e": 0.34999999999999964
+  },
+  {
+   "w": "means",
+   "s": 0.34999999999999964,
+   "e": 0.5899999999999999
+  },
+  {
+   "w": "that",
+   "s": 0.5899999999999999,
+   "e": 0.75
+  },
+  {
+   "w": "for",
+   "s": 0.75,
+   "e": 0.8499999999999996
+  },
+  {
+   "w": "the",
+   "s": 0.8499999999999996,
+   "e": 0.9499999999999993
+  },
+  {
+   "w": "price",
+   "s": 0.9499999999999993,
+   "e": 1.2299999999999986
+  },
+  {
+   "w": "of",
+   "s": 1.2299999999999986,
+   "e": 1.4299999999999997
+  },
+  {
+   "w": "buying",
+   "s": 1.4299999999999997,
+   "e": 1.7699999999999996
+  },
+  {
+   "w": "70",
+   "s": 1.7699999999999996,
+   "e": 2.889999999999999
+  },
+  {
+   "w": "copies",
+   "s": 2.889999999999999,
+   "e": 3.41
+  },
+  {
+   "w": "of",
+   "s": 3.41,
+   "e": 3.6500000000000004
+  },
+  {
+   "w": "every",
+   "s": 3.6500000000000004,
+   "e": 3.91
+  },
+  {
+   "w": "scholarly",
+   "s": 3.91,
+   "e": 4.309999999999999
+  },
+  {
+   "w": "monograph",
+   "s": 4.309999999999999,
+   "e": 4.77
+  },
+  {
+   "w": "and",
+   "s": 4.77,
+   "e": 5.43
+  },
+  {
+   "w": "70",
+   "s": 5.43,
+   "e": 5.889999999999999
+  },
+  {
+   "w": "subscriptions",
+   "s": 5.889999999999999,
+   "e": 6.449999999999999
+  },
+  {
+   "w": "to",
+   "s": 6.449999999999999,
+   "e": 6.75
+  },
+  {
+   "w": "every",
+   "s": 6.75,
+   "e": 6.969999999999999
+  },
+  {
+   "w": "scientific",
+   "s": 6.969999999999999,
+   "e": 7.369999999999999
+  },
+  {
+   "w": "journal,",
+   "s": 7.369999999999999,
+   "e": 7.769999999999998
+  },
+  {
+   "w": "we",
+   "s": 7.769999999999998,
+   "e": 8.290000000000001
+  },
+  {
+   "w": "could",
+   "s": 8.290000000000001,
+   "e": 8.429999999999998
+  },
+  {
+   "w": "make",
+   "s": 8.429999999999998,
+   "e": 8.749999999999998
+  },
+  {
+   "w": "academic",
+   "s": 8.749999999999998,
+   "e": 9.51
+  },
+  {
+   "w": "content",
+   "s": 9.51,
+   "e": 10.069999999999999
+  },
+  {
+   "w": "available",
+   "s": 10.069999999999999,
+   "e": 10.37
+  },
+  {
+   "w": "to",
+   "s": 10.37,
+   "e": 10.709999999999999
+  },
+  {
+   "w": "everyone.",
+   "s": 10.709999999999999,
+   "e": 11.110000000000001
+  }
+ ]
+}

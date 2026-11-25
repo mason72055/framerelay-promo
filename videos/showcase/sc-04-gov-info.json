@@ -1,0 +1,273 @@
+{
+ "name": "sc-04-gov-info",
+ "style": "showcase",
+ "file": "videos/showcase/sc-04-gov-info.mp4",
+ "seconds": 22.4,
+ "caption": "One 65-minute talk, 3 moments worth posting, each turned into a vertical clip with captions.\nExample clip. Not a FrameRelay customer or endorsement.\nSource: Internet Archive & Authors Alliance, CC BY. framerelay.app",
+ "yt_title": "One long talk, 3 ready-to-post clips #shorts",
+ "captions_text": "we use the example of a tractor. You can have a very expensive tractor locked in a barn. But if the barn never gets unlocked and goes out into a field, you really haven't made use of the tractor. And the same is true of information.",
+ "cutaways_in_clip": [],
+ "moments": [
+  {
+   "at": 1439.1,
+   "label": "Great metaphor",
+   "hook": "A tractor locked in a barn is useless. So is data."
+  },
+  {
+   "at": 1631.0,
+   "label": "Useful tip",
+   "hook": "Found the answer online? Save a copy."
+  },
+  {
+   "at": 1940.0,
+   "label": "Quotable",
+   "hook": "Good infrastructure is invisible until it breaks"
+  }
+ ],
+ "source": {
+  "spec": "ia:preserving-government-information-book-talk/Preserving Government Information.mp4",
+  "page": "https://archive.org/details/preserving-government-information-book-talk",
+  "media": "https://archive.org/download/preserving-government-information-book-talk/Preserving%20Government%20Information.mp4",
+  "title": "Preserving Government Information",
+  "creator": "Internet Archive & Authors Alliance",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "credited_as": "Internet Archive & Authors Alliance",
+  "license_checked_utc": "2026-11-25T18:19:23Z",
+  "featured_clip_start": 1439.08,
+  "featured_clip_end": 1453.85,
+  "crop_x": 0.5
+ },
+ "words": [
+  {
+   "w": "we",
+   "s": 0.0,
+   "e": 0.17999999999999972
+  },
+  {
+   "w": "use",
+   "s": 0.17999999999999972,
+   "e": 0.31999999999999984
+  },
+  {
+   "w": "the",
+   "s": 0.31999999999999984,
+   "e": 0.41999999999999993
+  },
+  {
+   "w": "example",
+   "s": 0.41999999999999993,
+   "e": 0.8399999999999999
+  },
+  {
+   "w": "of",
+   "s": 0.8399999999999999,
+   "e": 1.5999999999999996
+  },
+  {
+   "w": "a",
+   "s": 1.5999999999999996,
+   "e": 2.0599999999999996
+  },
+  {
+   "w": "tractor.",
+   "s": 2.0599999999999996,
+   "e": 2.42
+  },
+  {
+   "w": "You",
+   "s": 2.8200000000000003,
+   "e": 2.92
+  },
+  {
+   "w": "can",
+   "s": 2.92,
+   "e": 3.0
+  },
+  {
+   "w": "have",
+   "s": 3.0,
+   "e": 3.1399999999999997
+  },
+  {
+   "w": "a",
+   "s": 3.1399999999999997,
+   "e": 3.3
+  },
+  {
+   "w": "very",
+   "s": 3.3,
+   "e": 4.04
+  },
+  {
+   "w": "expensive",
+   "s": 4.04,
+   "e": 4.56
+  },
+  {
+   "w": "tractor",
+   "s": 4.56,
+   "e": 5.0600000000000005
+  },
+  {
+   "w": "locked",
+   "s": 5.0600000000000005,
+   "e": 5.380000000000001
+  },
+  {
+   "w": "in",
+   "s": 5.380000000000001,
+   "e": 5.5600000000000005
+  },
+  {
+   "w": "a",
+   "s": 5.5600000000000005,
+   "e": 5.699999999999999
+  },
+  {
+   "w": "barn.",
+   "s": 5.699999999999999,
+   "e": 5.959999999999999
+  },
+  {
+   "w": "But",
+   "s": 6.279999999999999,
+   "e": 6.300000000000001
+  },
+  {
+   "w": "if",
+   "s": 6.300000000000001,
+   "e": 6.84
+  },
+  {
+   "w": "the",
+   "s": 6.84,
+   "e": 7.34
+  },
+  {
+   "w": "barn",
+   "s": 7.34,
+   "e": 7.66
+  },
+  {
+   "w": "never",
+   "s": 7.66,
+   "e": 7.880000000000001
+  },
+  {
+   "w": "gets",
+   "s": 7.880000000000001,
+   "e": 8.08
+  },
+  {
+   "w": "unlocked",
+   "s": 8.08,
+   "e": 8.48
+  },
+  {
+   "w": "and",
+   "s": 8.48,
+   "e": 8.72
+  },
+  {
+   "w": "goes",
+   "s": 8.72,
+   "e": 9.04
+  },
+  {
+   "w": "out",
+   "s": 9.04,
+   "e": 9.24
+  },
+  {
+   "w": "into",
+   "s": 9.24,
+   "e": 9.4
+  },
+  {
+   "w": "a",
+   "s": 9.4,
+   "e": 9.58
+  },
+  {
+   "w": "field,",
+   "s": 9.58,
+   "e": 9.9
+  },
+  {
+   "w": "you",
+   "s": 10.38,
+   "e": 10.62
+  },
+  {
+   "w": "really",
+   "s": 10.62,
+   "e": 10.84
+  },
+  {
+   "w": "haven't",
+   "s": 10.84,
+   "e": 11.16
+  },
+  {
+   "w": "made",
+   "s": 11.16,
+   "e": 11.36
+  },
+  {
+   "w": "use",
+   "s": 11.36,
+   "e": 11.7
+  },
+  {
+   "w": "of",
+   "s": 11.7,
+   "e": 12.0
+  },
+  {
+   "w": "the",
+   "s": 12.0,
+   "e": 12.14
+  },
+  {
+   "w": "tractor.",
+   "s": 12.14,
+   "e": 12.5
+  },
+  {
+   "w": "And",
+   "s": 13.040000000000001,
+   "e": 13.319999999999999
+  },
+  {
+   "w": "the",
+   "s": 13.319999999999999,
+   "e": 13.499999999999998
+  },
+  {
+   "w": "same",
+   "s": 13.499999999999998,
+   "e": 13.639999999999999
+  },
+  {
+   "w": "is",
+   "s": 13.639999999999999,
+   "e": 13.799999999999999
+  },
+  {
+   "w": "true",
+   "s": 13.799999999999999,
+   "e": 13.94
+  },
+  {
+   "w": "of",
+   "s": 13.94,
+   "e": 14.020000000000001
+  },
+  {
+   "w": "information.",
+   "s": 14.020000000000001,
+   "e": 14.42
+  }
+ ]
+}
