@@ -62,5 +62,13 @@
    "tiktok: scheduled 2026-11-27T01:02:18.000Z",
    "instagram: scheduled 2026-11-27T01:02:18.000Z"
   ]
+ },
+ "sc-03-athena": {
+  "date": "2026-11-27",
+  "results": [
+   "youtube: scheduled 2026-11-28T00:30:07.000Z",
+   "tiktok: scheduled 2026-11-28T00:30:07.000Z",
+   "instagram: scheduled 2026-11-28T00:30:07.000Z"
+  ]
  }
 }
